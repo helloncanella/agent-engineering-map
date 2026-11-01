@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de engenharia de agentes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* layout: one column of ranked cards, sticky control bar on top; built for a phone first */
+  --bg: #f4f5f2;
+  --surface: #ffffff;
+  --ink: #1b2422;
+  --muted: #5d6965;
+  --line: #dde2dd;
+  --accent: #0f6b5c;
+  --accent-soft: #dcefe9;
+  --hot: #b4521e;
+  --display: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111716; --surface: #18201e; --ink: #e5ebe8; --muted: #93a19c; --line: #2a3532;
+    --accent: #4fc3a8; --accent-soft: #1d3530; --hot: #f0935a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111716; --surface: #18201e; --ink: #e5ebe8; --muted: #93a19c; --line: #2a3532;
+  --accent: #4fc3a8; --accent-soft: #1d3530; --hot: #f0935a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+a { color: inherit; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 48px; }
+header.top { padding: 22px 0 10px; display: grid; gap: 6px; }
+h1 { font: 700 1.55rem/1.15 var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.lede { color: var(--muted); margin: 0; max-width: 62ch; }
+.bar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; border-bottom: 1px solid var(--line); display: grid; gap: 10px; }
+.tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { flex: none; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 12px; font: 500 0.85rem var(--body); cursor: pointer; white-space: nowrap; }
+.tab small { color: var(--muted); font-family: var(--mono); margin-left: 4px; }
+.tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.tab[aria-selected="true"] small { color: var(--surface); opacity: 0.8; }
+.tab:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--hot); outline-offset: 2px; }
+.controls { display: grid; grid-template-columns: 1fr; gap: 8px; }
+details.weights { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
+details.weights summary { cursor: pointer; font-weight: 500; font-size: 0.9rem; }
+.sliders { display: grid; gap: 8px; padding-top: 8px; }
+.slider { display: grid; grid-template-columns: 7.5em 1fr 3em; align-items: center; gap: 8px; font-size: 0.88rem; }
+.slider output { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
+input[type="range"] { width: 100%; accent-color: var(--accent); }
+input[type="search"] { width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 15px var(--body); }
+.ask { display: flex; gap: 8px; }
+.ask input { flex: 1; min-width: 0; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 15px var(--body); }
+.ask button, .clear { padding: 9px 14px; border-radius: 10px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); font: 500 0.9rem var(--body); cursor: pointer; }
+.clear { background: transparent; color: var(--accent); margin-top: 6px; justify-self: start; }
+.est { font-style: italic; }
+.hint { color: var(--muted); font-size: 0.8rem; margin: 0; }
+section.comp { padding: 16px 0 6px; display: grid; gap: 4px; }
+h2 { font: 600 1.2rem/1.2 var(--display); margin: 0; text-wrap: balance; }
+.comp p { margin: 0; color: var(--muted); max-width: 62ch; }
+.layer { font: 500 0.72rem var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
+ol.list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; display: grid; grid-template-columns: 2.2em 1fr; gap: 10px; }
+.rank { font: 600 1rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.card h3 { font: 500 0.98rem/1.35 var(--body); margin: 0; }
+.card h3 a { text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.who { color: var(--muted); font-size: 0.85rem; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; margin-top: 6px; font: 0.78rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; align-items: center; }
+.score { background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 1px 7px; font-weight: 500; }
+.new { color: var(--hot); font-weight: 500; }
+.bars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 7px; }
+.b { font: 0.68rem var(--mono); color: var(--muted); }
+.b i { display: block; height: 4px; border-radius: 2px; background: var(--line); margin-top: 2px; overflow: hidden; }
+.b i::after { content: ""; display: block; height: 100%; width: var(--w); background: var(--accent); }
+.kw { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+.kw span { font-size: 0.74rem; border: 1px solid var(--line); border-radius: 999px; padding: 0 7px; color: var(--muted); }
+.more { margin: 12px auto 0; display: block; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font: 500 0.9rem var(--body); cursor: pointer; }
+.empty { color: var(--muted); padding: 18px 0; }
+.status { color: var(--muted); padding: 24px 0; }
+footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); display: grid; gap: 10px; font-size: 0.88rem; color: var(--muted); }
+footer h2 { color: var(--ink); font-size: 1rem; }
+footer ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+@media (prefers-reduced-motion: no-preference) { .card { transition: border-color 0.15s; } .card:hover { border-color: var(--accent); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Mapa de engenharia de agentes</h1>
+    <p class="lede" id="lede">Palestras do canal AI Engineer distribuídas pelos componentes de engenharia de agentes, ordenadas por adequação ao tema, tração e recência.</p>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" id="tabs" role="tablist" aria-label="Componentes"></div>
+    <form class="ask" id="askf" role="search">
+      <input type="search" id="ask" placeholder="Pergunte em inglês (ex.: how to evaluate agents)" aria-label="Pergunta">
+      <button type="submit">Perguntar</button>
+    </form>
+    <p class="hint" id="askhint">A pergunta é comparada com título, descrição e capítulos de cada palestra; o resultado é a lista das mais próximas. O modelo de busca (cerca de 23 MB) só é baixado na primeira pergunta.</p>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Filtrar por palavra (ex.: MCP, judge, memory)" aria-label="Filtrar vídeos">
+      <details class="weights">
+        <summary>Pesos da nota: <span id="wsum"></span></summary>
+        <div class="sliders">
+          <label class="slider" for="wf">Adequação <input type="range" id="wf" min="0" max="100" step="5"><output id="wfo"></output></label>
+          <label class="slider" for="wp">Tração <input type="range" id="wp" min="0" max="100" step="5"><output id="wpo"></output></label>
+          <label class="slider" for="wr">Recência <input type="range" id="wr" min="0" max="100" step="5"><output id="wro"></output></label>
+          <p class="hint" id="hint"></p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <section class="comp" aria-live="polite">
+    <span class="layer" id="layer"></span>
+    <h2 id="ctitle"></h2>
+    <p id="cdesc"></p>
+    <button class="clear" id="clear" type="button" hidden>Voltar aos componentes</button>
+  </section>
+  <ol class="list" id="list"><li class="status">Carregando os vídeos…</li></ol>
+  <button class="more" id="more" type="button" hidden>Mostrar mais</button>
+
+  <footer>
+    <h2>De onde vem a lista de componentes</h2>
+    <p>A taxonomia foi conferida contra estas fontes:</p>
+    <ul id="sources"></ul>
+    <p id="method"></p>
+  </footer>
+</div>
+
+<script>
+// Everything shown comes from the dataset file published next to this page.
+const DATA_URL = "data/mapa.json";
+const ASK_TIMEOUT_MS = 60000;
+const ASK_LIB = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.6";
+const ASK_TOP = 30;
+const LOAD_TIMEOUT_MS = 10000;
+const PAGE = 25;
+const $ = (id) => document.getElementById(id);
+const store = {
+  get(k, d) { try { const x = localStorage.getItem(k); return x === null ? d : JSON.parse(x); } catch { return d; } },
+  set(k, x) { try { localStorage.setItem(k, JSON.stringify(x)); } catch {} },
+};
+const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const fmtViews = (n) => n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e3 ? Math.round(n / 1e3) + "k" : String(n);
+const fmtLen = (s) => { const m = Math.round(s / 60); return m >= 60 ? Math.floor(m / 60) + "h" + String(m % 60).padStart(2, "0") : m + " min"; };
+const fmtDate = (d) => { const [y, m] = d.split("-"); return MONTHS[+m - 1] + "/" + y; };
+const fmtDay = (d) => d.split("-").reverse().join("/");
+const splitTitle = (t) => { const m = t.match(/^(.*?)\s+[-–—|]\s+([^-–—|]+)$/); return m ? [m[1], m[2]] : [t, ""]; };
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let DATA, VIDEOS, COMPONENTS, MIN_FIT, weights, comp, shown = PAGE, query = "", answer = null;
+
+function prepare(data) {
+  DATA = data;
+  COMPONENTS = data.components;
+  MIN_FIT = data.ranking.min_fit;
+  const halfLife = data.ranking.recency_half_life_days;
+  const now = new Date(data.collected + "T00:00:00Z");
+  const dw = data.ranking.default_weights;
+  weights = store.get("weights", { wf: dw.fit, wp: dw.traction, wr: dw.recency });
+  // `idx` keeps each talk's row in the vectors file, which follows data.videos order.
+  VIDEOS = data.videos.map((v, idx) => [v, idx]).filter(([v]) => v.d).map(([v, idx]) => {
+    const age = Math.max(7, (now - new Date(v.d + "T00:00:00Z")) / 864e5);
+    const chapters = v.ch || [];
+    return {
+      idx, url: "https://www.youtube.com/watch?v=" + v.id, t: v.t, d: v.d, s: v.s, v: v.v, k: v.k || [], c: v.c || {},
+      age, rec: Math.pow(0.5, age / halfLife), vpd: v.v / age, est: !!v.e,
+      hay: (v.t + " " + (v.k || []).join(" ") + " " + chapters.join(" ")).toLowerCase(),
+    };
+  });
+  // Traction: percentile of views per day alive, so an old talk does not win on age alone.
+  const sorted = VIDEOS.map((v) => v.vpd).sort((a, b) => a - b);
+  VIDEOS.forEach((v) => {
+    let lo = 0, hi = sorted.length;
+    while (lo < hi) { const mid = (lo + hi) >> 1; if (sorted[mid] < v.vpd) lo = mid + 1; else hi = mid; }
+    v.pop = lo / Math.max(1, sorted.length - 1);
+  });
+}
+
+function renderStatic() {
+  const dates = VIDEOS.map((v) => v.d).sort();
+  $("lede").innerHTML = `As palestras do canal <a href="${esc(DATA.channel)}">AI Engineer</a> (${VIDEOS.length.toLocaleString("pt-BR")} vídeos, de ${fmtDate(dates[0])} a ${fmtDate(dates[dates.length - 1])}) distribuídas por ${COMPONENTS.length} componentes, ordenadas por adequação ao tema, tração e recência.`;
+  $("hint").textContent = `Adequação: nota do classificador (0–10) para este componente; entram os vídeos com nota ${MIN_FIT} ou mais. Tração: percentil de views por dia desde a publicação. Recência: cai pela metade a cada ${DATA.ranking.recency_half_life_days} dias. Os pesos são normalizados para somar 100%.`;
+  $("sources").innerHTML = DATA.sources.map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a> ${esc(s.note)}</li>`).join("");
+  $("method").textContent = `Classificação: título, descrição e capítulos de cada vídeo receberam nota 0–10 por componente de um modelo grande (Claude Sonnet); os vídeos novos são classificados por um modelo pequeno treinado com essas notas e aparecem como “nota estimada”. Dados coletados do YouTube em ${fmtDay(DATA.collected)}, sem login.`;
+}
+function renderTabs() {
+  $("tabs").innerHTML = COMPONENTS.map((c) => {
+    const n = VIDEOS.filter((v) => (v.c[c.id] || 0) >= MIN_FIT).length;
+    return `<button class="tab" role="tab" type="button" data-id="${esc(c.id)}" aria-selected="${c.id === comp}">${esc(c.name)}<small>${n}</small></button>`;
+  }).join("");
+  $("tabs").querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => select(b.dataset.id, true)));
+  const cur = $("tabs").querySelector('[aria-selected="true"]');
+  if (cur) cur.scrollIntoView({ block: "nearest", inline: "center" });
+}
+function ranked() {
+  const total = weights.wf + weights.wp + weights.wr || 1;
+  const q = query.trim().toLowerCase();
+  return VIDEOS.filter((v) => (v.c[comp] || 0) >= MIN_FIT && (!q || v.hay.includes(q)))
+    .map((v) => { const fit = v.c[comp] / 10; return { v, fit, score: (weights.wf * fit + weights.wp * v.pop + weights.wr * v.rec) / total }; })
+    .sort((a, b) => b.score - a.score);
+}
+function render() {
+  if (answer) return renderAnswer();
+  $("clear").hidden = true;
+  const c = COMPONENTS.find((x) => x.id === comp);
+  $("layer").textContent = c.layer;
+  $("ctitle").textContent = c.name;
+  $("cdesc").textContent = c.desc;
+  const rows = ranked();
+  $("list").innerHTML = rows.length ? rows.slice(0, shown).map(({ v, fit, score }, i) => {
+    const [title, who] = splitTitle(v.t);
+    return `<li class="card"><span class="rank">${i + 1}</span><div>
+      <h3><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
+      ${who ? `<div class="who">${esc(who)}</div>` : ""}
+      <div class="meta"><span class="score">${Math.round(score * 100)}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span><span>${fmtLen(v.s)}</span>${v.age < 90 ? '<span class="new">novo</span>' : ""}${v.est ? '<span class="est" title="Nota dada pelo classificador pequeno, ainda não revista pelo modelo grande">nota estimada</span>' : ""}</div>
+      <div class="bars">
+        <span class="b">adequação<i style="--w:${fit * 100}%"></i></span>
+        <span class="b">tração<i style="--w:${v.pop * 100}%"></i></span>
+        <span class="b">recência<i style="--w:${v.rec * 100}%"></i></span>
+      </div>
+      ${v.k.length ? `<div class="kw">${v.k.slice(0, 5).map((k) => `<span>${esc(k)}</span>`).join("")}</div>` : ""}
+    </div></li>`;
+  }).join("") : '<li class="empty">Nenhum vídeo com essa palavra neste componente.</li>';
+  $("more").hidden = shown >= rows.length;
+  $("more").textContent = `Mostrar mais ${Math.min(PAGE, rows.length - shown)} (de ${rows.length})`;
+}
+function card(v, i, badge, extra) {
+  const [title, who] = splitTitle(v.t);
+  return `<li class="card"><span class="rank">${i + 1}</span><div>
+    <h3><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
+    ${who ? `<div class="who">${esc(who)}</div>` : ""}
+    <div class="meta"><span class="score">${badge}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span><span>${fmtLen(v.s)}</span>${v.age < 90 ? '<span class="new">novo</span>' : ""}</div>
+    ${extra}
+  </div></li>`;
+}
+function renderAnswer() {
+  $("layer").textContent = "Pergunta";
+  $("ctitle").textContent = answer.q;
+  $("cdesc").textContent = answer.status || `As ${answer.rows.length} palestras mais próximas da pergunta, da mais para a menos próxima. O número é a proximidade (0–100).`;
+  $("clear").hidden = false;
+  $("more").hidden = true;
+  const names = Object.fromEntries(COMPONENTS.map((c) => [c.id, c.name]));
+  $("list").innerHTML = answer.rows.map(({ v, sim }, i) => {
+    const tabs = Object.entries(v.c).filter(([, s]) => s >= MIN_FIT).sort((a, b) => b[1] - a[1]).map(([id]) => names[id]).filter(Boolean);
+    return card(v, i, Math.round(sim * 100), tabs.length ? `<div class="kw">${tabs.map((t) => `<span>${esc(t)}</span>`).join("")}</div>` : "");
+  }).join("");
+}
+
+// "Ask": the question is embedded in the browser with the same model that embedded the
+// talks; nothing is downloaded until the first question, and every wait has a deadline.
+let embedder = null, vectors = null, searchReady = null;
+const withDeadline = (p, ms, what) => Promise.race([p, new Promise((_, no) => setTimeout(() => no(new Error(what)), ms))]);
+async function ensureSearch() {
+  const s = DATA.search;
+  if (!vectors) {
+    const body = withDeadline((async () => {
+      const r = await fetch("data/" + s.vectors);
+      if (!r.ok) throw new Error("vetores: " + r.status);
+      return r.arrayBuffer();
+    })(), LOAD_TIMEOUT_MS, "os vetores das palestras não chegaram");
+    const rows = new Int8Array(await body);
+    if (rows.length !== DATA.videos.length * s.dim) throw new Error("os vetores não batem com a lista de vídeos");
+    vectors = rows;
+  }
+  if (!embedder) {
+    const lib = await withDeadline(import(ASK_LIB), ASK_TIMEOUT_MS, "a biblioteca de busca não carregou");
+    embedder = await withDeadline(lib.pipeline("feature-extraction", s.model, { dtype: "q8" }), ASK_TIMEOUT_MS,
+      `o modelo de busca não terminou de baixar em ${ASK_TIMEOUT_MS / 1000} segundos`);
+  }
+}
+async function ask(q) {
+  answer = { q, rows: [], status: embedder ? "Procurando…" : "Baixando o modelo de busca (só na primeira vez, cerca de 23 MB)…" };
+  render();
+  try {
+    // One load at a time; a failed load is forgotten so the next question retries it.
+    searchReady = searchReady || ensureSearch().catch((err) => { searchReady = null; throw err; });
+    await searchReady;
+    const out = await embedder([q], { pooling: "mean", normalize: true });
+    const e = out.data, dim = DATA.search.dim;
+    const sims = VIDEOS.map((v) => {
+      let dot = 0;
+      for (let k = 0; k < dim; k++) dot += e[k] * vectors[v.idx * dim + k];
+      return { v, sim: dot / 127 };
+    }).sort((a, b) => b.sim - a.sim).slice(0, ASK_TOP);
+    if (answer && answer.q === q) answer = { q, rows: sims };
+  } catch (err) {
+    if (answer && answer.q === q) answer = { q, rows: [], status: `Não deu para responder (${err.message}). Os filtros por componente continuam funcionando.` };
+  }
+  render();
+}
+
+function renderWeights() {
+  const total = weights.wf + weights.wp + weights.wr || 1;
+  const pct = (x) => Math.round((100 * x) / total) + "%";
+  ["wf", "wp", "wr"].forEach((k) => { $(k).value = weights[k]; $(k + "o").textContent = pct(weights[k]); });
+  $("wsum").textContent = `adequação ${pct(weights.wf)} · tração ${pct(weights.wp)} · recência ${pct(weights.wr)}`;
+}
+function fromHash() {
+  const h = location.hash.slice(1).toLowerCase();
+  const c = COMPONENTS.find((x) => x.id.toLowerCase() === h);
+  return c ? c.id : null;
+}
+function select(id, push) {
+  answer = null; comp = id; shown = PAGE;
+  if (push) history.replaceState(null, "", "#" + id.toLowerCase());
+  renderTabs(); render();
+}
+
+const controller = new AbortController();
+const timer = setTimeout(() => controller.abort(), LOAD_TIMEOUT_MS);
+// The abort signal also covers reading the body, so the timer is cleared only once it is parsed.
+fetch(DATA_URL, { signal: controller.signal })
+  .then((r) => { if (!r.ok) throw new Error(r.status + " " + r.statusText); return r.json(); })
+  .then((data) => {
+    clearTimeout(timer);
+    prepare(data);
+    const preferred = DATA.ranking.default_component;
+    comp = fromHash() || (COMPONENTS.find((c) => c.id === preferred) || COMPONENTS[0]).id;
+    ["wf", "wp", "wr"].forEach((k) => $(k).addEventListener("input", () => {
+      weights[k] = +$(k).value; store.set("weights", weights); renderWeights(); shown = PAGE; render();
+    }));
+    $("q").addEventListener("input", () => { query = $("q").value; shown = PAGE; render(); });
+    $("askf").addEventListener("submit", (ev) => { ev.preventDefault(); const q = $("ask").value.trim(); if (q) ask(q); });
+    $("clear").addEventListener("click", () => { answer = null; $("ask").value = ""; render(); });
+    $("more").addEventListener("click", () => { shown += PAGE; render(); });
+    window.addEventListener("hashchange", () => { const h = fromHash(); if (h) select(h, false); });
+    renderStatic(); renderWeights(); renderTabs(); render();
+  })
+  .catch((e) => {
+    clearTimeout(timer);
+    const why = e.name === "AbortError" ? `passaram ${LOAD_TIMEOUT_MS / 1000} segundos sem resposta` : e.message;
+    $("list").innerHTML = `<li class="status">Não consegui carregar a lista de vídeos (${esc(why)}). Recarregue a página; se continuar, o arquivo ${DATA_URL} não está acessível neste endereço.</li>`;
+    $("more").hidden = true;
+  });
+</script>
+</body>
+</html>
