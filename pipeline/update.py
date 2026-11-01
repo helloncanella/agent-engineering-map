@@ -7,7 +7,9 @@
 
 Each run:
   1. Lists the channel through InnerTube (anonymous, no cookies), newest first, and stops
-     at the first talk already stored: only new uploads are fetched. Talks YouTube refused
+     at the first talk already stored: only new uploads are fetched. Details come from the
+     player endpoint; when YouTube refuses it (it does for cloud runners), from the channel's
+     public RSS feed, which covers the 15 latest uploads but has no length. Talks YouTube refused
      on an earlier run wait in `pending` and are retried. Talks from the last 30 days get
      fresh views, so a talk is not frozen at the view count of its first hours.
   2. Scores the new talks: with the small classifier by default (marked scored_by="model"),
@@ -38,19 +40,28 @@ import dataset as ds
 import innertube
 
 
+def safe_details(video_id):
+    """A network failure on one talk must not end the run: it is reported as refused."""
+    try:
+        return innertube.video_details(video_id)
+    except Exception as e:
+        print(f"warning: {video_id}: {e}", file=sys.stderr)
+        return {"id": video_id, "title": "", "status": "NETWORK"}
+
+
 def fetch_details(ids):
     """Fetch details, retrying the ones YouTube refused (they come back without a title).
     Returns (details by id, ids of talks that are gone: removed or private)."""
     details, pending, gone = {}, list(ids), set()
     for attempt in range(5):
         with ThreadPoolExecutor(max_workers=6) as pool:
-            for d in pool.map(innertube.video_details, pending):
+            for d in pool.map(safe_details, pending):
                 if d["title"]:
                     details[d["id"]] = d
                 elif d["status"] in GONE:
                     gone.add(d["id"])
         pending = [i for i in pending if i not in details and i not in gone]
-        if not pending:
+        if not pending or (not details and attempt >= 1):  # nothing gets through: stop asking
             break
         time.sleep(2 ** attempt)
     if gone:
@@ -66,25 +77,37 @@ def main():
     parser.add_argument("--refresh-views", action="store_true", help="re-fetch views of every stored talk")
     args = parser.parse_args()
 
+    today = datetime.date.today().isoformat()
     dataset = ds.load()
     components = dataset["components"]
     known = {ds.video_id(v): v for v in dataset["videos"]}
     handle = dataset["channel"].rsplit("/", 1)[-1]
 
-    _, listed, reached = innertube.list_video_ids(handle, stop_at=frozenset(known))
+    channel_id, listed, reached = innertube.list_video_ids(handle, stop_at=frozenset(known))
     new_ids = list(dict.fromkeys(listed + [i for i in dataset.get("pending", []) if i not in known]))
     details, gone = fetch_details(new_ids)
+    gone -= set(listed)  # a talk on the channel's videos tab right now is public, whatever player says
+    try:
+        feed = innertube.feed_details(channel_id)
+    except Exception as e:  # the feed is only a fallback
+        feed = {}
+        print(f"warning: RSS feed unavailable: {e}", file=sys.stderr)
+    for i in new_ids:
+        if i not in details and i in feed:
+            details[i] = feed[i]  # no length until a run where the player answers
     dataset["pending"] = [i for i in new_ids if i not in details and i not in gone]
     new_videos = [{"url": d["url"], "title": d["title"], "published": d["published"], "length_s": d["length_s"],
                    "views": d["views"], "scores": {}, "keywords": [], "chapters": d["chapters"],
-                   "description": d["description"], "scored_by": args.labeler}
+                   "description": d["description"], "scored_by": args.labeler, "views_date": today}
                   for d in (details.get(i) for i in new_ids) if d]
     print(f"{len(new_ids)} new since {dataset['collected']}, {len(new_videos)} fetched", file=sys.stderr)
 
     cutoff = (datetime.date.today() - datetime.timedelta(days=RECENT_DAYS)).isoformat()
     refresh = list(known) if args.refresh_views else [i for i, v in known.items() if v["published"] >= cutoff]
-    for i, d in fetch_details(refresh)[0].items():
-        known[i].update(views=d["views"], length_s=d["length_s"] or known[i]["length_s"],
+    fresh = fetch_details(refresh)[0]
+    fresh.update({i: feed[i] for i in refresh if i not in fresh and i in feed})
+    for i, d in fresh.items():
+        known[i].update(views=d["views"], views_date=today, length_s=d["length_s"] or known[i]["length_s"],
                         published=d["published"] or known[i]["published"])
 
     vectors = ds.stored_vectors()
@@ -109,12 +132,14 @@ def main():
     # Newest first, as the channel lists them.
     dataset["videos"] = sorted(new_videos + list(known.values()), key=lambda v: v["published"], reverse=True)
     # Views were refreshed on this run, so the page's age and traction reference is today.
-    dataset["collected"] = datetime.date.today().isoformat()
+    dataset["collected"] = today
     ds.write_outputs(dataset, vectors)
     print(f"wrote {len(dataset['videos'])} talks", file=sys.stderr)
     problems = []
     if dataset["pending"]:
         problems.append(f"{len(dataset['pending'])} talks refused by YouTube, kept in `pending` for the next run")
+    if refresh and not fresh:
+        problems.append(f"none of the {len(refresh)} stored talks got fresh views")
     if known and not reached:
         problems.append("the channel listing never reached a stored talk; YouTube may be blocking or changed its pages")
     if problems:

@@ -170,11 +170,14 @@ function prepare(data) {
   weights = store.get("weights", { wf: dw.fit, wp: dw.traction, wr: dw.recency });
   // `idx` keeps each talk's row in the vectors file, which follows data.videos order.
   VIDEOS = data.videos.map((v, idx) => [v, idx]).filter(([v]) => v.d).map(([v, idx]) => {
-    const age = Math.max(7, (now - new Date(v.d + "T00:00:00Z")) / 864e5);
+    const day = (s) => new Date(s + "T00:00:00Z");
+    const age = Math.max(7, (now - day(v.d)) / 864e5);
+    // Views per day up to the day the views were read, so a stale count is not diluted.
+    const viewsAge = Math.max(7, (day(v.vd || data.collected) - day(v.d)) / 864e5);
     const chapters = v.ch || [];
     return {
       idx, url: "https://www.youtube.com/watch?v=" + v.id, t: v.t, d: v.d, s: v.s, v: v.v, k: v.k || [], c: v.c || {},
-      age, rec: Math.pow(0.5, age / halfLife), vpd: v.v / age, est: !!v.e,
+      age, rec: Math.pow(0.5, age / halfLife), vpd: v.v / viewsAge, est: !!v.e,
       hay: (v.t + " " + (v.k || []).join(" ") + " " + chapters.join(" ")).toLowerCase(),
     };
   });
@@ -223,7 +226,7 @@ function render() {
     return `<li class="card"><span class="rank">${i + 1}</span><div>
       <h3><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
       ${who ? `<div class="who">${esc(who)}</div>` : ""}
-      <div class="meta"><span class="score">${Math.round(score * 100)}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span><span>${fmtLen(v.s)}</span>${v.age < 90 ? '<span class="new">novo</span>' : ""}${v.est ? '<span class="est" title="Nota dada pelo classificador pequeno, ainda não revista pelo modelo grande">nota estimada</span>' : ""}</div>
+      <div class="meta"><span class="score">${Math.round(score * 100)}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span>${v.s ? `<span>${fmtLen(v.s)}</span>` : ""}${v.age < 90 ? '<span class="new">novo</span>' : ""}${v.est ? '<span class="est" title="Nota dada pelo classificador pequeno, ainda não revista pelo modelo grande">nota estimada</span>' : ""}</div>
       <div class="bars">
         <span class="b">adequação<i style="--w:${fit * 100}%"></i></span>
         <span class="b">tração<i style="--w:${v.pop * 100}%"></i></span>
@@ -240,7 +243,7 @@ function card(v, i, badge, extra) {
   return `<li class="card"><span class="rank">${i + 1}</span><div>
     <h3><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
     ${who ? `<div class="who">${esc(who)}</div>` : ""}
-    <div class="meta"><span class="score">${badge}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span><span>${fmtLen(v.s)}</span>${v.age < 90 ? '<span class="new">novo</span>' : ""}</div>
+    <div class="meta"><span class="score">${badge}</span><span>${fmtDate(v.d)}</span><span>${fmtViews(v.v)} views</span>${v.s ? `<span>${fmtLen(v.s)}</span>` : ""}${v.age < 90 ? '<span class="new">novo</span>' : ""}</div>
     ${extra}
   </div></li>`;
 }

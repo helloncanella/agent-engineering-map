@@ -12,6 +12,7 @@ import re
 import sys
 import time
 import urllib.request
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
 BASE = "https://www.youtube.com/youtubei/v1"
@@ -97,6 +98,31 @@ def video_details(video_id):
         # OK, LOGIN_REQUIRED (bot check), ERROR (removed), UNPLAYABLE (private)...
         "status": player.get("playabilityStatus", {}).get("status", ""),
     }
+
+
+FEED = "https://www.youtube.com/feeds/videos.xml?channel_id={}"
+NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015",
+      "m": "http://search.yahoo.com/mrss/"}
+
+
+def feed_details(channel_id):
+    """The channel's public RSS feed: the 15 latest uploads, with title, date, description
+    and views, but no length (reported as 0). Used when the player endpoint refuses."""
+    req = urllib.request.Request(FEED.format(channel_id), headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        root = ET.fromstring(resp.read())
+    details = {}
+    for entry in root.findall("a:entry", NS):
+        vid = entry.findtext("yt:videoId", "", NS)
+        description = entry.findtext("m:group/m:description", "", NS)
+        stats = entry.find("m:group/m:community/m:statistics", NS)
+        details[vid] = {
+            "id": vid, "url": f"https://www.youtube.com/watch?v={vid}",
+            "title": entry.findtext("a:title", "", NS), "published": entry.findtext("a:published", "", NS)[:10],
+            "length_s": 0, "views": int(stats.get("views", 0)) if stats is not None else 0,
+            "description": description, "chapters": chapters_from(description), "status": "OK",
+        }
+    return details
 
 
 def main():

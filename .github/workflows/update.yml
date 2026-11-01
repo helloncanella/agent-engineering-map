@@ -44,8 +44,7 @@ jobs:
         id: fetch
         if: github.event_name != 'push'
         continue-on-error: true
-        # Sundays also refresh the views of every stored talk (about 1,400 requests).
-        run: cd pipeline && python update.py $([ "$(date -u +%u)" = 7 ] && echo --refresh-views)
+        run: cd pipeline && python update.py
       - name: Commit data
         if: github.event_name != 'push'
         run: |

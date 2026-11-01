@@ -37,7 +37,7 @@ It updates itself every day with no API key: a small classifier, distilled from 
 ```
 score   = (w_fit · fit + w_traction · traction + w_recency · recency) / (w_fit + w_traction + w_recency)
 fit      = component score 0-10 ÷ 10   (only talks scoring 5 or more are listed)
-traction = percentile of views per day since publication
+traction = percentile of views per day, from publication to the day the views were read
 recency  = 0.5 ^ (age in days / 365)
 default weights 50 · 25 · 25, adjustable on the page
 ```
@@ -99,7 +99,9 @@ python update.py --refresh-views    # also refresh every talk's view count (abou
 python train.py                     # retrain the student on the teacher's labels and re-measure
 ```
 
-Every run also refreshes the views of talks from the last 30 days, and the scheduled job refreshes all of them on Sundays. A talk YouTube refuses is kept in `pending` and retried on the next run (a removed or private talk is dropped); while any talk is pending, or if the listing never reaches a stored talk, `update.py` exits with status 1 after saving, so the scheduled job turns red instead of silently freezing.
+YouTube refuses its `player` endpoint (description, length, views) to cloud runners such as GitHub Actions, with a bot check. The scheduled job does not try to get around it: when `player` refuses, it falls back to the channel's public RSS feed, which has title, date, description and views for the 15 latest uploads, but not the length. Run `update.py` from a regular connection now and then (with `--refresh-views` for all views): it fills the missing lengths and refreshes views the feed does not cover.
+
+Every run also refreshes the views of talks from the last 30 days, where the feed or the player covers them. A talk YouTube refuses is kept in `pending` and retried on the next run (a removed or private talk is dropped); while any talk is pending, or if the listing never reaches a stored talk, `update.py` exits with status 1 after saving, so the scheduled job turns red instead of silently freezing.
 
 To view the page locally, serve the folder (`python -m http.server`) and open `index.html`.
 
@@ -120,6 +122,6 @@ python update.py --labeler sonnet && python train.py
 
 ## Data collection
 
-- **Channel listing and details:** YouTube's internal API (InnerTube, `youtubei/v1`), anonymous, no cookies or account. Description and chapters come from the `player` endpoint.
+- **Channel listing and details:** YouTube's internal API (InnerTube, `youtubei/v1`), anonymous, no cookies or account. Description and chapters come from the `player` endpoint, or from the channel's RSS feed when `player` refuses.
 - **Teacher labels:** `claude -p --model sonnet`, in batches of 40 talks, reading title, description and chapters.
 - **Taxonomy:** checked against Anthropic, 12-Factor Agents, Cognition, Manus, LangChain, Simon Willison, Lilian Weng, Chip Huyen, Hamel Husain, Eugene Yan and OWASP. The links are in the page footer.

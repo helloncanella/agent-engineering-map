@@ -70,7 +70,7 @@ def write_outputs(dataset, vectors_by_id):
     slim["search"] = {"model": BROWSER_MODEL, "dim": DIM, "vectors": VECTORS.name}
     slim["videos"] = []
     for v in dataset["videos"]:
-        row = {"id": video_id(v), "t": v["title"], "d": v["published"], "s": v["length_s"], "v": v["views"],
+        row = {"id": video_id(v), "t": v["title"], "d": v["published"], "s": v["length_s"], "v": v["views"], "vd": v["views_date"],
                "k": v["keywords"], "c": v["scores"], "ch": [c["title"] for c in v["chapters"]][:12]}
         if v.get("scored_by") == "model":
             row["e"] = 1
