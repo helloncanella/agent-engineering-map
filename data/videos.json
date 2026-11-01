@@ -250,7 +250,7 @@
    "title": "Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify & Lincoln Murr, Coinbase",
    "published": "2026-11-01",
    "length_s": 1132,
-   "views": 52,
+   "views": 48,
    "scores": {
     "C3": 6
    },
@@ -310,7 +310,7 @@
    "title": "If Your AI Scores 100%, Your Eval Is Wrong - Ramakrishnan Lokanathan, eslams.com",
    "published": "2026-11-01",
    "length_s": 1125,
-   "views": 61,
+   "views": 57,
    "scores": {
     "C10": 10,
     "C12": 6
@@ -378,7 +378,7 @@
    "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
    "published": "2026-10-31",
    "length_s": 1299,
-   "views": 3716,
+   "views": 3694,
    "scores": {
     "C7": 7,
     "C3": 7,
@@ -528,7 +528,7 @@
    "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble",
    "published": "2026-10-31",
    "length_s": 884,
-   "views": 7679,
+   "views": 7666,
    "scores": {
     "C10": 6,
     "C8": 5
@@ -583,7 +583,7 @@
    "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec",
    "published": "2026-10-31",
    "length_s": 1109,
-   "views": 6446,
+   "views": 6432,
    "scores": {
     "C8": 9,
     "C1": 6
@@ -654,7 +654,7 @@
    "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
    "published": "2026-10-31",
    "length_s": 1022,
-   "views": 4214,
+   "views": 4344,
    "scores": {
     "C10": 8,
     "C12": 7,
@@ -808,7 +808,7 @@
    "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
    "published": "2026-10-30",
    "length_s": 1065,
-   "views": 16617,
+   "views": 16613,
    "scores": {
     "C2": 7,
     "C12": 6,
@@ -881,7 +881,7 @@
    "title": "Your Agent Just Paid for Nothing: 6 Attacks on x402 Payments - Ishween Kaur, SoFi",
    "published": "2026-10-30",
    "length_s": 1003,
-   "views": 5699,
+   "views": 5702,
    "scores": {
     "C7": 9,
     "C3": 4
@@ -1019,7 +1019,7 @@
    "title": "The Cheaper AI Model That Costs You More - Rayan Krishnan, Vals AI",
    "published": "2026-10-30",
    "length_s": 927,
-   "views": 4855,
+   "views": 4856,
    "scores": {
     "C10": 9,
     "C8": 7,
@@ -1163,7 +1163,7 @@
    "title": "Why Humans Can't Keep Up With AI-Written Code - Tariq Shaukat, Sonar",
    "published": "2026-10-29",
    "length_s": 994,
-   "views": 11900,
+   "views": 11899,
    "scores": {
     "C12": 7,
     "C10": 5,
