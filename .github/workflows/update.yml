@@ -1,0 +1,68 @@
+name: update
+
+# Daily: list new talks, score them with the small classifier (no API key),
+# commit the data if anything changed, and publish the page to GitHub Pages.
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      FASTEMBED_CACHE_PATH: ${{ github.workspace }}/.fastembed
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: .fastembed
+          key: fastembed-all-MiniLM-L6-v2
+      - run: pip install -r requirements.txt
+      # A failed update (talks refused by YouTube) still commits and publishes what it got,
+      # but the job ends red.
+      - name: Fetch and score new talks
+        id: fetch
+        if: github.event_name != 'push'
+        continue-on-error: true
+        # Sundays also refresh the views of every stored talk (about 1,400 requests).
+        run: cd pipeline && python update.py $([ "$(date -u +%u)" = 7 ] && echo --refresh-views)
+      - name: Commit data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || { git commit -m "chore: update talk data" && git pull --rebase && git push; }
+      - name: Build site
+        run: mkdir -p _site/data && cp index.html _site/ && cp data/mapa.json data/vectors.i8 _site/data/
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: Fail if the update failed
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1
