@@ -1,0 +1,111 @@
+{
+ "macro": {
+  "precision": 0.651,
+  "recall": 0.61,
+  "f1": 0.628,
+  "top20": 0.929
+ },
+ "components": {
+  "C1": {
+   "positives": 210,
+   "precision": 0.659,
+   "recall": 0.719,
+   "f1": 0.688,
+   "top20": 0.95
+  },
+  "C2": {
+   "positives": 308,
+   "precision": 0.745,
+   "recall": 0.682,
+   "f1": 0.712,
+   "top20": 1.0
+  },
+  "C3": {
+   "positives": 200,
+   "precision": 0.685,
+   "recall": 0.61,
+   "f1": 0.646,
+   "top20": 1.0
+  },
+  "C4": {
+   "positives": 240,
+   "precision": 0.55,
+   "recall": 0.571,
+   "f1": 0.56,
+   "top20": 0.9
+  },
+  "C5": {
+   "positives": 91,
+   "precision": 0.59,
+   "recall": 0.396,
+   "f1": 0.474,
+   "top20": 0.7
+  },
+  "C6": {
+   "positives": 128,
+   "precision": 0.596,
+   "recall": 0.531,
+   "f1": 0.562,
+   "top20": 0.95
+  },
+  "C7": {
+   "positives": 153,
+   "precision": 0.712,
+   "recall": 0.712,
+   "f1": 0.712,
+   "top20": 1.0
+  },
+  "C8": {
+   "positives": 193,
+   "precision": 0.657,
+   "recall": 0.606,
+   "f1": 0.631,
+   "top20": 0.9
+  },
+  "C9": {
+   "positives": 95,
+   "precision": 0.552,
+   "recall": 0.505,
+   "f1": 0.527,
+   "top20": 0.9
+  },
+  "C10": {
+   "positives": 267,
+   "precision": 0.723,
+   "recall": 0.704,
+   "f1": 0.713,
+   "top20": 1.0
+  },
+  "C11": {
+   "positives": 77,
+   "precision": 0.615,
+   "recall": 0.519,
+   "f1": 0.563,
+   "top20": 0.95
+  },
+  "C12": {
+   "positives": 239,
+   "precision": 0.602,
+   "recall": 0.619,
+   "f1": 0.61,
+   "top20": 1.0
+  },
+  "SF": {
+   "positives": 102,
+   "precision": 0.591,
+   "recall": 0.637,
+   "f1": 0.613,
+   "top20": 0.8
+  },
+  "ONTO": {
+   "positives": 41,
+   "precision": 0.833,
+   "recall": 0.732,
+   "f1": 0.779,
+   "top20": 0.95
+  }
+ },
+ "trained": "2026-11-01",
+ "talks": 1427,
+ "embedding": "sentence-transformers/all-MiniLM-L6-v2"
+}
