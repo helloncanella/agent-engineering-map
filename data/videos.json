@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-01",
+ "collected": "2026-11-02",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,372 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=JxNCuXkSWyQ",
+   "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
+   "published": "2026-11-02",
+   "length_s": 0,
+   "views": 2843,
+   "scores": {
+    "C2": 4,
+    "C7": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:21",
+     "title": "The agent that deleted production"
+    },
+    {
+     "t": "3:43",
+     "title": "How this is playing out across the industry"
+    },
+    {
+     "t": "4:48",
+     "title": "What we already expect from people"
+    },
+    {
+     "t": "5:26",
+     "title": "A control layer for agents"
+    },
+    {
+     "t": "8:26",
+     "title": "Connect, inspect, decide, record"
+    },
+    {
+     "t": "12:51",
+     "title": "Recording what happened for compliance"
+    },
+    {
+     "t": "15:20",
+     "title": "Summary: valid credentials aren't valid intent"
+    },
+    {
+     "t": "16:36",
+     "title": "Q&A"
+    }
+   ],
+   "description": "A coding agent tried to fix a staging problem and deleted a production database and its backup instead. It did this with valid credentials. Sagar Batchu of Speakeasy uses that incident to lay out a control layer for agents in regulated industries. Every action is tied to an identity, checked against policy in real time, never allowed to exceed its owner's rights, and recorded for compliance.\n\n0:00 Intro\n1:21 The agent that deleted production\n3:43 How this is playing out across the industry\n4:48 What we already expect from people\n5:26 A control layer for agents\n8:26 Connect, inspect, decide, record\n12:51 Recording what happened for compliance\n15:20 Summary: valid credentials aren't valid intent\n16:36 Q&A\n\nSagar Batchu, Speakeasy: https://www.speakeasy.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-X3yXTwGs9A",
+   "title": "AI Writes Code Faster Than Your Team Can Review It - Andrew Norrish, Sourcegraph",
+   "published": "2026-11-02",
+   "length_s": 0,
+   "views": 3078,
+   "scores": {
+    "C2": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:28",
+     "title": "The story of AI-driven development"
+    },
+    {
+     "t": "2:52",
+     "title": "Code review is the new bottleneck"
+    },
+    {
+     "t": "4:27",
+     "title": "Why hiring more SREs isn't enough"
+    },
+    {
+     "t": "7:06",
+     "title": "What the industry data shows"
+    },
+    {
+     "t": "9:20",
+     "title": "Why SREs and platform teams matter more now"
+    },
+    {
+     "t": "13:14",
+     "title": "Investigation, prevention and remediation"
+    },
+    {
+     "t": "15:00",
+     "title": "Customer examples"
+    },
+    {
+     "t": "18:31",
+     "title": "Wrap-up"
+    }
+   ],
+   "description": "AI has moved the bottleneck from writing code to reviewing it, and SREs are left handling the incidents. Andrew Norrish of Sourcegraph explains why unreviewed AI code is driving more outages, and why SRE and platform teams are best placed to fix it. He also shows how code search and a code-graph context engine help teams investigate, prevent and fix issues across huge codebases.\n\n0:00 Intro\n1:28 The story of AI-driven development\n2:52 Code review is the new bottleneck\n4:27 Why hiring more SREs isn't enough\n7:06 What the industry data shows\n9:20 Why SREs and platform teams matter more now\n13:14 Investigation, prevention and remediation\n15:00 Customer examples\n18:31 Wrap-up\n\nAndrew Norrish, Sourcegraph: https://sourcegraph.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=vUJDyDnqT4c",
+   "title": "Your AI Pilots Won't Move the P&L. Here's What Will - Adam Nahari, Apollo",
+   "published": "2026-11-02",
+   "length_s": 0,
+   "views": 4131,
+   "scores": {},
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro: the airline crew scheduling desk"
+    },
+    {
+     "t": "1:22",
+     "title": "AI adoption vs. real EBIT impact"
+    },
+    {
+     "t": "2:42",
+     "title": "Why engineering is the smaller part"
+    },
+    {
+     "t": "3:42",
+     "title": "The three layers of AI value"
+    },
+    {
+     "t": "5:45",
+     "title": "Start from the P&L"
+    },
+    {
+     "t": "7:21",
+     "title": "The 10% play vs. the 10x play"
+    },
+    {
+     "t": "9:02",
+     "title": "Getting it used: owners and alignment"
+    },
+    {
+     "t": "11:42",
+     "title": "Put the tools in everyone's hands"
+    },
+    {
+     "t": "12:40",
+     "title": "Set kill metrics first"
+    },
+    {
+     "t": "14:07",
+     "title": "Recap: the six moves"
+    }
+   ],
+   "description": "Most companies use AI, but very few see it show up in their margins. Adam Nahari of Apollo Global Management explains why engineering is the smaller part of an AI transformation. He walks through the six moves that turned an airline's crew-scheduling desk into a 10x win: start from the P&L, pick one or two problems, get a real owner, put the tools in everyone's hands, and set kill metrics before you start.\n\n0:00 Intro: the airline crew scheduling desk\n1:22 AI adoption vs. real EBIT impact\n2:42 Why engineering is the smaller part\n3:42 The three layers of AI value\n5:45 Start from the P&L\n7:21 The 10% play vs. the 10x play\n9:02 Getting it used: owners and alignment\n11:42 Put the tools in everyone's hands\n12:40 Set kill metrics first\n14:07 Recap: the six moves\n\nAdam Nahari, Apollo Global Management: https://www.apollo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=1et3Lb_KLQo",
+   "title": "I Don't Fear AI Slop. I Fear Untold Stories - Zack Proser, WorkOS",
+   "published": "2026-11-02",
+   "length_s": 0,
+   "views": 6855,
+   "scores": {},
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:26",
+     "title": "15 years of obsessive writing"
+    },
+    {
+     "t": "1:18",
+     "title": "The bigger worry than AI slop"
+    },
+    {
+     "t": "3:47",
+     "title": "Building Blogbot at WorkOS"
+    },
+    {
+     "t": "4:59",
+     "title": "Asymmetric leverage"
+    },
+    {
+     "t": "7:19",
+     "title": "Does speed kill craft?"
+    },
+    {
+     "t": "9:39",
+     "title": "\"Every sentence makes me flinch\""
+    },
+    {
+     "t": "10:09",
+     "title": "Spark, bellows and quench"
+    },
+    {
+     "t": "12:03",
+     "title": "Is it true, useful and beautiful?"
+    },
+    {
+     "t": "13:56",
+     "title": "A factory for two: bedtime stories"
+    },
+    {
+     "t": "16:05",
+     "title": "An antidote to AI anxiety"
+    },
+    {
+     "t": "17:39",
+     "title": "Who will you build a factory for?"
+    }
+   ],
+   "description": "Zack Proser, an engineer on the WorkOS applied AI team who has written and published obsessively for 15 years, is less worried about AI slop than about all the stories that never get told. He shares how he packed his writing know-how into Blogbot, a Slack tool that gets colleagues' drafts 85-90% of the way there while a human still reads, edits and puts their name on every post, and why craft can survive the assembly line. Then he applies the same idea to an audience of two, building a bedtime story app for his toddlers in four hours, and asks who you would build a factory for.\n\nChapters: \n0:00 Intro \n0:26 15 years of obsessive writing \n1:18 The bigger worry than AI slop \n3:47 Building Blogbot at WorkOS \n4:59 Asymmetric leverage \n7:19 Does speed kill craft? \n9:39 \"Every sentence makes me flinch\" \n10:09 Spark, bellows and quench \n12:03 Is it true, useful and beautiful? \n13:56 A factory for two: bedtime stories \n16:05 An antidote to AI anxiety \n17:39 Who will you build a factory for?\n\nZack Proser https://workos.com",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=geMAe-PLJF4",
+   "title": "I Made a Fruit Fly Review My Code - Nick Nisi, WorkOS",
+   "published": "2026-11-01",
+   "length_s": 0,
+   "views": 6938,
+   "scores": {
+    "C10": 9,
+    "C12": 8
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:37",
+     "title": "Humans are the bottleneck"
+    },
+    {
+     "t": "2:35",
+     "title": "Where the word \"bug\" came from"
+    },
+    {
+     "t": "3:04",
+     "title": "Using a bug to find bugs"
+    },
+    {
+     "t": "4:00",
+     "title": "Wiring a fruit fly brain into code review"
+    },
+    {
+     "t": "4:57",
+     "title": "Turning code into smells"
+    },
+    {
+     "t": "6:43",
+     "title": "Sugar, bitterness and memory"
+    },
+    {
+     "t": "7:32",
+     "title": "Does the fly actually matter?"
+    },
+    {
+     "t": "8:15",
+     "title": "Game: are you smarter than a fruit fly?"
+    },
+    {
+     "t": "10:22",
+     "title": "Trying a real pull request"
+    },
+    {
+     "t": "11:55",
+     "title": "What only humans know: why"
+    },
+    {
+     "t": "12:33",
+     "title": "Escalate only the reviews that matter"
+    },
+    {
+     "t": "14:56",
+     "title": "Proof instead of review"
+    }
+   ],
+   "description": "Code is being written faster than ever, and Nick Nisi, who leads developer and agent experience at WorkOS, argues that the human reviewer is now the bottleneck. To make the point, he hooked a simulated fruit fly brain, built from a full scan of its neurons, up to code review: AI turns each change into literal \"code smells,\" sugar and bitter rewards teach the fly what good and bad code taste like, and it was right about 88% of the time in testing. Then he plays a live round against the audience and lays out a practical plan where team review skills, classifiers and automated reviewers only send the risky pull requests to a human, backed by proof like screenshots and smoke tests.\n\nChapters:\n0:00 Intro\n0:37 Humans are the bottleneck\n2:35 Where the word \"bug\" came from\n3:04 Using a bug to find bugs\n4:00 Wiring a fruit fly brain into code review\n4:57 Turning code into smells\n6:43 Sugar, bitterness and memory\n7:32 Does the fly actually matter?\n8:15 Game: are you smarter than a fruit fly?\n10:22 Trying a real pull request\n11:55 What only humans know: why\n12:33 Escalate only the reviews that matter\n14:56 Proof instead of review\n\nNick Nisi\nhttps://workos.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=v0UkV5qS9E4",
+   "title": "Why We Rebuilt Microsoft Office From Scratch for AI Agents - Yijia Liang, Compound AI",
+   "published": "2026-11-01",
+   "length_s": 0,
+   "views": 27767,
+   "scores": {
+    "C2": 4,
+    "C4": 4,
+    "C5": 5,
+    "C8": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:52",
+     "title": "Why personal agents took off"
+    },
+    {
+     "t": "1:34",
+     "title": "Why that breaks in finance"
+    },
+    {
+     "t": "3:12",
+     "title": "Multiplayer agents"
+    },
+    {
+     "t": "4:10",
+     "title": "An inbox for every agent"
+    },
+    {
+     "t": "5:28",
+     "title": "Why off-the-shelf Office tools fall short"
+    },
+    {
+     "t": "6:04",
+     "title": "Rebuilding Office from scratch"
+    },
+    {
+     "t": "7:38",
+     "title": "Why headless is faster"
+    },
+    {
+     "t": "8:21",
+     "title": "Comments and collaboration"
+    },
+    {
+     "t": "9:08",
+     "title": "Write, render, check, fix"
+    },
+    {
+     "t": "9:55",
+     "title": "Huge data rooms and models"
+    },
+    {
+     "t": "13:10",
+     "title": "From copilot to autopilot"
+    },
+    {
+     "t": "15:09",
+     "title": "Wrap-up"
+    }
+   ],
+   "description": "Yijia Liang spent years as a finance analyst living in Excel and PowerPoint before founding Compound to build autonomous AI analysts for institutional investors. Personal agents took off because they run reliably in the background, act on their own and connect to your context, but finance needs more: multiplayer agents with their own inboxes that join deal-team email threads, a headless Office engine rebuilt from scratch with agents (1.5 trillion tokens and over 8 million lines of code) that runs work in parallel and checks its own formatting, and agent swarms that can work through data rooms of 15,000+ files.\n\nChapters:\n0:00 Intro\n0:52 Why personal agents took off\n1:34 Why that breaks in finance\n3:12 Multiplayer agents\n4:10 An inbox for every agent\n5:28 Why off-the-shelf Office tools fall short\n6:04 Rebuilding Office from scratch\n7:38 Why headless is faster\n8:21 Comments and collaboration\n9:08 Write, render, check, fix\n9:55 Huge data rooms and models\n13:10 From copilot to autopilot\n15:09 Wrap-up\n\nYijia Liang\nhttps://getcompound.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-02"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=YX4Z4XqZ9Vo",
    "title": "Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify & Lincoln Murr, Coinbase",
    "published": "2026-11-01",
    "length_s": 1132,
-   "views": 48,
+   "views": 5155,
    "scores": {
     "C3": 6
    },
@@ -303,14 +664,14 @@
    ],
    "description": "In this fireside chat, Mintlify co-founder and CTO Hahnbee Lee and Coinbase head of AI product Lincoln Murr discuss what changes when agents, not people, are the main users of your product. Lee shares that agent traffic on Mintlify docs sites grew from about 10% to about 80% this year, why page size and accuracy now matter more than design, and where AI writing fits. Murr explains why Coinbase is making its whole business available through APIs, how the x402 payment standard has seen around 100 million on-chain agent transactions, and why giving agents money makes them more autonomous.\n\nChapters:\n0:00 Intro\n1:09 When agents are the main users\n3:18 Agents that can pay\n5:32 Why crypto for agent payments\n6:32 100 million agent transactions\n8:46 API vs. MCP vs. CLI\n9:24 Where agentic payments are headed\n11:27 APIs over front ends\n12:24 Agent traffic: 10% to 80%\n13:48 Human vs. AI writing\n16:41 The biggest pitfall: build vs. buy\n\nHahnbee Lee\nhttps://mintlify.com\n\nLincoln Murr\nhttps://www.coinbase.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=7WUzHIF32vA",
    "title": "If Your AI Scores 100%, Your Eval Is Wrong - Ramakrishnan Lokanathan, eslams.com",
    "published": "2026-11-01",
    "length_s": 1125,
-   "views": 57,
+   "views": 5718,
    "scores": {
     "C10": 10,
     "C12": 6
@@ -371,14 +732,14 @@
    ],
    "description": "Ramakrishnan Lokanathan, an AI safety researcher and former startup founder, lays out how to build evals for high-stakes AI applications. Define the most ambitious version of success, test every step of the workflow and not just the final answer, combine automated checks with human review and adversarial tests, keep testing what used to work so upgrades don't break it, and turn real user failures into new tests. He also introduces eSlams, an open-source package that has AI models play games like chess, Go and poker against each other as another way to see how they reason.\n\nChapters:\n0:00 Intro\n0:37 What is an eval, really?\n2:58 About me\n4:51 Why evals matter now\n5:34 1. Define the most ambitious success\n6:43 2. Test the whole workflow\n7:28 3. One score is not the system\n8:52 Games as evals: eSlams\n12:06 4. Keep testing what used to work\n13:35 5. Turn real failures into tests\n15:08 Recap\n\nRamakrishnan Lokanathan\nhttps://eslams.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=LnQce-eHm8k",
    "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
    "published": "2026-10-31",
    "length_s": 1299,
-   "views": 3694,
+   "views": 6950,
    "scores": {
     "C7": 7,
     "C3": 7,
@@ -436,14 +797,14 @@
    ],
    "description": "Jeff Smith has built database tools at Oracle for 25 years, and he's here to make agents and databases get along safely. He explains why natural language to SQL is powerful but risky, since queries can run cleanly and still return the wrong data, and how Oracle's MCP server makes it safer: offering your team's vetted reports as tools instead of ad hoc SQL, pointing agents at a read-only standby for performance tuning, annotating schemas so agents stop brute-forcing your data dictionary, and deep data security that strips out rows a user isn't allowed to see before results ever reach the agent.\n\nChapters:\n0:00 Intro\n0:56 What is the Oracle AI Database?\n3:28 Why agents need database access\n5:07 Use case 1: Reports as tools\n7:09 Why natural language to SQL is risky\n9:43 List reports, execute reports\n11:30 Use case 2: Performance tuning\n14:48 Use case 3: Schema docs for agents\n17:27 Security: who's asking?\n20:42 What's coming\n\nJeff Smith\nhttps://www.oracle.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=1_lX0m64-aI",
    "title": "Everyone Has the Same AI Models. Here's What Sets Agents Apart - Richmond Alake, Oracle",
    "published": "2026-10-31",
    "length_s": 1547,
-   "views": 9155,
+   "views": 18857,
    "scores": {
     "C2": 9,
     "C7": 4,
@@ -521,14 +882,14 @@
    ],
    "description": "Richmond Alake was talking about agent memory before most people had heard of it, and now he argues the next layer after the control plane is an intelligence plane: what an agent knows, what it remembers, what it's allowed to see, and how it gets better. Using the WWII codebreakers who worked out that \"AF\" meant Midway, he shows why having the same information as everyone else isn't the same as intelligence. He then demos an agent built with an ontology and semantic layer that gets answers right 99% of the time using 32K tokens, versus 200K for a naive agent, and covers Oracle's agent memory package, deep data security, private inference, and fine-tuning small decision models for memory routing.\n\nChapters:\n0:00 Intro\n0:20 Agent memory in one minute\n1:39 The control plane\n2:43 The software factory\n3:54 The intelligence plane\n4:38 AF is Midway\n7:37 Where it fits in the agent stack\n8:16 What the intelligence plane is\n11:33 Agent = model + harness\n13:13 Why now: decision models\n14:01 Demo: governed vs. naive agent\n17:07 What your team should do now\n18:07 Agent memory, security and private inference\n20:52 Demo: fine-tuning memory routing\n24:41 Wrap-up: own your memory\n\nRichmond Alake\nhttps://www.oracle.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=CvmZtAPmAW4",
    "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble",
    "published": "2026-10-31",
    "length_s": 884,
-   "views": 7666,
+   "views": 9204,
    "scores": {
     "C10": 6,
     "C8": 5
@@ -576,14 +937,14 @@
    ],
    "description": "Bumble product manager Supriya Subudhi shares five lessons from A/B testing an AI photo feedback feature in a dating app with over 20 million monthly users. 78% of surveyed users said they wanted feedback, but only 10-15% used it; the average win hid odd outputs like telling smiling people to smile more; the best model cost about 10x more; switching to a cheaper model also shrank the results; and regulation meant the feature couldn't ship outside the US. She closes with five questions to ask before you call any AI test a win.\n\nChapters:\n0:00 Intro\n1:31 Bumble's AI photo feedback feature\n2:38 1. Users ask for it, then ignore it\n5:19 2. The average win hides the tail\n7:54 3. Green dashboard, red bill\n10:37 4. The win came from the model\n11:49 5. There may be no global rollout\n13:54 Five questions to ask\n\nSupriya Subudhi\nhttps://bumble.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=9-Y_oS9OBLc",
    "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec",
    "published": "2026-10-31",
    "length_s": 1109,
-   "views": 6432,
+   "views": 8392,
    "scores": {
     "C8": 9,
     "C1": 6
@@ -647,14 +1008,14 @@
    ],
    "description": "Steven Latré leads AI at imec, the Belgian semiconductor R&D center, and his team ran thousands of benchmark runs to find out what moving from APIs to your own GPUs really costs for long-running coding agents. Testing open-weight models and three coding harnesses on SWE-Bench Pro, they found that hardware costs jump in steps rather than a smooth curve, that concurrency matters even more than accuracy, that break-even GPU utilization ranges from 89% on small systems to about 15% on 8x B200 machines, and that the right harness can cut GPU time in half for the same result.\n\nChapters:\n0:00 Intro\n0:59 Why a chip lab studies AI workloads\n1:32 The stages of AI maturity\n3:28 Owning your stack blows up the design space\n4:38 The benchmarking study\n5:28 How the tests were set up\n7:28 Accuracy by model\n8:40 Adding the hardware cost\n10:08 Concurrency: how many users fit\n12:37 API vs. renting vs. buying GPUs\n14:35 Harnesses and token use\n16:20 What's next\n\nSteven Latré\nhttps://www.imec-int.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=3osCbSufv8g",
    "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
    "published": "2026-10-31",
    "length_s": 1022,
-   "views": 4344,
+   "views": 5172,
    "scores": {
     "C10": 8,
     "C12": 7,
@@ -724,14 +1085,14 @@
    ],
    "description": "Upstart handles thousands of lending calls a day, where one wrong question can become a regulatory problem. Shiv Indap, who leads voice AI at Upstart, and Brooke Hopkins, founder of Coval and former head of evaluation infrastructure at Waymo, walk through automating loan verification calls: the compliance traps, outgrowing a Google Sheet for human review, and raising agreement between the LLM judge and human reviewers from 33% to 92%. Then they lay out the full loop from live monitoring and human review queues to re-simulating fixes and self-healing agents, with every change still signed off by a human.\n\nChapters:\n0:00 Intro\n1:02 Voice AI at Upstart\n2:11 Automating verification calls\n3:04 Where compliance gets tricky\n4:14 Outgrowing the Google Sheet\n5:28 Metrics and LLM judges\n7:03 From 33% to 92% judge agreement\n8:52 The continuous improvement loop\n10:04 Defining metrics\n10:51 Monitoring live calls\n12:31 Re-simulating fixes before production\n14:04 Self-healing agents\n15:11 Wrap-up: humans stay in the loop\n\nShiv Indap\nhttps://www.upstart.com\n\nBrooke Hopkins\nhttps://www.coval.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=qq2Hm4XNRgI",
    "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
    "published": "2026-10-30",
    "length_s": 1146,
-   "views": 7668,
+   "views": 9285,
    "scores": {
     "C2": 9,
     "C9": 6,
@@ -801,14 +1162,14 @@
    ],
    "description": "RAG gives agents a way to read, but memory gives them a way to write, and that's where your business value lives. Wojciech Pluta, head of technical marketing for Oracle AI Database, explains memory promotion: deciding what's worth keeping, checking it against existing records and admitting, rejecting or escalating it to a human. A mortgage-agent demo remembers an operator's preferences across sessions and refuses to store an \"approve every application\" rule. He also covers short-term, long-term and shared memory, why to store memory in a database, and the context card that keeps prompts lean.\n\nChapters:\n0:00 Intro\n1:10 From commands to intent\n2:05 The data layer is your edge\n3:38 RAG reads, memory writes\n4:02 Memory promotion: what's worth keeping\n5:01 Demo: a mortgage agent that remembers\n9:48 Guardrails: what never gets promoted\n11:53 What agent memory is\n13:03 Short-term, long-term and shared memory\n13:43 Where to store memories\n14:27 Building memory as a discipline\n16:01 The context card\n17:50 Models are shared, memory is yours\n\nWojciech Pluta\nhttps://www.oracle.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=8vDzncmzxyg",
    "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
    "published": "2026-10-30",
    "length_s": 1065,
-   "views": 16613,
+   "views": 18662,
    "scores": {
     "C2": 7,
     "C12": 6,
@@ -874,7 +1235,7 @@
    ],
    "description": "Every new coding agent session starts like a new hire: it doesn't know your conventions, architecture rules or approved libraries, so it burns time and tokens searching your repo and repeats the issues already in it. Killian Carlsen-Phelan of Sonar introduces Sonar Vortex, a plugin that hands your agent a map of the codebase and your guidelines before it writes, then deterministically checks every edit. In a live session, Vortex catches a temp-file permission bug the agent's own tests missed, and rejects its first fix. Sonar reports 36% fewer tokens and 44% fewer production outages.\n\nChapters:\n0:00 Intro\n0:26 Every agent session starts from scratch\n1:59 What Sonar Vortex does\n2:25 The bug a test wouldn't catch\n3:35 96% don't trust AI code, 48% verify it\n4:26 How Vortex guides the agent\n7:00 36% fewer tokens\n8:08 Bringing SonarQube into the agent loop\n9:01 Demo: a real task\n13:03 Not AI checking AI\n14:17 The fix that wasn't a fix\n16:20 What you get\n\nKillian Carlsen-Phelan\nhttps://www.sonarsource.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-02"
   },
   {
    "url": "https://www.youtube.com/watch?v=YU1uD_YkpjU",
