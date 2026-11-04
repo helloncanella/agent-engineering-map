@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-03",
+ "collected": "2026-11-04",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,344 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=-uBABM2AuFg",
+   "title": "Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse",
+   "published": "2026-11-04",
+   "length_s": 0,
+   "views": 2065,
+   "scores": {
+    "C1": 4,
+    "C7": 4,
+    "C8": 5,
+    "C10": 9,
+    "C11": 6,
+    "C12": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:41",
+     "title": "Banks don't care about public benchmarks"
+    },
+    {
+     "t": "3:01",
+     "title": "Certify applications, not models"
+    },
+    {
+     "t": "3:18",
+     "title": "On-prem, gated and air-gapped"
+    },
+    {
+     "t": "5:00",
+     "title": "Proving an app is ready"
+    },
+    {
+     "t": "6:00",
+     "title": "Golden data sets and traces"
+    },
+    {
+     "t": "7:20",
+     "title": "Grounded, but bad at math"
+    },
+    {
+     "t": "8:52",
+     "title": "Gating the whole workflow"
+    },
+    {
+     "t": "10:34",
+     "title": "Building the data set"
+    },
+    {
+     "t": "11:32",
+     "title": "Scoring: code, path and LLM judge"
+    },
+    {
+     "t": "13:48",
+     "title": "Setting gates with domain experts"
+    },
+    {
+     "t": "15:53",
+     "title": "Annotation queues and feedback"
+    },
+    {
+     "t": "17:31",
+     "title": "From weeks to minutes"
+    }
+   ],
+   "description": "Doneyli De Jesus, who leads AI engineering solutions at Langfuse by ClickHouse, shares how his team helped a top-five bank put deployment gates on AI agents. Banks don't certify models, they certify applications, and they need setups that are on-premises, gated and air-gapped. He walks through building a golden data set, scoring traces across several dimensions, and how a small model that was 97% grounded but only 60% accurate on numbers cleared the bank's 85% gate once it got a calculator tool. Domain experts set the thresholds and review failures, taking evaluation from weeks to minutes.\n\nChapters:\n0:00 Intro\n0:41 Banks don't care about public benchmarks\n3:01 Certify applications, not models\n3:18 On-prem, gated and air-gapped\n5:00 Proving an app is ready\n6:00 Golden data sets and traces\n7:20 Grounded, but bad at math\n8:52 Gating the whole workflow\n10:34 Building the data set\n11:32 Scoring: code, path and LLM judge\n13:48 Setting gates with domain experts\n15:53 Annotation queues and feedback\n17:31 From weeks to minutes\n\nDoneyli De Jesus\nhttps://langfuse.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-04"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=0PqGT2L6cZM",
+   "title": "Why Datasite Stopped Building Its Own Parsing - Adit Abraham, Reducto & Raj Bakhru, Datasite",
+   "published": "2026-11-04",
+   "length_s": 0,
+   "views": 1616,
+   "scores": {
+    "C1": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:08",
+     "title": "From quant trading to BlueFlame"
+    },
+    {
+     "t": "2:21",
+     "title": "Bringing AI into Datasite's data rooms"
+    },
+    {
+     "t": "5:06",
+     "title": "Parsing is all edge cases"
+    },
+    {
+     "t": "6:12",
+     "title": "Build vs. buy"
+    },
+    {
+     "t": "7:52",
+     "title": "The BlueFlame startup story"
+    },
+    {
+     "t": "9:40",
+     "title": "Why selling to Datasite made sense"
+    },
+    {
+     "t": "11:33",
+     "title": "Bringing data closer to the models"
+    },
+    {
+     "t": "13:13",
+     "title": "What 250 engineers should work on"
+    },
+    {
+     "t": "15:56",
+     "title": "Where models still fall short"
+    },
+    {
+     "t": "17:02",
+     "title": "Q&A: integration and evals"
+    }
+   ],
+   "description": "Datasite global CTO Raj Bakhru talks with Reducto co-founder and CEO Adit Abraham about leading AI at a platform that handles about 60% of deals over $100 million. Raj shares how his startup BlueFlame was acquired into Datasite, why parsing billions of pages of deal documents is \"all edge cases,\" and how he decides what his 250 engineers build versus buy. He also covers how AI coding is changing who he hires, and VDR Bench, the internal eval where better parsing raised recall 22%.\n\nChapters:\n0:00 Intro\n1:08 From quant trading to BlueFlame\n2:21 Bringing AI into Datasite's data rooms\n5:06 Parsing is all edge cases\n6:12 Build vs. buy\n7:52 The BlueFlame startup story\n9:40 Why selling to Datasite made sense\n11:33 Bringing data closer to the models\n13:13 What 250 engineers should work on\n15:56 Where models still fall short\n17:02 Q&A: integration and evals\n\nAdit Abraham\nhttps://reducto.ai\n\nRaj Bakhru\nhttps://www.datasite.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-04"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5UgnatzpZ9E",
+   "title": "Building the AI Agent Is Easy. Proving It's Safe Isn't - Jonathan Osborne, NatWest",
+   "published": "2026-11-04",
+   "length_s": 0,
+   "views": 2307,
+   "scores": {
+    "C7": 6,
+    "C10": 10,
+    "C12": 5
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:41",
+     "title": "NatWest and Cora"
+    },
+    {
+     "t": "1:43",
+     "title": "The real risk: blast radius"
+    },
+    {
+     "t": "2:23",
+     "title": "Scripted bot vs. AI agent"
+    },
+    {
+     "t": "3:40",
+     "title": "Four new ways agents fail"
+    },
+    {
+     "t": "4:52",
+     "title": "The routing funnel"
+    },
+    {
+     "t": "6:34",
+     "title": "Why one accuracy score isn't enough"
+    },
+    {
+     "t": "7:43",
+     "title": "Human reviews: 83% hid a 54-point gap"
+    },
+    {
+     "t": "9:16",
+     "title": "LLM judges that grade too kindly"
+    },
+    {
+     "t": "11:06",
+     "title": "How scoring runs in production"
+    },
+    {
+     "t": "14:06",
+     "title": "Shadow mode and gradual rollout"
+    },
+    {
+     "t": "15:42",
+     "title": "Human feedback as a gate"
+    },
+    {
+     "t": "16:48",
+     "title": "Lessons for regulated agents"
+    }
+   ],
+   "description": "NatWest lead AI engineer Jonathan Osborne shares how the UK's second-largest retail bank, with 19 million customers and about 100,000 assistant conversations a day, is moving its digital assistant Cora from scripted answers to AI agents. Building the agent was the easy part; proving it was safe was the hard part. He covers the routing funnel that limits what ever reaches a model, why quality is several scores instead of one, human reviews where an 83% pass rate hid a 54-point gap, an LLM judge that scored far higher than humans with almost no correlation, and shadow deployments with feature flags for a safe rollout.\n\nChapters:\n0:00 Intro\n0:41 NatWest and Cora\n1:43 The real risk: blast radius\n2:23 Scripted bot vs. AI agent\n3:40 Four new ways agents fail\n4:52 The routing funnel\n6:34 Why one accuracy score isn't enough\n7:43 Human reviews: 83% hid a 54-point gap\n9:16 LLM judges that grade too kindly\n11:06 How scoring runs in production\n14:06 Shadow mode and gradual rollout\n15:42 Human feedback as a gate\n16:48 Lessons for regulated agents\n\nJonathan Osborne\nhttps://www.natwest.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-04"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=JGtkTjn4120",
+   "title": "Why AI Makes You 100x Faster but Not Your Company - Mitchell Troyanovsky, Basis",
+   "published": "2026-11-04",
+   "length_s": 0,
+   "views": 34231,
+   "scores": {
+    "C10": 9,
+    "C12": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro to Basis"
+    },
+    {
+     "t": "0:42",
+     "title": "Why company productivity hasn't jumped"
+    },
+    {
+     "t": "1:41",
+     "title": "How organizations scale with processes"
+    },
+    {
+     "t": "3:29",
+     "title": "The competency gap and the process gap"
+    },
+    {
+     "t": "5:57",
+     "title": "Agents need to be opinionated"
+    },
+    {
+     "t": "9:02",
+     "title": "Why outcome evals don't generalize"
+    },
+    {
+     "t": "10:18",
+     "title": "Example: a bank reconciliation behavior"
+    },
+    {
+     "t": "12:03",
+     "title": "Behavior specs"
+    },
+    {
+     "t": "13:24",
+     "title": "Forking to diagnose bad decisions"
+    },
+    {
+     "t": "15:15",
+     "title": "Simulations with sub-agents"
+    },
+    {
+     "t": "17:10",
+     "title": "Earning trust like a coworker"
+    },
+    {
+     "t": "18:10",
+     "title": "Why not let agents find a better way?"
+    }
+   ],
+   "description": "Individual engineers have seen huge productivity gains from AI, but most companies haven't. Mitchell Troyanovsky, co-founder of Basis, argues that agents need to be simple and reliable to spread through a company, and the way to get there is to make them opinionated. He covers behavior specs, why outcome evals don't generalize to production, and two tools for finding out why an agent made a bad call: forking and sub-agent simulations.\n\n0:00 Intro to Basis\n0:42 Why company productivity hasn't jumped\n1:41 How organizations scale with processes\n3:29 The competency gap and the process gap\n5:57 Agents need to be opinionated\n9:02 Why outcome evals don't generalize\n10:18 Example: a bank reconciliation behavior\n12:03 Behavior specs\n13:24 Forking to diagnose bad decisions\n15:15 Simulations with sub-agents\n17:10 Earning trust like a coworker\n18:10 Why not let agents find a better way?\n\nMitchell Troyanovsky, co-founder of Basis\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-04"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=prGP0huECPo",
+   "title": "Without Caching, Your AI Agent Costs 10x More - George Cameron, Artificial Analysis",
+   "published": "2026-11-03",
+   "length_s": 0,
+   "views": 6212,
+   "scores": {
+    "C1": 7,
+    "C8": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro to Artificial Analysis"
+    },
+    {
+     "t": "2:47",
+     "title": "The AI landscape and the Intelligence Index"
+    },
+    {
+     "t": "5:25",
+     "title": "Progress is accelerating"
+    },
+    {
+     "t": "6:27",
+     "title": "Open weights models stay close behind"
+    },
+    {
+     "t": "6:53",
+     "title": "Why cost matters now"
+    },
+    {
+     "t": "8:53",
+     "title": "Intelligence gets about 10x cheaper every year"
+    },
+    {
+     "t": "10:18",
+     "title": "Breaking down the cost of an agent task"
+    },
+    {
+     "t": "12:59",
+     "title": "Why caching matters so much"
+    },
+    {
+     "t": "13:38",
+     "title": "Reasoning effort and cost"
+    },
+    {
+     "t": "15:30",
+     "title": "Making the trade-off decision"
+    },
+    {
+     "t": "17:02",
+     "title": "Limited vs. unlimited intelligence tasks"
+    },
+    {
+     "t": "18:12",
+     "title": "How to shortlist and benchmark models"
+    }
+   ],
+   "description": "Some models now cost dollars to complete a single task, while others cost a few cents. George Cameron, co-founder of Artificial Analysis, breaks down what actually drives agent costs in 2026: input tokens, cache hit rate and the number of steps. In one example, an agent task costs about $21 with caching and over $200 without it. He then shows how to decide when you need the smartest model and when a cheaper one gives the same answer.\n\n0:00 Intro to Artificial Analysis\n2:47 The AI landscape and the Intelligence Index\n5:25 Progress is accelerating\n6:27 Open weights models stay close behind\n6:53 Why cost matters now\n8:53 Intelligence gets about 10x cheaper every year\n10:18 Breaking down the cost of an agent task\n12:59 Why caching matters so much\n13:38 Reasoning effort and cost\n15:30 Making the trade-off decision\n17:02 Limited vs. unlimited intelligence tasks\n18:12 How to shortlist and benchmark models\n\nGeorge Cameron, Artificial Analysis: https://artificialanalysis.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-04"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=g_NgCLTibiM",
    "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
    "published": "2026-11-03",
    "length_s": 0,
-   "views": 11239,
+   "views": 78149,
    "scores": {
     "C2": 8,
     "C4": 6,
@@ -309,14 +642,14 @@
    ],
    "description": "Graph engineering is a new name for an old idea: give agents a map of the logic they should follow, not just a pile of text. Zachary Blumenfeld of Neo4j explains how graphs make agents more predictable, governable and portable. He shows how to compile skills and past decision traces into graph-shaped skills, then demos a loan-approval agent that follows them.\n\n0:00 Intro: what is graph engineering?\n1:42 Three types of graphs\n3:04 Predictability, governance, portability\n4:42 Neo4j's knowledge layer\n6:03 Context graphs and agent memory\n6:53 Compiling skills into graphs\n8:08 Distilling skills from memory graphs\n9:22 Customer use cases\n10:47 Demo: a loan-approval agent\n14:30 Compiling runs into a graph-shaped skill\n18:20 Observability on graph branches\n20:01 Resources\n\nZachary Blumenfeld, Neo4j: https://neo4j.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=XIHZpZtYCzo",
    "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
    "published": "2026-11-03",
    "length_s": 0,
-   "views": 1873,
+   "views": 4476,
    "scores": {
     "C7": 10,
     "C8": 7,
@@ -367,14 +700,14 @@
    ],
    "description": "Agents can't keep borrowing your identity and running on someone else's machines, especially at banks and other heavily regulated companies. Nikhil Harithas of Factory shows how they rebuilt their coding agent, Droid, to run on any compute inside a customer's own cloud. He covers the compute gateway and relay design, bring-your-own-key model calls, snapshots and forking, and why they plan to open source the layer.\n\n0:00 Intro\n1:09 Customers where none of the defaults worked\n2:44 Agents can't keep borrowing your identity\n4:26 Bring your own compute\n5:42 Control plane, compute gateway and relay\n9:34 Bring your own key and staying in your VPC\n11:21 Open sourcing the compute layer\n12:24 Snapshots, forking and drivers\n14:22 The hard parts of managing compute\n16:44 Agents shouldn't care where they run\n\nNikhil Harithas, Factory: https://factory.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=3Ad73Onx3Aw",
    "title": "Better Search Took This AI Agent From 36% to 98% Accuracy - Aamir Shakir, Mixedbread",
    "published": "2026-11-03",
    "length_s": 0,
-   "views": 2301,
+   "views": 5768,
    "scores": {
     "C2": 10,
     "C8": 4,
@@ -421,14 +754,14 @@
    ],
    "description": "Agents are smart enough. Most of the time, the real problem is getting them to the right data. Aamir Shakir of Mixedbread explains why the usual stack of OCR, chunking, embeddings and a vector database loses information and leaves agents reading every document. He shows multimodal, late-interaction retrieval on Intel earnings reports, and shares a customer whose answer accuracy went from 36% to 98% after switching their search.\n\n0:00 Intro to Mixedbread\n1:30 The equity analyst problem\n3:30 The key bottlenecks\n4:00 The \"Frankenstein stack\": OCR, chunking and vectors\n6:02 Why \"just add a vector database\" falls short\n8:26 The bottleneck is access to your data\n9:04 How retrieval has evolved\n11:08 Demo: searching Intel earnings reports\n14:57 Customer result: 36% to 98% accuracy\n\nAamir Shakir, Mixedbread\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=q4ITwvlFplQ",
    "title": "You Can't Tell What's Real Anymore. Here's What Comes Next - Cristóbal Valenzuela, Runway",
    "published": "2026-11-03",
    "length_s": 0,
-   "views": 6210,
+   "views": 9045,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -483,14 +816,14 @@
    ],
    "description": "Runway's first AI film in 2019 was 128x128 pixels. Today, people can't tell generated video from real footage. Runway co-founder and CEO Cristóbal Valenzuela explains how next-frame prediction at scale teaches models physics, object permanence and how the world works. He then shows what happens when those models become real-time and interactive: world interface models, robotics, and Continuum, an early research prototype where anything on your screen can become a live, interactive video.\n\n0:00 Intro\n0:50 Runway's first AI film (2019)\n1:49 State-of-the-art video today\n2:48 Video as next-frame prediction\n4:04 What video models learn: physics and object permanence\n5:54 From video to simulation\n6:54 Making world models real-time and interactive\n7:59 Robotics and world interface models\n10:04 Extrapolating forward: Continuum\n13:45 Visual thinking for coding agents\n15:05 Live, reactive experiences\n16:08 Everything will be simulated\n\nCristóbal Valenzuela, Runway: https://runwayml.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=5SRjPT2Eo7A",
    "title": "Your Company Should Train Its Own AI Models - Will Brown, Prime Intellect",
    "published": "2026-11-02",
    "length_s": 0,
-   "views": 17210,
+   "views": 21478,
    "scores": {
     "C1": 6,
     "C10": 7,
@@ -553,14 +886,14 @@
    ],
    "description": "Agents relearn the same things every session because the knowledge that runs a company never gets written down. Will Brown of Prime Intellect makes the case for training models on your own traces, feedback and workflows, so they learn on the job the way human coworkers do. He covers evals as test cases, decision models and routing, and widget-style interfaces that turn your decisions into training data. He ends with nightly training runs and an example model trained for about $300K.\n\n0:00 Intro\n1:21 From chatbots to AI-native organizations\n2:33 What Prime Intellect builds\n3:45 The knowledge that never gets written down\n5:43 Why agents relearn everything\n7:25 What goes in context vs. in the weights\n8:06 The game of telephone behind frontier training\n11:15 Evals as test cases for your model\n12:43 Routing and decision models\n15:11 Interfaces that turn decisions into training data\n17:27 A $300K model for knowledge work\n18:35 Nightly training runs\n19:19 The self-improving organization\n\nWill Brown, Prime Intellect: https://www.primeintellect.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=JxNCuXkSWyQ",
    "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
    "published": "2026-11-02",
    "length_s": 0,
-   "views": 5163,
+   "views": 5572,
    "scores": {
     "C2": 4,
     "C7": 10
@@ -606,14 +939,14 @@
    ],
    "description": "A coding agent tried to fix a staging problem and deleted a production database and its backup instead. It did this with valid credentials. Sagar Batchu of Speakeasy uses that incident to lay out a control layer for agents in regulated industries. Every action is tied to an identity, checked against policy in real time, never allowed to exceed its owner's rights, and recorded for compliance.\n\n0:00 Intro\n1:21 The agent that deleted production\n3:43 How this is playing out across the industry\n4:48 What we already expect from people\n5:26 A control layer for agents\n8:26 Connect, inspect, decide, record\n12:51 Recording what happened for compliance\n15:20 Summary: valid credentials aren't valid intent\n16:36 Q&A\n\nSagar Batchu, Speakeasy: https://www.speakeasy.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=-X3yXTwGs9A",
    "title": "AI Writes Code Faster Than Your Team Can Review It - Andrew Norrish, Sourcegraph",
    "published": "2026-11-02",
    "length_s": 0,
-   "views": 6017,
+   "views": 7006,
    "scores": {
     "C2": 4
    },
@@ -658,14 +991,14 @@
    ],
    "description": "AI has moved the bottleneck from writing code to reviewing it, and SREs are left handling the incidents. Andrew Norrish of Sourcegraph explains why unreviewed AI code is driving more outages, and why SRE and platform teams are best placed to fix it. He also shows how code search and a code-graph context engine help teams investigate, prevent and fix issues across huge codebases.\n\n0:00 Intro\n1:28 The story of AI-driven development\n2:52 Code review is the new bottleneck\n4:27 Why hiring more SREs isn't enough\n7:06 What the industry data shows\n9:20 Why SREs and platform teams matter more now\n13:14 Investigation, prevention and remediation\n15:00 Customer examples\n18:31 Wrap-up\n\nAndrew Norrish, Sourcegraph: https://sourcegraph.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=vUJDyDnqT4c",
    "title": "Your AI Pilots Won't Move the P&L. Here's What Will - Adam Nahari, Apollo",
    "published": "2026-11-02",
    "length_s": 0,
-   "views": 6782,
+   "views": 7584,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -712,14 +1045,14 @@
    ],
    "description": "Most companies use AI, but very few see it show up in their margins. Adam Nahari of Apollo Global Management explains why engineering is the smaller part of an AI transformation. He walks through the six moves that turned an airline's crew-scheduling desk into a 10x win: start from the P&L, pick one or two problems, get a real owner, put the tools in everyone's hands, and set kill metrics before you start.\n\n0:00 Intro: the airline crew scheduling desk\n1:22 AI adoption vs. real EBIT impact\n2:42 Why engineering is the smaller part\n3:42 The three layers of AI value\n5:45 Start from the P&L\n7:21 The 10% play vs. the 10x play\n9:02 Getting it used: owners and alignment\n11:42 Put the tools in everyone's hands\n12:40 Set kill metrics first\n14:07 Recap: the six moves\n\nAdam Nahari, Apollo Global Management: https://www.apollo.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=1et3Lb_KLQo",
    "title": "I Don't Fear AI Slop. I Fear Untold Stories - Zack Proser, WorkOS",
    "published": "2026-11-02",
    "length_s": 0,
-   "views": 8509,
+   "views": 9283,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -774,14 +1107,14 @@
    ],
    "description": "Zack Proser, an engineer on the WorkOS applied AI team who has written and published obsessively for 15 years, is less worried about AI slop than about all the stories that never get told. He shares how he packed his writing know-how into Blogbot, a Slack tool that gets colleagues' drafts 85-90% of the way there while a human still reads, edits and puts their name on every post, and why craft can survive the assembly line. Then he applies the same idea to an audience of two, building a bedtime story app for his toddlers in four hours, and asks who you would build a factory for.\n\nChapters: \n0:00 Intro \n0:26 15 years of obsessive writing \n1:18 The bigger worry than AI slop \n3:47 Building Blogbot at WorkOS \n4:59 Asymmetric leverage \n7:19 Does speed kill craft? \n9:39 \"Every sentence makes me flinch\" \n10:09 Spark, bellows and quench \n12:03 Is it true, useful and beautiful? \n13:56 A factory for two: bedtime stories \n16:05 An antidote to AI anxiety \n17:39 Who will you build a factory for?\n\nZack Proser https://workos.com",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=geMAe-PLJF4",
    "title": "I Made a Fruit Fly Review My Code - Nick Nisi, WorkOS",
    "published": "2026-11-01",
    "length_s": 0,
-   "views": 8307,
+   "views": 9064,
    "scores": {
     "C10": 9,
     "C12": 8
@@ -843,7 +1176,7 @@
    ],
    "description": "Code is being written faster than ever, and Nick Nisi, who leads developer and agent experience at WorkOS, argues that the human reviewer is now the bottleneck. To make the point, he hooked a simulated fruit fly brain, built from a full scan of its neurons, up to code review: AI turns each change into literal \"code smells,\" sugar and bitter rewards teach the fly what good and bad code taste like, and it was right about 88% of the time in testing. Then he plays a live round against the audience and lays out a practical plan where team review skills, classifiers and automated reviewers only send the risky pull requests to a human, backed by proof like screenshots and smoke tests.\n\nChapters:\n0:00 Intro\n0:37 Humans are the bottleneck\n2:35 Where the word \"bug\" came from\n3:04 Using a bug to find bugs\n4:00 Wiring a fruit fly brain into code review\n4:57 Turning code into smells\n6:43 Sugar, bitterness and memory\n7:32 Does the fly actually matter?\n8:15 Game: are you smarter than a fruit fly?\n10:22 Trying a real pull request\n11:55 What only humans know: why\n12:33 Escalate only the reviews that matter\n14:56 Proof instead of review\n\nNick Nisi\nhttps://workos.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-03"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=v0UkV5qS9E4",
@@ -16173,7 +16506,7 @@
    "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
    "published": "2026-10-05",
    "length_s": 2536,
-   "views": 8158,
+   "views": 8177,
    "scores": {
     "C11": 8,
     "C12": 8,
@@ -16250,7 +16583,7 @@
    ],
    "description": "A toy store agent fails a request for toys under $6 because its search tool has no price filter. Laurie Voss turns that missing feature into a live demonstration of an improvement loop: add observability, inspect what happened, find the problem, and ask a coding agent to fix it. The Wonder Toys application starts without traces flowing into Arize AX. Skills installed in the workshop repository help the coding agent add tracing and query the resulting data. The diagnosis reaches beyond exceptions and HTTP errors to search quality, including empty results and overly narrow filters. After adding price filtering, Voss repeats the shopping request and checks the new input and output in the trace view.\n\nThe broader argument is that reading traces individually stops working when an application produces millions of them. Evals compress behavior into scores and explanations, but people can still become the bottleneck when they must interpret every failure. Voss introduces Signal as another layer that groups recurring problems and suggests fixes. In the demonstration, findings can become GitHub issues, evaluation datasets, new evaluators, or proposed pull requests. Audience questions press on deployment, trust, and preventing a fix from breaking behavior that already works. Regression evals provide that check, while Signal itself has tracing and an evaluation suite. The workshop moves from a manually requested repair toward continuous improvement, with definitions of good behavior directing what the automation should change.\n\n\nSpeaker info:\n- https://x.com/seldo\n- https://seldo.com\n- https://github.com/Arize-ai/project-rosetta-stone\n\nTimestamps:\n0:00 - From 101 to continuous improvement\n3:12 - Traces as the source of truth\n6:13 - Scaling beyond manual trace review\n9:02 - Finding signals and closing the loop\n12:03 - Workshop setup\n14:13 - Wonder Toys and trust questions\n16:31 - Adding observability with a coding agent\n20:19 - Testing and inspecting live traces\n22:25 - Exposing the missing price filter\n24:41 - Asking an agent to analyze traces\n28:51 - Diagnosing search quality problems\n30:28 - Adding price filtering\n33:05 - Continuous monitoring with Signal\n36:06 - Deployment and regression evaluation questions\n40:22 - Evaluating Signal itself\n\n---\n\nWatch along with the corrected transcript, summary, timestamps and resources on this talk's official AIE page:\nhttps://ai.engineer/talks/F0TNSmbo5hE-youtube-69b6c7350f3746e53f73\n\nJoin our upcoming AI Engineer conferences (see https://ai.engineer landing page):\n\n- AIEi Shanghai, November 5–6 — the first for meeting top Chinese labs and engineers\n- AIE CODE in SF, November 10–12 — the top AI Coding conference returns\n- AIEi Sydney, December 7–8 — the first AIEi run alongside NeurIPS 2026 in Sydney\n\n---",
    "scored_by": "sonnet",
-   "views_date": "2026-11-01"
+   "views_date": "2026-11-04"
   },
   {
    "url": "https://www.youtube.com/watch?v=wzWNYDY7toc",
