@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-05",
+ "collected": "2026-11-06",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,381 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=EtZwTYahfek",
+   "title": "7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 601,
+   "scores": {
+    "C2": 6,
+    "C3": 9,
+    "C7": 9,
+    "C9": 5
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:57",
+     "title": "What every coworker needs"
+    },
+    {
+     "t": "1:54",
+     "title": "What's new in Gemini 4"
+    },
+    {
+     "t": "4:29",
+     "title": "Managed Agents: Gemini with its own computer"
+    },
+    {
+     "t": "5:31",
+     "title": "Building Bug, our AI coworker"
+    },
+    {
+     "t": "6:30",
+     "title": "Skills, playbooks and files"
+    },
+    {
+     "t": "8:47",
+     "title": "Tools and MCP servers"
+    },
+    {
+     "t": "9:57",
+     "title": "Credentials an agent can't leak"
+    },
+    {
+     "t": "12:55",
+     "title": "Hooks for house rules"
+    },
+    {
+     "t": "13:36",
+     "title": "Schedules and triggers"
+    },
+    {
+     "t": "14:27",
+     "title": "Demo: an automated portfolio audit"
+    },
+    {
+     "t": "16:38",
+     "title": "Recap"
+    }
+   ],
+   "description": "Philipp Schmid of Google DeepMind shows how to build an autonomous AI coworker for finance with Gemini and the Gemini API's Managed Agents. He breaks a coworker down into seven needs (a brain, a computer, playbooks, tools, credentials, house rules and a schedule) and builds each one: skills and files in the agent's own sandbox, built-in tools and MCP servers, credentials swapped in by a network proxy so a prompt injection can't steal them, hooks for approvals, and cron triggers. He finishes with a live demo of an agent that audits a portfolio and updates a Google Sheet on a schedule.\n\nChapters:\n0:00 Intro\n0:57 What every coworker needs\n1:54 What's new in Gemini 4\n4:29 Managed Agents: Gemini with its own computer\n5:31 Building Bug, our AI coworker\n6:30 Skills, playbooks and files\n8:47 Tools and MCP servers\n9:57 Credentials an agent can't leak\n12:55 Hooks for house rules\n13:36 Schedules and triggers\n14:27 Demo: an automated portfolio audit\n16:38 Recap\n\nPhilipp Schmid\nhttps://deepmind.google\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=C2-v6wkHXhY",
+   "title": "Your AI Isn't the Advantage. Your Judgment Is - Sid Pednekar",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 823,
+   "scores": {
+    "C10": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:48",
+     "title": "Who's actually getting value from AI"
+    },
+    {
+     "t": "3:38",
+     "title": "Judgment is the scarce resource"
+    },
+    {
+     "t": "5:28",
+     "title": "Pillar 1: Design the right problem"
+    },
+    {
+     "t": "8:15",
+     "title": "Invest deeply, not widely"
+    },
+    {
+     "t": "9:59",
+     "title": "Redesign how work gets done"
+    },
+    {
+     "t": "11:53",
+     "title": "Pillar 2: Build shared capabilities"
+    },
+    {
+     "t": "13:04",
+     "title": "Standardize the core, personalize the edges"
+    },
+    {
+     "t": "14:37",
+     "title": "The enterprise wasn't built for agents"
+    },
+    {
+     "t": "16:34",
+     "title": "Pillar 3: Compound the advantage"
+    },
+    {
+     "t": "17:46",
+     "title": "The final question"
+    }
+   ],
+   "description": "Sid Pednekar, an AI, technology and data executive in asset management, looks at why most companies now have AI but only a few see real results from it. Following two hypothetical firms, he lays out three things the leaders do differently: they pick the right problem and invest deeply in a few high-value workflows instead of scattering pilots, they build shared capabilities by standardizing the core and breaking down silos, and they make every success and failure feed back into the system. Running through all of it is one idea: when intelligence gets cheap, judgment becomes the scarce resource.\n\nChapters:\n0:00 Intro\n1:48 Who's actually getting value from AI\n3:38 Judgment is the scarce resource\n5:28 Pillar 1: Design the right problem\n8:15 Invest deeply, not widely\n9:59 Redesign how work gets done\n11:53 Pillar 2: Build shared capabilities\n13:04 Standardize the core, personalize the edges\n14:37 The enterprise wasn't built for agents\n16:34 Pillar 3: Compound the advantage\n17:46 The final question\n\nSid Pednekar\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=SUqQlvyI3N8",
+   "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 1513,
+   "scores": {
+    "C2": 8,
+    "C9": 7,
+    "C10": 5,
+    "C12": 7
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Sparsh Jain, Head of AI at CentralAgent AI, argues that giving AI agents more memory isn't the same as helping them learn. After his team worked with the same agent for two years and it still repeated the same mistakes, they rebuilt memory as an experiential system: forming notes from new experiences, updating or deactivating old ones, keeping inactive notes as a record of how a judgment was reached, and forgetting what no longer matters, with a regular cleanup loop that works like a good night's sleep. He shares the rules they learned building it and why agents that learn from every teammate keep compounding over time.\n\nSparsh Jain\nhttps://www.linkedin.com/in/jainn-sparsh/\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=AYFcmnQrZCg",
+   "title": "AI Agents Will Upend Investing Even More Than Coding - Frank Long, Coatue",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 12564,
+   "scores": {
+    "C2": 4,
+    "C4": 6,
+    "C12": 5
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:52",
+     "title": "A hedge fund as a function"
+    },
+    {
+     "t": "1:31",
+     "title": "Give agents the same access people have"
+    },
+    {
+     "t": "2:23",
+     "title": "Internal context"
+    },
+    {
+     "t": "3:28",
+     "title": "Breaking the function into steps"
+    },
+    {
+     "t": "4:59",
+     "title": "Case study: Korean news"
+    },
+    {
+     "t": "7:24",
+     "title": "Four kinds of runners"
+    },
+    {
+     "t": "9:08",
+     "title": "Don't automate for its own sake"
+    },
+    {
+     "t": "9:26",
+     "title": "Every choice needs tuning"
+    },
+    {
+     "t": "11:43",
+     "title": "What are you hill climbing against?"
+    },
+    {
+     "t": "12:38",
+     "title": "The real graph"
+    },
+    {
+     "t": "13:16",
+     "title": "Beyond investing"
+    }
+   ],
+   "description": "Frank Long of Coatue, a technology investment firm across public and private markets, bets that agents will have an even bigger impact on investing than they did on coding. He frames a hedge fund as a function that takes in outside and inside context and returns what to buy, how much and when, then breaks it into gather, analyze and decide steps. Using Korean-language semiconductor news as a case study, he shows how each step can be run by code, statistics, an LLM or a person, why every one of those choices needs tuning, and why the goal is quality, not automation for its own sake.\n\nChapters:\n0:00 Intro\n0:52 A hedge fund as a function\n1:31 Give agents the same access people have\n2:23 Internal context\n3:28 Breaking the function into steps\n4:59 Case study: Korean news\n7:24 Four kinds of runners\n9:08 Don't automate for its own sake\n9:26 Every choice needs tuning\n11:43 What are you hill climbing against?\n12:38 The real graph\n13:16 Beyond investing\n\nFrank Long\nhttps://www.coatue.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=YqJ4asgj1R8",
+   "title": "Stop Giving Your AI Agents API Keys - Kim Maida, Keycard & Mason Egger, Temporal",
+   "published": "2026-11-05",
+   "length_s": 0,
+   "views": 3762,
+   "scores": {
+    "C3": 5,
+    "C7": 10,
+    "C9": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:17",
+     "title": "The problem with giving agents API keys"
+    },
+    {
+     "t": "1:59",
+     "title": "Token exchange, explained"
+    },
+    {
+     "t": "3:10",
+     "title": "Following a prompt through the agent loop"
+    },
+    {
+     "t": "5:41",
+     "title": "A separate token for every tool call"
+    },
+    {
+     "t": "8:49",
+     "title": "Workshop setup: an expense desk agent"
+    },
+    {
+     "t": "10:28",
+     "title": "Before: everyone shares API keys"
+    },
+    {
+     "t": "12:51",
+     "title": "Giving the agent its own identity"
+    },
+    {
+     "t": "21:47",
+     "title": "Wiring token exchange into the code"
+    },
+    {
+     "t": "26:05",
+     "title": "The agent acting as itself"
+    },
+    {
+     "t": "28:00",
+     "title": "Reading the audit log"
+    },
+    {
+     "t": "31:22",
+     "title": "Adding human users without impersonation"
+    },
+    {
+     "t": "34:01",
+     "title": "Approval limits and who approved what"
+    },
+    {
+     "t": "38:09",
+     "title": "Tracing the delegation chain"
+    },
+    {
+     "t": "41:26",
+     "title": "Temporal: durable execution for agents"
+    },
+    {
+     "t": "46:01",
+     "title": "Killing a worker mid-run, and recovering"
+    },
+    {
+     "t": "48:07",
+     "title": "Why durability matters for agents"
+    },
+    {
+     "t": "49:28",
+     "title": "Keeping secrets out of the event history"
+    }
+   ],
+   "description": "Kim Maida of Keycard and Mason Egger of Temporal show how to build AI agents that are both secure and reliable. Kim replaces shared API keys with OAuth token exchange, so every tool call gets a short-lived token scoped to that one call and tied to both the agent's identity and the user it's acting for, building it live on an expense-approval agent with a full audit trail of who filed and approved what. Mason then uses Temporal's durable execution to kill an agent mid-task and bring it back exactly where it left off, without re-running LLM calls or storing credentials in its history.\n\nChapters:\n0:00 Intro\n1:17 The problem with giving agents API keys\n1:59 Token exchange, explained\n3:10 Following a prompt through the agent loop\n5:41 A separate token for every tool call\n8:49 Workshop setup: an expense desk agent\n10:28 Before: everyone shares API keys\n12:51 Giving the agent its own identity\n21:47 Wiring token exchange into the code\n26:05 The agent acting as itself\n28:00 Reading the audit log\n31:22 Adding human users without impersonation\n34:01 Approval limits and who approved what\n38:09 Tracing the delegation chain\n41:26 Temporal: durable execution for agents\n46:01 Killing a worker mid-run, and recovering\n48:07 Why durability matters for agents\n49:28 Keeping secrets out of the event history\n\nKim Maida\nhttps://keycard.ai\n\nMason Egger\nhttps://temporal.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=zLc8zeGeNaY",
+   "title": "How Netflix Evaluates AI When There's No Right Answer - Cameron Wolfe, Netflix",
+   "published": "2026-11-05",
+   "length_s": 0,
+   "views": 9326,
+   "scores": {
+    "C10": 10,
+    "C12": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:50",
+     "title": "Why evals are hard: noise"
+    },
+    {
+     "t": "2:43",
+     "title": "The spectrum of verifiable tasks"
+    },
+    {
+     "t": "3:54",
+     "title": "A three-part framework"
+    },
+    {
+     "t": "4:27",
+     "title": "Human evaluation as the North Star"
+    },
+    {
+     "t": "5:19",
+     "title": "Calibrating human reviewers"
+    },
+    {
+     "t": "6:05",
+     "title": "How much data, and what kind"
+    },
+    {
+     "t": "8:10",
+     "title": "Offline evals: LLM judges and rubrics"
+    },
+    {
+     "t": "9:47",
+     "title": "Checking the judge against humans"
+    },
+    {
+     "t": "11:45",
+     "title": "Fighting noise with statistics"
+    },
+    {
+     "t": "13:17",
+     "title": "Production monitoring and A/B tests"
+    },
+    {
+     "t": "15:14",
+     "title": "Keep improving the loop"
+    },
+    {
+     "t": "15:45",
+     "title": "Recap"
+    }
+   ],
+   "description": "Cameron Wolfe, a staff research scientist at Netflix and author of the Deep (Learning) Focus newsletter, lays out a three-part framework for evaluating tasks with no single right answer, like creative writing. Human evaluation with calibrated guidelines is the North Star; LLM judges and rubrics, checked against human \"golden\" data, scale up offline evals; and A/B tests and production monitoring confirm results in the real world. Along the way he covers fighting noise with power analysis, error bars and resampling, and a Netflix project where an LLM judge's scores were causally linked to viewers abandoning shows.\n\nChapters:\n0:00 Intro\n0:50 Why evals are hard: noise\n2:43 The spectrum of verifiable tasks\n3:54 A three-part framework\n4:27 Human evaluation as the North Star\n5:19 Calibrating human reviewers\n6:05 How much data, and what kind\n8:10 Offline evals: LLM judges and rubrics\n9:47 Checking the judge against humans\n11:45 Fighting noise with statistics\n13:17 Production monitoring and A/B tests\n15:14 Keep improving the loop\n15:45 Recap\n\nCameron Wolfe\nhttps://www.netflix.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-06"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=ra8X7_bnujw",
    "title": "Why Waiting for the Next AI Model Can Pay Off - John Stecher, Blackstone & Scott Worland, Norm AI",
    "published": "2026-11-05",
    "length_s": 0,
-   "views": 2018,
+   "views": 6334,
    "scores": {
     "C1": 4,
     "C10": 4,
@@ -321,14 +691,14 @@
    ],
    "description": "Blackstone CTO John Stecher and Norm AI CTO Scott Worland discuss building technology that holds up as models keep improving. John explains why a solid data strategy and straight-through processing come before agents, how he weighs ROI against waiting for a better model, and why internal apps can now be thrown away and rebuilt. Scott describes how Norm's large hand-labeled eval set showed that much of its carefully built workflow code was in the way, why the team rebuilt its platform, and how it decides where to invest heavily versus lightly as the frontier moves.\n\nChapters:\n0:00 Intro\n1:05 Getting AI agents right\n1:32 Data strategy comes first\n2:21 Straight-through processing still matters\n3:46 Norm's early workflow approach\n5:05 When agents made the code obsolete\n6:42 Evals in financial services\n7:40 The bitter lesson\n8:54 ROI, and when to wait for the next model\n10:25 Getting to a proof of concept fast\n12:43 Updating on Claude Code\n14:49 The hard part: getting to production\n15:45 Parts that still need human review\n17:24 Rebuild instead of maintaining\n19:13 Closing thoughts\n\nJohn Stecher\nhttps://www.blackstone.com\n\nScott Worland\nhttps://www.norm.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=4VmugsE-iP0",
    "title": "How We Took an AI Agent From 41% to 97% Accurate - Milind Sunil Shah, Brainbase Labs",
    "published": "2026-11-05",
    "length_s": 0,
-   "views": 2228,
+   "views": 5213,
    "scores": {
     "C2": 4,
     "C4": 5,
@@ -389,14 +759,14 @@
    ],
    "description": "Milind Sunil Shah of Brainbase Labs walks through a six-step framework for improving back-office agents, using a Domino's project that tracks competitors' pizza prices across websites and delivery apps. From version 1 to version 11, accuracy went from 41% to 97%, cost per source halved from $2 to $1, and run time fell from 129 to 71 minutes, all through instructions, skills and playbooks rather than a new model. The steps: kickoff, ontology, benchmarks and evals, a narrow first agent, iteration, and handing off the whole loop.\n\nChapters:\n0:00 Intro\n0:26 The Domino's pricing problem\n1:36 From 41% to 97%\n2:02 The six-step framework\n2:23 1. Kickoff: agree on the win\n3:35 2. Ontology: define every term\n5:43 3. Benchmarks and evals\n7:42 4. Ship a narrow first agent\n8:49 5. Iterate: score, fix, ship\n9:44 Fix: the deal below the link\n10:28 Fix: stuck zooming into images\n11:56 6. Hand off the whole loop\n\nMilind Sunil Shah\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=V2UqEUA8NjM",
    "title": "Stop Making Your Customers Click Approve - Emil Chetty, Wise",
    "published": "2026-11-05",
    "length_s": 0,
-   "views": 2336,
+   "views": 4400,
    "scores": {
     "C3": 4,
     "C6": 7,
@@ -463,14 +833,14 @@
    ],
    "description": "Emil Chetty, who leads data and AI product at Wise, argues that AI assistants have turned customers into an approval queue. Wise moved $243 billion across borders last year for nearly 19 million customers under more than 80 licenses, so every payment needs proof of what the customer actually authorized. His answer: the customer agrees to the whole job once, as a locked agreement; the agent chooses the steps; and Wise's existing payment software enforces the terms, so even an agent tricked by a prompt injection can't pay a new recipient.\n\nChapters:\n0:00 Intro\n0:58 About Wise\n3:00 Regulators still expect answers\n3:36 A typical agent job\n4:05 Approving every step\n5:06 What coding agents learned\n5:35 Safe action vs. authorized payment\n6:42 From intent to a locked agreement\n8:15 A worked example\n10:27 Granting only what was approved\n11:32 Retries and changed quotes\n12:35 How it's built\n13:25 When the agent gets tricked\n14:18 What Wise can answer for\n\nEmil Chetty\nhttps://wise.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=T-42NrYjwxM",
    "title": "Our Smaller Model Beat Opus on Finance Tasks - Alexander Shevchenko, Ramp",
    "published": "2026-11-04",
    "length_s": 0,
-   "views": 11060,
+   "views": 15657,
    "scores": {
     "C1": 9,
     "C8": 8
@@ -528,14 +898,14 @@
    ],
    "description": "Alexander Shevchenko of Ramp Labs explains why an application company still runs applied research instead of waiting for the next frontier model. He walks through three projects now in production: a post-trained Qwen 3.5 model that beat Opus 4.6 on financial question answering at Haiku-level latency, KV cache \"cartridges\" that pack 20 to 30 times more context into an agent ahead of time for tasks like month-end close, and swarms of 10,000 parallel agents that pen-tested Ramp and found seven high-severity vulnerabilities, with cheaper open-weight models catching nearly as much.\n\nChapters:\n0:00 Intro\n0:36 A bitter-lesson company\n1:15 Why not just wait?\n1:29 Building agents in 2023 vs 2026\n3:06 Project 1: A specialist model for Ramp Sheets\n5:16 Beating Opus at Haiku speed\n5:58 Project 2: KV cache cartridges\n7:50 Project 3: 10,000 agents pen-testing Ramp\n9:30 Cheaper open-weight models in swarms\n10:08 Saving time and money\n10:36 Token spend management and Ramp Router\n12:03 More from the Ramp Labs blog\n\nAlexander Shevchenko\nhttps://ramp.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=Sg6vtKOAOQ0",
    "title": "AI Labs Will Trap You or Replace You - Dillon Rolnick, Nous Research",
    "published": "2026-11-04",
    "length_s": 0,
-   "views": 8295,
+   "views": 11455,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -590,14 +960,14 @@
    ],
    "description": "Dillon Rolnick, CEO of Nous Research, argues that as AI models commoditize, the labs that spent trillions building them have two ways to earn it back: lock businesses into their platforms and raise prices, or point their own systems at lucrative industries like finance and compete directly. He makes the case that the moats of proprietary software are gone, that agents are closer to operating systems than chatbots, and that companies should build on open foundations they own and control, like Hermes Agent, so they can swap models and inherit new capabilities instead of rebuilding them.\n\nChapters:\n0:00 Intro\n0:32 The models are commoditizing\n1:52 How labs plan to earn back trillions\n2:48 Why businesses are the real target\n4:28 The labs are coming for finance\n5:44 Don't build on quicksand\n6:48 Why Nous Research exists\n7:56 Software no longer has a moat\n9:25 Distillation and the fight over open models\n11:06 Agents are operating systems\n12:17 Build on foundations you own\n13:49 Hermes Agent and the new moats\n\nDillon Rolnick\nhttps://nousresearch.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=MpkARD5pq-M",
    "title": "Robots Will Be Trained on Video Games - Pim de Witte, General Intuition",
    "published": "2026-11-04",
    "length_s": 0,
-   "views": 4351,
+   "views": 5187,
    "scores": {
     "C1": 6
    },
@@ -662,14 +1032,14 @@
    ],
    "description": "Pim de Witte of General Intuition, the team behind the Medal game recorder, argues that models built to act in space and time need a different design than LLMs, which work turn by turn. His models take in frames and send out actions continuously, the way a gamer plays. Because game controllers already run most robots, Medal's game clips (about a billion videos a year and over 1.5 trillion action tokens a month) become training data, and one model can play games at a high level and control more than 10 types of robots. He also previews early access, accessibility uses and hackathons in New York and London.\n\nChapters:\n0:00 Intro\n0:41 Why acting is different from predicting\n1:54 Starting with Medal, the game recorder\n2:27 Game controllers already run robots\n3:28 How LLMs and action models differ\n5:21 Use the controller, skip the motor math\n6:21 1.5 trillion action tokens a month\n7:14 World models and environments\n8:55 Why games are so action-dense\n9:52 One model, 10+ robots\n12:03 What you can build on top\n13:36 Accessibility uses\n14:54 The team and hackathons\n17:10 Q&A: how it differs from JEPA\n\nPim de Witte\nhttps://generalintuition.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=-uBABM2AuFg",
    "title": "Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse",
    "published": "2026-11-04",
    "length_s": 0,
-   "views": 5663,
+   "views": 6103,
    "scores": {
     "C1": 4,
     "C7": 4,
@@ -735,14 +1105,14 @@
    ],
    "description": "Doneyli De Jesus, who leads AI engineering solutions at Langfuse by ClickHouse, shares how his team helped a top-five bank put deployment gates on AI agents. Banks don't certify models, they certify applications, and they need setups that are on-premises, gated and air-gapped. He walks through building a golden data set, scoring traces across several dimensions, and how a small model that was 97% grounded but only 60% accurate on numbers cleared the bank's 85% gate once it got a calculator tool. Domain experts set the thresholds and review failures, taking evaluation from weeks to minutes.\n\nChapters:\n0:00 Intro\n0:41 Banks don't care about public benchmarks\n3:01 Certify applications, not models\n3:18 On-prem, gated and air-gapped\n5:00 Proving an app is ready\n6:00 Golden data sets and traces\n7:20 Grounded, but bad at math\n8:52 Gating the whole workflow\n10:34 Building the data set\n11:32 Scoring: code, path and LLM judge\n13:48 Setting gates with domain experts\n15:53 Annotation queues and feedback\n17:31 From weeks to minutes\n\nDoneyli De Jesus\nhttps://langfuse.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=0PqGT2L6cZM",
    "title": "Why Datasite Stopped Building Its Own Parsing - Adit Abraham, Reducto & Raj Bakhru, Datasite",
    "published": "2026-11-04",
    "length_s": 1188,
-   "views": 3644,
+   "views": 4004,
    "scores": {
     "C1": 4
    },
@@ -795,14 +1165,14 @@
    ],
    "description": "Datasite global CTO Raj Bakhru talks with Reducto co-founder and CEO Adit Abraham about leading AI at a platform that handles about 60% of deals over $100 million. Raj shares how his startup BlueFlame was acquired into Datasite, why parsing billions of pages of deal documents is \"all edge cases,\" and how he decides what his 250 engineers build versus buy. He also covers how AI coding is changing who he hires, and VDR Bench, the internal eval where better parsing raised recall 22%.\n\nChapters:\n0:00 Intro\n1:08 From quant trading to BlueFlame\n2:21 Bringing AI into Datasite's data rooms\n5:06 Parsing is all edge cases\n6:12 Build vs. buy\n7:52 The BlueFlame startup story\n9:40 Why selling to Datasite made sense\n11:33 Bringing data closer to the models\n13:13 What 250 engineers should work on\n15:56 Where models still fall short\n17:02 Q&A: integration and evals\n\nAdit Abraham\nhttps://reducto.ai\n\nRaj Bakhru\nhttps://www.datasite.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=5UgnatzpZ9E",
    "title": "Building the AI Agent Is Easy. Proving It's Safe Isn't - Jonathan Osborne, NatWest",
    "published": "2026-11-04",
    "length_s": 0,
-   "views": 4718,
+   "views": 5062,
    "scores": {
     "C7": 6,
     "C10": 10,
@@ -865,7 +1235,7 @@
    ],
    "description": "NatWest lead AI engineer Jonathan Osborne shares how the UK's second-largest retail bank, with 19 million customers and about 100,000 assistant conversations a day, is moving its digital assistant Cora from scripted answers to AI agents. Building the agent was the easy part; proving it was safe was the hard part. He covers the routing funnel that limits what ever reaches a model, why quality is several scores instead of one, human reviews where an 83% pass rate hid a 54-point gap, an LLM judge that scored far higher than humans with almost no correlation, and shadow deployments with feature flags for a safe rollout.\n\nChapters:\n0:00 Intro\n0:41 NatWest and Cora\n1:43 The real risk: blast radius\n2:23 Scripted bot vs. AI agent\n3:40 Four new ways agents fail\n4:52 The routing funnel\n6:34 Why one accuracy score isn't enough\n7:43 Human reviews: 83% hid a 54-point gap\n9:16 LLM judges that grade too kindly\n11:06 How scoring runs in production\n14:06 Shadow mode and gradual rollout\n15:42 Human feedback as a gate\n16:48 Lessons for regulated agents\n\nJonathan Osborne\nhttps://www.natwest.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-05"
+   "views_date": "2026-11-06"
   },
   {
    "url": "https://www.youtube.com/watch?v=JGtkTjn4120",
