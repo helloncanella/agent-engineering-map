@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-06",
+ "collected": "2026-11-07",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,476 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=maitMe9HCvw",
+   "title": "How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 3025,
+   "scores": {
+    "C4": 5,
+    "C5": 8,
+    "C8": 5,
+    "C12": 4,
+    "SF": 8
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Nouha Dziri, a senior research scientist at Cohere, shares research on teams of coding agents, where a lead splits up the work and workers explore, build and check in parallel. Teams can beat a single agent on long software tasks but cost several times more, so across hundreds of experiments on ProgramBench and Commit0 she maps where extra workers actually pay off: delegate the stage where the task is stuck, use a lead that waits for its workers instead of running ahead, and pair a strong lead with cheaper planning workers to get close to an all-frontier team at about 70% lower cost. She also looks at how agents message each other and what larger agent teams will need.\n\nNouha Dziri\nhttps://x.com/nouhadziri\nhttps://cohere.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=RdQCY_-SXbA",
+   "title": "AI Can't Make Up a Number It Can't Look Up - Vinoo Ganesh, Kepler",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 2060,
+   "scores": {
+    "C2": 4,
+    "C7": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:38",
+     "title": "Why Wall Street still doesn't trust AI"
+    },
+    {
+     "t": "2:16",
+     "title": "Hallucination vs alpha"
+    },
+    {
+     "t": "3:14",
+     "title": "Trust means someone to blame"
+    },
+    {
+     "t": "4:17",
+     "title": "Where wrong numbers come from"
+    },
+    {
+     "t": "5:50",
+     "title": "How Kepler is built differently"
+    },
+    {
+     "t": "7:34",
+     "title": "Pairing smart people with deterministic tools"
+    },
+    {
+     "t": "9:07",
+     "title": "Lookups can't get it wrong"
+    },
+    {
+     "t": "9:26",
+     "title": "Searching wide, then narrowing"
+    },
+    {
+     "t": "10:46",
+     "title": "Security for document search"
+    },
+    {
+     "t": "12:25",
+     "title": "How verification works"
+    },
+    {
+     "t": "14:00",
+     "title": "Verified, corrected or refused"
+    },
+    {
+     "t": "15:40",
+     "title": "Results from production"
+    },
+    {
+     "t": "16:31",
+     "title": "Questions to ask any AI vendor"
+    },
+    {
+     "t": "17:29",
+     "title": "We're out of the search phase"
+    }
+   ],
+   "description": "Vinoo Ganesh, CEO and co-founder of Kepler and former head of business engineering at Citadel, explains why Wall Street still doesn't trust AI and how to build systems it can. He breaks wrong numbers into three causes (the wrong document, the wrong number from the right document, and models doing math) and shows Kepler's approach: code extracts every fact ahead of time and gives it an ID, the model plans and points to those IDs instead of writing numbers itself, and anything it can't resolve gets corrected or refused. He also covers wide-then-narrow search, scoping document access so firms never see each other's data, and the questions to ask any AI vendor about verification.\n\nChapters:\n0:00 Intro\n1:38 Why Wall Street still doesn't trust AI\n2:16 Hallucination vs alpha\n3:14 Trust means someone to blame\n4:17 Where wrong numbers come from\n5:50 How Kepler is built differently\n7:34 Pairing smart people with deterministic tools\n9:07 Lookups can't get it wrong\n9:26 Searching wide, then narrowing\n10:46 Security for document search\n12:25 How verification works\n14:00 Verified, corrected or refused\n15:40 Results from production\n16:31 Questions to ask any AI vendor\n17:29 We're out of the search phase\n\nVinoo Ganesh\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=kIlVNGZZr8o",
+   "title": "How Agents Cut Hour-Long Data Checks to 5 Minutes - Amol Kapoor & Clifford Ressel, Nori Agentic",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 2375,
+   "scores": {
+    "C2": 8,
+    "C3": 4,
+    "C7": 10,
+    "C9": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:21",
+     "title": "Finance has gotten weird"
+    },
+    {
+     "t": "2:42",
+     "title": "Private assets are hard to manage"
+    },
+    {
+     "t": "3:24",
+     "title": "Who we are"
+    },
+    {
+     "t": "4:19",
+     "title": "What a security master is"
+    },
+    {
+     "t": "7:03",
+     "title": "Example: mapping Google's shares"
+    },
+    {
+     "t": "8:18",
+     "title": "Where private assets break the model"
+    },
+    {
+     "t": "10:50",
+     "title": "Case study: a Fortune 200 asset manager"
+    },
+    {
+     "t": "12:34",
+     "title": "Cloud agents, explained"
+    },
+    {
+     "t": "13:10",
+     "title": "How the agent checks each change"
+    },
+    {
+     "t": "14:37",
+     "title": "Giving agents expertise in plain English"
+    },
+    {
+     "t": "15:35",
+     "title": "Agents that come to you"
+    },
+    {
+     "t": "17:19",
+     "title": "Three lessons from building AI for finance"
+    }
+   ],
+   "description": "Amol Kapoor and Clifford Ressel of Nori Agentic show how cloud agents can keep an asset manager's security master database clean, especially as more money moves into private assets whose details live in PDFs, emails and call notes. Cliff explains what a security master is and why private assets break the usual identifiers, then Amol walks through work with a Fortune 200 asset manager, where every changed cell used to take an hour of manual checking. Now an agent investigates each change, cites its sources, recommends keeping or discarding it and pings the owner in Slack, cutting the human part to about five minutes. They close with lessons on adoption, keeping humans in the loop and handling back-office busywork.\n\nChapters:\n0:00 Intro\n0:21 Finance has gotten weird\n2:42 Private assets are hard to manage\n3:24 Who we are\n4:19 What a security master is\n7:03 Example: mapping Google's shares\n8:18 Where private assets break the model\n10:50 Case study: a Fortune 200 asset manager\n12:34 Cloud agents, explained\n13:10 How the agent checks each change\n14:37 Giving agents expertise in plain English\n15:35 Agents that come to you\n17:19 Three lessons from building AI for finance\n\nAmol Kapoor\nClifford Ressel\nhttps://noriagentic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=pz74r-4dGfQ",
+   "title": "Your AI Agent Is Hiding Its Mistakes From You - Ben Holmes, Warp",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 10181,
+   "scores": {
+    "C2": 7,
+    "C4": 7,
+    "C10": 9,
+    "C11": 4,
+    "C12": 10,
+    "SF": 8
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:55",
+     "title": "What a software factory is"
+    },
+    {
+     "t": "1:59",
+     "title": "Engineering the factory itself"
+    },
+    {
+     "t": "2:40",
+     "title": "The self-improvement loop"
+    },
+    {
+     "t": "3:24",
+     "title": "Getting all agent conversations in one place"
+    },
+    {
+     "t": "5:08",
+     "title": "What to capture: transcripts, tool calls, outputs"
+    },
+    {
+     "t": "6:00",
+     "title": "Scoring redundant tests"
+    },
+    {
+     "t": "6:55",
+     "title": "Scoring verbosity"
+    },
+    {
+     "t": "7:52",
+     "title": "Scoring efficiency"
+    },
+    {
+     "t": "8:57",
+     "title": "Writing a scoring rubric"
+    },
+    {
+     "t": "10:41",
+     "title": "Grading a real conversation"
+    },
+    {
+     "t": "12:51",
+     "title": "A daily agent that suggests fixes"
+    },
+    {
+     "t": "13:47",
+     "title": "Try it: Skill Doctor"
+    },
+    {
+     "t": "16:14",
+     "title": "Tracking scores over time"
+    },
+    {
+     "t": "17:59",
+     "title": "Self-improvement PRs in Warp"
+    }
+   ],
+   "description": "Ben Holmes of Warp shows how to build agents that improve their own setup by reviewing their past work. He walks through collecting every agent conversation with its tool calls and outputs in one place, scoring them with LLM-as-judge rubrics for redundant tests, verbosity and efficiency, and running a daily agent that finds patterns in the failures and opens pull requests to fix skills and config. Along the way he shows how agents quietly work around broken instructions without telling you, and demos Skill Doctor, a skill you can run on your own Claude Code or Codex history.\n\nChapters:\n0:00 Intro\n0:55 What a software factory is\n1:59 Engineering the factory itself\n2:40 The self-improvement loop\n3:24 Getting all agent conversations in one place\n5:08 What to capture: transcripts, tool calls, outputs\n6:00 Scoring redundant tests\n6:55 Scoring verbosity\n7:52 Scoring efficiency\n8:57 Writing a scoring rubric\n10:41 Grading a real conversation\n12:51 A daily agent that suggests fixes\n13:47 Try it: Skill Doctor\n16:14 Tracking scores over time\n17:59 Self-improvement PRs in Warp\n\nBen Holmes\nhttps://www.warp.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ys6YQ2yfBpM",
+   "title": "Your Old Prompts Are Making Claude Worse - Lance Martin, Anthropic",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 22223,
+   "scores": {
+    "C2": 4,
+    "C10": 9,
+    "C12": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:27",
+     "title": "You're probably not on the frontier"
+    },
+    {
+     "t": "1:32",
+     "title": "Audit your prompts"
+    },
+    {
+     "t": "3:49",
+     "title": "What a prompt audit saves"
+    },
+    {
+     "t": "5:30",
+     "title": "Use the prompt cache"
+    },
+    {
+     "t": "7:43",
+     "title": "Cutting costs up to 72%"
+    },
+    {
+     "t": "8:45",
+     "title": "Designing an eval Claude can climb"
+    },
+    {
+     "t": "11:47",
+     "title": "Hill climbing without overfitting"
+    },
+    {
+     "t": "14:57",
+     "title": "Example: improving a skill from 66%"
+    },
+    {
+     "t": "16:30",
+     "title": "Hill climbing for cost: a 90% cut"
+    },
+    {
+     "t": "18:53",
+     "title": "Harnesses for days-long agents"
+    },
+    {
+     "t": "20:21",
+     "title": "Managed agents: separating brain from hands"
+    },
+    {
+     "t": "23:04",
+     "title": "Recap"
+    },
+    {
+     "t": "24:25",
+     "title": "Q&A: How automatable is eval design?"
+    },
+    {
+     "t": "30:04",
+     "title": "Q&A: Grading open-ended tasks"
+    },
+    {
+     "t": "39:24",
+     "title": "Q&A: Why stronger models at low effort cost less"
+    },
+    {
+     "t": "55:41",
+     "title": "Q&A: Hill climbing very long tasks"
+    }
+   ],
+   "description": "Lance Martin of Anthropic shares simple fixes that get more out of frontier models, often improving quality and cutting cost at the same time. He covers auditing prompts for outdated habits like \"think step by step\" and contradictory rules, using the prompt cache properly (cutting costs up to 72% on internal benchmarks), designing evals Claude can actually climb, and hill climbing without overfitting, including a run that cut cost 90% while improving performance by switching to a stronger model at lower effort. He closes with how Claude Managed Agents keeps days-long agents reliable and secure, then takes questions on eval design, grading open-ended tasks and more.\n\nChapters:\n0:00 Intro\n0:27 You're probably not on the frontier\n1:32 Audit your prompts\n3:49 What a prompt audit saves\n5:30 Use the prompt cache\n7:43 Cutting costs up to 72%\n8:45 Designing an eval Claude can climb\n11:47 Hill climbing without overfitting\n14:57 Example: improving a skill from 66%\n16:30 Hill climbing for cost: a 90% cut\n18:53 Harnesses for days-long agents\n20:21 Managed agents: separating brain from hands\n23:04 Recap\n24:25 Q&A: How automatable is eval design?\n30:04 Q&A: Grading open-ended tasks\n39:24 Q&A: Why stronger models at low effort cost less\n55:41 Q&A: Hill climbing very long tasks\n\nLance Martin\nhttps://www.anthropic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=oWqsBuhRRZ4",
+   "title": "How We Mapped a 35-Million-Line Mainframe in 4 Days - Stephen Chin, Neo4j & Neeraj Deshmukh, Blitzy",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 4284,
+   "scores": {
+    "C2": 10,
+    "ONTO": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:14",
+     "title": "The old systems under modern finance"
+    },
+    {
+     "t": "1:58",
+     "title": "Example: computing interest on a mainframe"
+    },
+    {
+     "t": "3:06",
+     "title": "Why AI misses the rest of the system"
+    },
+    {
+     "t": "4:02",
+     "title": "Why bigger context windows don't fix it"
+    },
+    {
+     "t": "6:03",
+     "title": "Turning code into a graph"
+    },
+    {
+     "t": "7:08",
+     "title": "Giving every agent the right context"
+    },
+    {
+     "t": "7:53",
+     "title": "Blitzy's process, with a human in the lead"
+    },
+    {
+     "t": "9:32",
+     "title": "Thousands of agents and constant testing"
+    },
+    {
+     "t": "11:35",
+     "title": "Proving the new code matches the old"
+    },
+    {
+     "t": "13:28",
+     "title": "The one-cent rounding bug"
+    },
+    {
+     "t": "14:27",
+     "title": "Results from banks and insurers"
+    },
+    {
+     "t": "16:37",
+     "title": "Beyond modernization"
+    },
+    {
+     "t": "18:47",
+     "title": "Resources"
+    }
+   ],
+   "description": "Stephen Chin of Neo4j and Neeraj Deshmukh of Blitzy show why AI struggles to modernize the decades-old systems underneath banks and insurers, and how a knowledge graph fixes it. Using a COBOL interest calculation as the running example, they explain that AI can convert a formula but misses the batch jobs, data layouts and other places the logic is used, and that bigger context windows don't solve it. They walk through Blitzy's approach of mapping the whole codebase as a graph, giving thousands of agents the right slice of context, testing at every step, and proving the new code matches the old down to the cent, with results from a tier-one bank, a 35-million-line mainframe and a Fortune 100 insurer.\n\nChapters:\n0:00 Intro\n0:14 The old systems under modern finance\n1:58 Example: computing interest on a mainframe\n3:06 Why AI misses the rest of the system\n4:02 Why bigger context windows don't fix it\n6:03 Turning code into a graph\n7:08 Giving every agent the right context\n7:53 Blitzy's process, with a human in the lead\n9:32 Thousands of agents and constant testing\n11:35 Proving the new code matches the old\n13:28 The one-cent rounding bug\n14:27 Results from banks and insurers\n16:37 Beyond modernization\n18:47 Resources\n\nStephen Chin\nhttps://neo4j.com\n\nNeeraj Deshmukh\nhttps://blitzy.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=y9Sg--RDtks",
+   "title": "当我们什么都能做，还知道自己想做什么吗？When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor",
+   "published": "2026-11-06",
+   "length_s": 0,
+   "views": 4894,
+   "scores": {},
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "00:00",
+     "title": "Introducing Ryo Lu"
+    },
+    {
+     "t": "00:38",
+     "title": "Stronger tools, greater unease"
+    },
+    {
+     "t": "03:04",
+     "title": "Before making things became a way to prove ourselves"
+    },
+    {
+     "t": "05:47",
+     "title": "The journal AI built for me"
+    },
+    {
+     "t": "07:32",
+     "title": "Which feature would you remove?"
+    },
+    {
+     "t": "09:13",
+     "title": "A service counter or a workbench?"
+    },
+    {
+     "t": "12:29",
+     "title": "Three principles for designing tools"
+    },
+    {
+     "t": "13:07",
+     "title": "When to put the tool down"
+    },
+    {
+     "t": "16:20",
+     "title": "What a jazz ensemble teaches us about collaboration"
+    },
+    {
+     "t": "19:45",
+     "title": "Finding out what you want by making things"
+    },
+    {
+     "t": "21:35",
+     "title": "An exercise for the next AI-generated answer"
+    }
+   ],
+   "description": "Ask an AI to build a journal and it might give you mood scores, streaks, daily reminders, and weekly reports. Which would you keep? Ryo Lu, a former founding designer at Cursor, uses a working journal demo to show how design decisions slip into an AI-generated answer and how a good tool lets you change them.\n\nRecorded at AI Engineer Shanghai on November 5, 2026. Choose Settings → Audio track to hear the original Mandarin or the AI-generated English dub, produced with Ryo’s permission. The slides and captions appear in Chinese on the left and English on the right.\n\n点击播放器的“设置”→“音轨”，可切换中文原声和英文配音。画面左侧为中文，右侧为英文。\n\n00:00 Introducing Ryo Lu\n00:38 Stronger tools, greater unease\n03:04 Before making things became a way to prove ourselves\n05:47 The journal AI built for me\n07:32 Which feature would you remove?\n09:13 A service counter or a workbench?\n12:29 Three principles for designing tools\n13:07 When to put the tool down\n16:20 What a jazz ensemble teaches us about collaboration\n19:45 Finding out what you want by making things\n21:35 An exercise for the next AI-generated answer\n\nRyo’s post: https://x.com/ryolu_/status/2118207967728451760\nConference program: https://ai.engineer/shanghai/2026/program",
+   "scored_by": "model",
+   "views_date": "2026-11-07"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=EtZwTYahfek",
    "title": "7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 601,
+   "views": 7631,
    "scores": {
     "C2": 6,
     "C3": 9,
@@ -310,14 +775,14 @@
    ],
    "description": "Philipp Schmid of Google DeepMind shows how to build an autonomous AI coworker for finance with Gemini and the Gemini API's Managed Agents. He breaks a coworker down into seven needs (a brain, a computer, playbooks, tools, credentials, house rules and a schedule) and builds each one: skills and files in the agent's own sandbox, built-in tools and MCP servers, credentials swapped in by a network proxy so a prompt injection can't steal them, hooks for approvals, and cron triggers. He finishes with a live demo of an agent that audits a portfolio and updates a Google Sheet on a schedule.\n\nChapters:\n0:00 Intro\n0:57 What every coworker needs\n1:54 What's new in Gemini 4\n4:29 Managed Agents: Gemini with its own computer\n5:31 Building Bug, our AI coworker\n6:30 Skills, playbooks and files\n8:47 Tools and MCP servers\n9:57 Credentials an agent can't leak\n12:55 Hooks for house rules\n13:36 Schedules and triggers\n14:27 Demo: an automated portfolio audit\n16:38 Recap\n\nPhilipp Schmid\nhttps://deepmind.google\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=C2-v6wkHXhY",
    "title": "Your AI Isn't the Advantage. Your Judgment Is - Sid Pednekar",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 823,
+   "views": 3758,
    "scores": {
     "C10": 6
    },
@@ -370,14 +835,14 @@
    ],
    "description": "Sid Pednekar, an AI, technology and data executive in asset management, looks at why most companies now have AI but only a few see real results from it. Following two hypothetical firms, he lays out three things the leaders do differently: they pick the right problem and invest deeply in a few high-value workflows instead of scattering pilots, they build shared capabilities by standardizing the core and breaking down silos, and they make every success and failure feed back into the system. Running through all of it is one idea: when intelligence gets cheap, judgment becomes the scarce resource.\n\nChapters:\n0:00 Intro\n1:48 Who's actually getting value from AI\n3:38 Judgment is the scarce resource\n5:28 Pillar 1: Design the right problem\n8:15 Invest deeply, not widely\n9:59 Redesign how work gets done\n11:53 Pillar 2: Build shared capabilities\n13:04 Standardize the core, personalize the edges\n14:37 The enterprise wasn't built for agents\n16:34 Pillar 3: Compound the advantage\n17:46 The final question\n\nSid Pednekar\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=SUqQlvyI3N8",
    "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 1513,
+   "views": 4319,
    "scores": {
     "C2": 8,
     "C9": 7,
@@ -388,14 +853,14 @@
    "chapters": [],
    "description": "Sparsh Jain, Head of AI at CentralAgent AI, argues that giving AI agents more memory isn't the same as helping them learn. After his team worked with the same agent for two years and it still repeated the same mistakes, they rebuilt memory as an experiential system: forming notes from new experiences, updating or deactivating old ones, keeping inactive notes as a record of how a judgment was reached, and forgetting what no longer matters, with a regular cleanup loop that works like a good night's sleep. He shares the rules they learned building it and why agents that learn from every teammate keep compounding over time.\n\nSparsh Jain\nhttps://www.linkedin.com/in/jainn-sparsh/\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=AYFcmnQrZCg",
    "title": "AI Agents Will Upend Investing Even More Than Coding - Frank Long, Coatue",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 12564,
+   "views": 18538,
    "scores": {
     "C2": 4,
     "C4": 6,
@@ -454,14 +919,14 @@
    ],
    "description": "Frank Long of Coatue, a technology investment firm across public and private markets, bets that agents will have an even bigger impact on investing than they did on coding. He frames a hedge fund as a function that takes in outside and inside context and returns what to buy, how much and when, then breaks it into gather, analyze and decide steps. Using Korean-language semiconductor news as a case study, he shows how each step can be run by code, statistics, an LLM or a person, why every one of those choices needs tuning, and why the goal is quality, not automation for its own sake.\n\nChapters:\n0:00 Intro\n0:52 A hedge fund as a function\n1:31 Give agents the same access people have\n2:23 Internal context\n3:28 Breaking the function into steps\n4:59 Case study: Korean news\n7:24 Four kinds of runners\n9:08 Don't automate for its own sake\n9:26 Every choice needs tuning\n11:43 What are you hill climbing against?\n12:38 The real graph\n13:16 Beyond investing\n\nFrank Long\nhttps://www.coatue.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=YqJ4asgj1R8",
    "title": "Stop Giving Your AI Agents API Keys - Kim Maida, Keycard & Mason Egger, Temporal",
    "published": "2026-11-05",
    "length_s": 0,
-   "views": 3762,
+   "views": 4883,
    "scores": {
     "C3": 5,
     "C7": 10,
@@ -544,14 +1009,14 @@
    ],
    "description": "Kim Maida of Keycard and Mason Egger of Temporal show how to build AI agents that are both secure and reliable. Kim replaces shared API keys with OAuth token exchange, so every tool call gets a short-lived token scoped to that one call and tied to both the agent's identity and the user it's acting for, building it live on an expense-approval agent with a full audit trail of who filed and approved what. Mason then uses Temporal's durable execution to kill an agent mid-task and bring it back exactly where it left off, without re-running LLM calls or storing credentials in its history.\n\nChapters:\n0:00 Intro\n1:17 The problem with giving agents API keys\n1:59 Token exchange, explained\n3:10 Following a prompt through the agent loop\n5:41 A separate token for every tool call\n8:49 Workshop setup: an expense desk agent\n10:28 Before: everyone shares API keys\n12:51 Giving the agent its own identity\n21:47 Wiring token exchange into the code\n26:05 The agent acting as itself\n28:00 Reading the audit log\n31:22 Adding human users without impersonation\n34:01 Approval limits and who approved what\n38:09 Tracing the delegation chain\n41:26 Temporal: durable execution for agents\n46:01 Killing a worker mid-run, and recovering\n48:07 Why durability matters for agents\n49:28 Keeping secrets out of the event history\n\nKim Maida\nhttps://keycard.ai\n\nMason Egger\nhttps://temporal.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=zLc8zeGeNaY",
    "title": "How Netflix Evaluates AI When There's No Right Answer - Cameron Wolfe, Netflix",
    "published": "2026-11-05",
    "length_s": 0,
-   "views": 9326,
+   "views": 12656,
    "scores": {
     "C10": 10,
     "C12": 9
@@ -613,7 +1078,7 @@
    ],
    "description": "Cameron Wolfe, a staff research scientist at Netflix and author of the Deep (Learning) Focus newsletter, lays out a three-part framework for evaluating tasks with no single right answer, like creative writing. Human evaluation with calibrated guidelines is the North Star; LLM judges and rubrics, checked against human \"golden\" data, scale up offline evals; and A/B tests and production monitoring confirm results in the real world. Along the way he covers fighting noise with power analysis, error bars and resampling, and a Netflix project where an LLM judge's scores were causally linked to viewers abandoning shows.\n\nChapters:\n0:00 Intro\n0:50 Why evals are hard: noise\n2:43 The spectrum of verifiable tasks\n3:54 A three-part framework\n4:27 Human evaluation as the North Star\n5:19 Calibrating human reviewers\n6:05 How much data, and what kind\n8:10 Offline evals: LLM judges and rubrics\n9:47 Checking the judge against humans\n11:45 Fighting noise with statistics\n13:17 Production monitoring and A/B tests\n15:14 Keep improving the loop\n15:45 Recap\n\nCameron Wolfe\nhttps://www.netflix.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-06"
+   "views_date": "2026-11-07"
   },
   {
    "url": "https://www.youtube.com/watch?v=ra8X7_bnujw",
