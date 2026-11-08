@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-07",
+ "collected": "2026-11-08",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,443 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=EaOit1mmR9g",
+   "title": "How Financial Planners With Zero Coding Experience Built Their Own Agents - Matt Ragone, Range",
+   "published": "2026-11-08",
+   "length_s": 0,
+   "views": 2538,
+   "scores": {
+    "C2": 4,
+    "C3": 4,
+    "C4": 6,
+    "C6": 9,
+    "C12": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:42",
+     "title": "A financial planner, not an engineer"
+    },
+    {
+     "t": "2:28",
+     "title": "Using AI as a chatbot"
+    },
+    {
+     "t": "3:03",
+     "title": "The bottleneck was typing speed"
+    },
+    {
+     "t": "3:37",
+     "title": "What changed with agents"
+    },
+    {
+     "t": "4:21",
+     "title": "What it took beyond a good prompt"
+    },
+    {
+     "t": "6:27",
+     "title": "Five steps to build a skill"
+    },
+    {
+     "t": "6:58",
+     "title": "Step 1: Pick a workflow you repeat"
+    },
+    {
+     "t": "7:47",
+     "title": "Step 2: Show it real cases"
+    },
+    {
+     "t": "9:11",
+     "title": "Step 3: Package it as a skill"
+    },
+    {
+     "t": "10:50",
+     "title": "Step 4: Test it on real cases"
+    },
+    {
+     "t": "11:52",
+     "title": "Step 5: Ship it with an owner and a reviewer"
+    },
+    {
+     "t": "12:27",
+     "title": "Where Range is now"
+    },
+    {
+     "t": "13:29",
+     "title": "Let the experts build the skills"
+    },
+    {
+     "t": "14:28",
+     "title": "The bottleneck has moved"
+    }
+   ],
+   "description": "Matt Ragone is a financial planner at Range, an all-in-one wealth management firm, not an engineer. He leads AI adoption for its planning team and shares the step-by-step method non-technical planners used to build their own agents and skills. With standardized processes and client data already in one place, the team could have an agent draft cash flow analyses, insurance reviews and tax reviews while planners are on calls with other clients, with a certified financial planner reviewing everything before it goes out. He walks through the five steps: pick a workflow you repeat, teach it real cases, package it as a skill, test it on edge cases, and ship it with an owner and a reviewer.\n\nChapters:\n0:00 Intro\n0:42 A financial planner, not an engineer\n2:28 Using AI as a chatbot\n3:03 The bottleneck was typing speed\n3:37 What changed with agents\n4:21 What it took beyond a good prompt\n6:27 Five steps to build a skill\n6:58 Step 1: Pick a workflow you repeat\n7:47 Step 2: Show it real cases\n9:11 Step 3: Package it as a skill\n10:50 Step 4: Test it on real cases\n11:52 Step 5: Ship it with an owner and a reviewer\n12:27 Where Range is now\n13:29 Let the experts build the skills\n14:28 The bottleneck has moved\n\nMatt Ragone\nhttps://www.range.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=BT1Mo-fD-g0",
+   "title": "Your Coding Agent Can't Undo Its Own Mistakes - Tanmay Sah & Dolly Sah",
+   "published": "2026-11-08",
+   "length_s": 0,
+   "views": 1848,
+   "scores": {
+    "C4": 4,
+    "C7": 5,
+    "C9": 4,
+    "C12": 5
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Tanmay Sah and Dolly Sah look at a capability today's coding agents are missing: undoing what they've done. Drawing on their research projects UndoBench and EvoUndo, they show that an agent that completes a task can't necessarily put things back when something breaks, because Git doesn't cover external API calls, runtime config or notifications, and retrying doesn't reverse side effects. In EvoUndo, 197 of 478 changes that made an agent more capable (about 42%) also broke its ability to recover. They lay out an approach that captures the original state, picks the right response (retry, restore, compensate or escalate) and independently verifies the result.\n\nTanmay Sah\nhttps://x.com/TanmayGradient\n\nDolly Sah\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=jDwc0aXTAFg",
+   "title": "Your Company Has No Model of Itself. Agents Can Build One - Joao Wenzel, Citadel Securities",
+   "published": "2026-11-08",
+   "length_s": 0,
+   "views": 3460,
+   "scores": {
+    "C2": 8,
+    "C4": 4,
+    "C9": 4,
+    "C10": 4,
+    "C12": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:22",
+     "title": "The person who knows everything"
+    },
+    {
+     "t": "1:16",
+     "title": "Can agents help with strategy?"
+    },
+    {
+     "t": "1:51",
+     "title": "An institutional memory layer"
+    },
+    {
+     "t": "2:18",
+     "title": "Top-down and bottom-up evidence"
+    },
+    {
+     "t": "3:05",
+     "title": "Borrowing the state estimator from robotics"
+    },
+    {
+     "t": "4:06",
+     "title": "Getting data out of a status deck"
+    },
+    {
+     "t": "6:11",
+     "title": "The loop: update, age, observe, grade, correct"
+    },
+    {
+     "t": "6:57",
+     "title": "Why retrieval isn't enough"
+    },
+    {
+     "t": "7:21",
+     "title": "Update: building a record over time"
+    },
+    {
+     "t": "9:12",
+     "title": "Age: every fact has a half-life"
+    },
+    {
+     "t": "10:12",
+     "title": "Observe: specialist agents beat one big pass"
+    },
+    {
+     "t": "11:12",
+     "title": "Grade: back-testing what slips next"
+    },
+    {
+     "t": "12:12",
+     "title": "Correct: asking people the right questions"
+    },
+    {
+     "t": "13:17",
+     "title": "Bottom-up signals: Slack, PRs and agent traces"
+    },
+    {
+     "t": "15:45",
+     "title": "How Citadel Securities uses it"
+    },
+    {
+     "t": "16:38",
+     "title": "Open problems"
+    },
+    {
+     "t": "17:24",
+     "title": "Takeaways"
+    }
+   ],
+   "description": "Every company has someone who knows everything: the reorgs, the politics, which projects are really on track. Joao Wenzel of Citadel Securities explains how his team approximates that person with an agentic system that builds an institutional memory from decks, Slack, meeting notes, code changes and agent traces. Borrowing the idea of a state estimator from robotics, the system updates its beliefs as evidence arrives, lets facts age, grades its own predictions against what actually happened, and takes corrections from people. He shows why simple retrieval isn't enough, how agents catch \"watermelon projects\" that are green on the outside and red on the inside, and how back-testing showed that projects the agent flagged were twice as likely to slip.\n\nChapters:\n0:00 Intro\n0:22 The person who knows everything\n1:16 Can agents help with strategy?\n1:51 An institutional memory layer\n2:18 Top-down and bottom-up evidence\n3:05 Borrowing the state estimator from robotics\n4:06 Getting data out of a status deck\n6:11 The loop: update, age, observe, grade, correct\n6:57 Why retrieval isn't enough\n7:21 Update: building a record over time\n9:12 Age: every fact has a half-life\n10:12 Observe: specialist agents beat one big pass\n11:12 Grade: back-testing what slips next\n12:12 Correct: asking people the right questions\n13:17 Bottom-up signals: Slack, PRs and agent traces\n15:45 How Citadel Securities uses it\n16:38 Open problems\n17:24 Takeaways\n\nJoao Wenzel\nhttps://www.citadelsecurities.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=_0SQh8a1Osk",
+   "title": "Don't Vibe Code Your Agent Infrastructure - Akshat Bubna, Modal",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 9183,
+   "scores": {
+    "C2": 7,
+    "C5": 4,
+    "C7": 6,
+    "C8": 4,
+    "C9": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:24",
+     "title": "Every spreadsheet cell backed by an agent"
+    },
+    {
+     "t": "1:33",
+     "title": "What that architecture needs"
+    },
+    {
+     "t": "3:15",
+     "title": "What is Modal?"
+    },
+    {
+     "t": "4:03",
+     "title": "Agents need a workspace"
+    },
+    {
+     "t": "5:03",
+     "title": "Workspaces that persist"
+    },
+    {
+     "t": "6:21",
+     "title": "Agents need elastic resources"
+    },
+    {
+     "t": "7:41",
+     "title": "Agents need GPUs"
+    },
+    {
+     "t": "9:02",
+     "title": "Agents collaborating through shared files"
+    },
+    {
+     "t": "9:57",
+     "title": "Keeping agents from leaking data"
+    },
+    {
+     "t": "11:20",
+     "title": "Observability for agents"
+    },
+    {
+     "t": "12:12",
+     "title": "Why not to vibe code a sandbox platform"
+    },
+    {
+     "t": "13:31",
+     "title": "What scale looks like"
+    },
+    {
+     "t": "14:54",
+     "title": "Separating the brain from the hands"
+    },
+    {
+     "t": "15:37",
+     "title": "From pets to cattle to microbes"
+    }
+   ],
+   "description": "Akshat Bubna, CTO of Modal, explains what AI agents actually need from the infrastructure underneath them, starting with a spreadsheet where every cell is backed by its own agent. He walks through the building blocks: a workspace for each agent, state that persists for days without paying for idle compute, resources that stretch and shrink as the agent works, GPUs on demand, shared file systems for agents that collaborate, network controls that keep credentials and data from leaking, and observability agents can read themselves. He makes the case against vibe coding your own sandbox platform, shares what scale looks like today, and describes where agent infrastructure is heading.\n\nChapters:\n0:00 Intro\n0:24 Every spreadsheet cell backed by an agent\n1:33 What that architecture needs\n3:15 What is Modal?\n4:03 Agents need a workspace\n5:03 Workspaces that persist\n6:21 Agents need elastic resources\n7:41 Agents need GPUs\n9:02 Agents collaborating through shared files\n9:57 Keeping agents from leaking data\n11:20 Observability for agents\n12:12 Why not to vibe code a sandbox platform\n13:31 What scale looks like\n14:54 Separating the brain from the hands\n15:37 From pets to cattle to microbes\n\nAkshat Bubna\nhttps://modal.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ZJjRgvjhq3M",
+   "title": "Build Your Own Finance Agent Inside ChatGPT - Stefano Fabbri & Oliver Steffmann, OpenAI",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 10240,
+   "scores": {
+    "C2": 4,
+    "C3": 8,
+    "C4": 4,
+    "C5": 4,
+    "C6": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:47",
+     "title": "What the workshop covers"
+    },
+    {
+     "t": "4:57",
+     "title": "ChatGPT, ChatGPT Work and Codex"
+    },
+    {
+     "t": "5:40",
+     "title": "ChatGPT for financial services"
+    },
+    {
+     "t": "7:51",
+     "title": "Built-in financial data"
+    },
+    {
+     "t": "10:06",
+     "title": "Finance plugins: skills plus MCPs"
+    },
+    {
+     "t": "14:25",
+     "title": "Use case: a wealth advisor's workflow"
+    },
+    {
+     "t": "17:02",
+     "title": "Extending it with Codex"
+    },
+    {
+     "t": "19:02",
+     "title": "Skills, plugins and plugin extensions"
+    },
+    {
+     "t": "26:02",
+     "title": "Plugin extensions explained"
+    },
+    {
+     "t": "36:43",
+     "title": "Building a plugin on your own data"
+    },
+    {
+     "t": "39:31",
+     "title": "Why the right skills matter"
+    },
+    {
+     "t": "48:20",
+     "title": "Architecture: surfaces, plugins and MCPs"
+    },
+    {
+     "t": "57:40",
+     "title": "Bringing workflows into one place"
+    },
+    {
+     "t": "1:08:09",
+     "title": "When to stick with skills"
+    },
+    {
+     "t": "1:11:24",
+     "title": "Building and deploying with Codex"
+    },
+    {
+     "t": "1:22:02",
+     "title": "Q&A: the Codex app vs the CLI"
+    },
+    {
+     "t": "1:28:57",
+     "title": "Q&A: sandboxing in Codex"
+    }
+   ],
+   "description": "Stefano Fabbri and Oliver Steffmann of OpenAI's applied AI team run a hands-on workshop on building financial workflows with ChatGPT Work and Codex. They show ChatGPT for financial services, with built-in market data, filings and earnings transcripts from partners like LSEG, PitchBook and Daloopa, plus finance plugins that bundle skills and MCP connections as a starting point. Using a wealth advisor's workflow as the example, from spotting a portfolio change to preparing the client deck, they then use Codex to build custom skills, plugins that connect internal data, and plugin extensions that customize the interface, and answer questions on skills, deployment and sandboxing.\n\nChapters:\n0:00 Intro\n0:47 What the workshop covers\n4:57 ChatGPT, ChatGPT Work and Codex\n5:40 ChatGPT for financial services\n7:51 Built-in financial data\n10:06 Finance plugins: skills plus MCPs\n14:25 Use case: a wealth advisor's workflow\n17:02 Extending it with Codex\n19:02 Skills, plugins and plugin extensions\n26:02 Plugin extensions explained\n36:43 Building a plugin on your own data\n39:31 Why the right skills matter\n48:20 Architecture: surfaces, plugins and MCPs\n57:40 Bringing workflows into one place\n1:08:09 When to stick with skills\n1:11:24 Building and deploying with Codex\n1:22:02 Q&A: the Codex app vs the CLI\n1:28:57 Q&A: sandboxing in Codex\n\nStefano Fabbri\nOliver Steffmann\nhttps://openai.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=gdzsJZJ6DDs",
+   "title": "Your Financial Agent Needs to Show Its Work - Anirudh Veeraragavan, Fieldguide",
+   "published": "2026-11-07",
+   "length_s": 0,
+   "views": 4452,
+   "scores": {
+    "C7": 7,
+    "C10": 8,
+    "C11": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:40",
+     "title": "Building a financial audit agent"
+    },
+    {
+     "t": "1:56",
+     "title": "When someone asks why"
+    },
+    {
+     "t": "2:18",
+     "title": "Why it matters: the Peregrine fraud"
+    },
+    {
+     "t": "3:05",
+     "title": "Can an auditor follow the agent?"
+    },
+    {
+     "t": "4:00",
+     "title": "Example: a bank reconciliation"
+    },
+    {
+     "t": "4:27",
+     "title": "Control 1: Authorization"
+    },
+    {
+     "t": "5:37",
+     "title": "Control 2: Execution control"
+    },
+    {
+     "t": "7:33",
+     "title": "Control 3: Evidence provenance"
+    },
+    {
+     "t": "8:44",
+     "title": "Control 4: Evaluation integrity"
+    },
+    {
+     "t": "10:09",
+     "title": "When the agent should stop and ask"
+    },
+    {
+     "t": "11:23",
+     "title": "You need all four"
+    },
+    {
+     "t": "12:16",
+     "title": "Beyond audit: credit and AML"
+    }
+   ],
+   "description": "Anirudh Veeraragavan, lead security engineer at Fieldguide, argues that in finance an agent getting the right answer isn't enough; you have to be able to show how it got there. Building an agent for a bank reconciliation audit, he walks through four controls that make its decisions defensible: authorization that stops an agent from overwriting work a human already reviewed, execution records that let you replay and compare individual steps, citations tied to an exact document version, and auditing your eval data so a 97% score doesn't hide real failures. He also covers when the agent should stop and hand the decision to a person, and how the same pattern applies to credit and anti-money-laundering.\n\nChapters:\n0:00 Intro\n0:40 Building a financial audit agent\n1:56 When someone asks why\n2:18 Why it matters: the Peregrine fraud\n3:05 Can an auditor follow the agent?\n4:00 Example: a bank reconciliation\n4:27 Control 1: Authorization\n5:37 Control 2: Execution control\n7:33 Control 3: Evidence provenance\n8:44 Control 4: Evaluation integrity\n10:09 When the agent should stop and ask\n11:23 You need all four\n12:16 Beyond audit: credit and AML\n\nAnirudh Veeraragavan\nhttps://www.fieldguide.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-08"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=maitMe9HCvw",
    "title": "How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere",
    "published": "2026-11-07",
    "length_s": 0,
-   "views": 3025,
+   "views": 12219,
    "scores": {
     "C4": 5,
     "C5": 8,
@@ -262,14 +694,14 @@
    "chapters": [],
    "description": "Nouha Dziri, a senior research scientist at Cohere, shares research on teams of coding agents, where a lead splits up the work and workers explore, build and check in parallel. Teams can beat a single agent on long software tasks but cost several times more, so across hundreds of experiments on ProgramBench and Commit0 she maps where extra workers actually pay off: delegate the stage where the task is stuck, use a lead that waits for its workers instead of running ahead, and pair a strong lead with cheaper planning workers to get close to an all-frontier team at about 70% lower cost. She also looks at how agents message each other and what larger agent teams will need.\n\nNouha Dziri\nhttps://x.com/nouhadziri\nhttps://cohere.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=RdQCY_-SXbA",
    "title": "AI Can't Make Up a Number It Can't Look Up - Vinoo Ganesh, Kepler",
    "published": "2026-11-07",
    "length_s": 0,
-   "views": 2060,
+   "views": 5833,
    "scores": {
     "C2": 4,
     "C7": 4
@@ -339,14 +771,14 @@
    ],
    "description": "Vinoo Ganesh, CEO and co-founder of Kepler and former head of business engineering at Citadel, explains why Wall Street still doesn't trust AI and how to build systems it can. He breaks wrong numbers into three causes (the wrong document, the wrong number from the right document, and models doing math) and shows Kepler's approach: code extracts every fact ahead of time and gives it an ID, the model plans and points to those IDs instead of writing numbers itself, and anything it can't resolve gets corrected or refused. He also covers wide-then-narrow search, scoping document access so firms never see each other's data, and the questions to ask any AI vendor about verification.\n\nChapters:\n0:00 Intro\n1:38 Why Wall Street still doesn't trust AI\n2:16 Hallucination vs alpha\n3:14 Trust means someone to blame\n4:17 Where wrong numbers come from\n5:50 How Kepler is built differently\n7:34 Pairing smart people with deterministic tools\n9:07 Lookups can't get it wrong\n9:26 Searching wide, then narrowing\n10:46 Security for document search\n12:25 How verification works\n14:00 Verified, corrected or refused\n15:40 Results from production\n16:31 Questions to ask any AI vendor\n17:29 We're out of the search phase\n\nVinoo Ganesh\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=kIlVNGZZr8o",
    "title": "How Agents Cut Hour-Long Data Checks to 5 Minutes - Amol Kapoor & Clifford Ressel, Nori Agentic",
    "published": "2026-11-07",
    "length_s": 0,
-   "views": 2375,
+   "views": 5334,
    "scores": {
     "C2": 8,
     "C3": 4,
@@ -410,14 +842,14 @@
    ],
    "description": "Amol Kapoor and Clifford Ressel of Nori Agentic show how cloud agents can keep an asset manager's security master database clean, especially as more money moves into private assets whose details live in PDFs, emails and call notes. Cliff explains what a security master is and why private assets break the usual identifiers, then Amol walks through work with a Fortune 200 asset manager, where every changed cell used to take an hour of manual checking. Now an agent investigates each change, cites its sources, recommends keeping or discarding it and pings the owner in Slack, cutting the human part to about five minutes. They close with lessons on adoption, keeping humans in the loop and handling back-office busywork.\n\nChapters:\n0:00 Intro\n0:21 Finance has gotten weird\n2:42 Private assets are hard to manage\n3:24 Who we are\n4:19 What a security master is\n7:03 Example: mapping Google's shares\n8:18 Where private assets break the model\n10:50 Case study: a Fortune 200 asset manager\n12:34 Cloud agents, explained\n13:10 How the agent checks each change\n14:37 Giving agents expertise in plain English\n15:35 Agents that come to you\n17:19 Three lessons from building AI for finance\n\nAmol Kapoor\nClifford Ressel\nhttps://noriagentic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=pz74r-4dGfQ",
    "title": "Your AI Agent Is Hiding Its Mistakes From You - Ben Holmes, Warp",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 10181,
+   "views": 33053,
    "scores": {
     "C2": 7,
     "C4": 7,
@@ -491,14 +923,14 @@
    ],
    "description": "Ben Holmes of Warp shows how to build agents that improve their own setup by reviewing their past work. He walks through collecting every agent conversation with its tool calls and outputs in one place, scoring them with LLM-as-judge rubrics for redundant tests, verbosity and efficiency, and running a daily agent that finds patterns in the failures and opens pull requests to fix skills and config. Along the way he shows how agents quietly work around broken instructions without telling you, and demos Skill Doctor, a skill you can run on your own Claude Code or Codex history.\n\nChapters:\n0:00 Intro\n0:55 What a software factory is\n1:59 Engineering the factory itself\n2:40 The self-improvement loop\n3:24 Getting all agent conversations in one place\n5:08 What to capture: transcripts, tool calls, outputs\n6:00 Scoring redundant tests\n6:55 Scoring verbosity\n7:52 Scoring efficiency\n8:57 Writing a scoring rubric\n10:41 Grading a real conversation\n12:51 A daily agent that suggests fixes\n13:47 Try it: Skill Doctor\n16:14 Tracking scores over time\n17:59 Self-improvement PRs in Warp\n\nBen Holmes\nhttps://www.warp.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=ys6YQ2yfBpM",
    "title": "Your Old Prompts Are Making Claude Worse - Lance Martin, Anthropic",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 22223,
+   "views": 39914,
    "scores": {
     "C2": 4,
     "C10": 9,
@@ -577,14 +1009,14 @@
    ],
    "description": "Lance Martin of Anthropic shares simple fixes that get more out of frontier models, often improving quality and cutting cost at the same time. He covers auditing prompts for outdated habits like \"think step by step\" and contradictory rules, using the prompt cache properly (cutting costs up to 72% on internal benchmarks), designing evals Claude can actually climb, and hill climbing without overfitting, including a run that cut cost 90% while improving performance by switching to a stronger model at lower effort. He closes with how Claude Managed Agents keeps days-long agents reliable and secure, then takes questions on eval design, grading open-ended tasks and more.\n\nChapters:\n0:00 Intro\n0:27 You're probably not on the frontier\n1:32 Audit your prompts\n3:49 What a prompt audit saves\n5:30 Use the prompt cache\n7:43 Cutting costs up to 72%\n8:45 Designing an eval Claude can climb\n11:47 Hill climbing without overfitting\n14:57 Example: improving a skill from 66%\n16:30 Hill climbing for cost: a 90% cut\n18:53 Harnesses for days-long agents\n20:21 Managed agents: separating brain from hands\n23:04 Recap\n24:25 Q&A: How automatable is eval design?\n30:04 Q&A: Grading open-ended tasks\n39:24 Q&A: Why stronger models at low effort cost less\n55:41 Q&A: Hill climbing very long tasks\n\nLance Martin\nhttps://www.anthropic.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=oWqsBuhRRZ4",
    "title": "How We Mapped a 35-Million-Line Mainframe in 4 Days - Stephen Chin, Neo4j & Neeraj Deshmukh, Blitzy",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 4284,
+   "views": 5414,
    "scores": {
     "C2": 10,
     "ONTO": 6
@@ -650,14 +1082,14 @@
    ],
    "description": "Stephen Chin of Neo4j and Neeraj Deshmukh of Blitzy show why AI struggles to modernize the decades-old systems underneath banks and insurers, and how a knowledge graph fixes it. Using a COBOL interest calculation as the running example, they explain that AI can convert a formula but misses the batch jobs, data layouts and other places the logic is used, and that bigger context windows don't solve it. They walk through Blitzy's approach of mapping the whole codebase as a graph, giving thousands of agents the right slice of context, testing at every step, and proving the new code matches the old down to the cent, with results from a tier-one bank, a 35-million-line mainframe and a Fortune 100 insurer.\n\nChapters:\n0:00 Intro\n0:14 The old systems under modern finance\n1:58 Example: computing interest on a mainframe\n3:06 Why AI misses the rest of the system\n4:02 Why bigger context windows don't fix it\n6:03 Turning code into a graph\n7:08 Giving every agent the right context\n7:53 Blitzy's process, with a human in the lead\n9:32 Thousands of agents and constant testing\n11:35 Proving the new code matches the old\n13:28 The one-cent rounding bug\n14:27 Results from banks and insurers\n16:37 Beyond modernization\n18:47 Resources\n\nStephen Chin\nhttps://neo4j.com\n\nNeeraj Deshmukh\nhttps://blitzy.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=y9Sg--RDtks",
    "title": "当我们什么都能做，还知道自己想做什么吗？When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor",
    "published": "2026-11-06",
    "length_s": 0,
-   "views": 4894,
+   "views": 7221,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -708,7 +1140,7 @@
    ],
    "description": "Ask an AI to build a journal and it might give you mood scores, streaks, daily reminders, and weekly reports. Which would you keep? Ryo Lu, a former founding designer at Cursor, uses a working journal demo to show how design decisions slip into an AI-generated answer and how a good tool lets you change them.\n\nRecorded at AI Engineer Shanghai on November 5, 2026. Choose Settings → Audio track to hear the original Mandarin or the AI-generated English dub, produced with Ryo’s permission. The slides and captions appear in Chinese on the left and English on the right.\n\n点击播放器的“设置”→“音轨”，可切换中文原声和英文配音。画面左侧为中文，右侧为英文。\n\n00:00 Introducing Ryo Lu\n00:38 Stronger tools, greater unease\n03:04 Before making things became a way to prove ourselves\n05:47 The journal AI built for me\n07:32 Which feature would you remove?\n09:13 A service counter or a workbench?\n12:29 Three principles for designing tools\n13:07 When to put the tool down\n16:20 What a jazz ensemble teaches us about collaboration\n19:45 Finding out what you want by making things\n21:35 An exercise for the next AI-generated answer\n\nRyo’s post: https://x.com/ryolu_/status/2118207967728451760\nConference program: https://ai.engineer/shanghai/2026/program",
    "scored_by": "model",
-   "views_date": "2026-11-07"
+   "views_date": "2026-11-08"
   },
   {
    "url": "https://www.youtube.com/watch?v=EtZwTYahfek",
