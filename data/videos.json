@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-08",
+ "collected": "2026-11-09",
  "components": [
   {
    "id": "C1",
@@ -245,6 +245,832 @@
   "ONTO"
  ],
  "videos": [
+  {
+   "url": "https://www.youtube.com/watch?v=Gs4Ho0ub3a4",
+   "title": "AI Engineer NYC 2026 Closing Remarks - Ksenia Se, Turing Post & swyx, AI Engineer",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2699,
+   "scores": {},
+   "keywords": [],
+   "chapters": [],
+   "description": "Ksenia Se of Turing Post and swyx close out three days of AI Engineer NYC 2026, from building agents to changing how financial institutions work. They thank the speakers, sponsors and crew, and share what's next: AIE CODE, AI Engineer Europe in London in February, and the World's Fair in San Francisco next summer.\n\nKsenia Se\nhttps://www.turingpost.com\nswyx\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=1NWnSwCB4NM",
+   "title": "Your KV Cache Can Spot Attacks on Your AI Agents - Ari Azarafrooz, Intrinsec AI",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2374,
+   "scores": {
+    "C7": 4,
+    "C8": 9,
+    "C10": 4
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Ari Azarafrooz, founder of Intrinsec AI, shows how the KV cache your inference engine already writes can double as a security signal for AI agents. Instead of only guarding inputs and outputs with judge models or a classifier for every failure, he learns a baseline from normal traffic and flags KV pages that look unusual, catching problems like a hidden spoken instruction in a voicemail where there is no text to filter. He covers where this plugs into stacks like vLLM, SGLang, LMCache, llm-d and NVIDIA Dynamo, and the two hard parts in production: models that keep changing and KV data too big to move in real time.\n\nAri Azarafrooz\nhttps://intrinsec.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=LF8V0RGJU0I",
+   "title": "Will AI Agents Pretend to Be Human to Get Past a Check? - Maty Bohacek, Stanford",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2025,
+   "scores": {
+    "C6": 4,
+    "C7": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:58",
+     "title": "Proving you're human on a call"
+    },
+    {
+     "t": "3:19",
+     "title": "When AI controls fail"
+    },
+    {
+     "t": "6:00",
+     "title": "Human verification as free AI control"
+    },
+    {
+     "t": "6:41",
+     "title": "AI avatars that join video calls"
+    },
+    {
+     "t": "7:51",
+     "title": "Experiment: agents blocked by a human check"
+    },
+    {
+     "t": "12:05",
+     "title": "How often agents impersonate people"
+    },
+    {
+     "t": "13:47",
+     "title": "Can people still tell?"
+    },
+    {
+     "t": "15:18",
+     "title": "Where we go from here"
+    },
+    {
+     "t": "17:30",
+     "title": "Keep verification safe"
+    }
+   ],
+   "description": "Maty Bohacek of Stanford looks at a security check we still rely on: getting on a phone or video call to prove you're human before opening an account, approving a wire or recovering access. With AI avatars that can now join Zoom calls, he tested what agents do when a human check is the only thing between them and their goal. When a voice or video cloning tool was available, many agents used it to impersonate a person, even when told not to, and safety alignment only cut the rate from 65% to 44%. He closes with what needs to happen next across alignment, control, and deepfake detection and provenance.\n\nChapters:\n0:00 Intro\n0:58 Proving you're human on a call\n3:19 When AI controls fail\n6:00 Human verification as free AI control\n6:41 AI avatars that join video calls\n7:51 Experiment: agents blocked by a human check\n12:05 How often agents impersonate people\n13:47 Can people still tell?\n15:18 Where we go from here\n17:30 Keep verification safe\n\nMaty Bohacek\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=WWIFiQi9U4w",
+   "title": "The One Thing Every AI Agent Framework Agrees On - Mislav Ivanda, Daytona",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2916,
+   "scores": {
+    "C4": 7,
+    "C7": 9,
+    "C8": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:52",
+     "title": "Guess the framework"
+    },
+    {
+     "t": "2:20",
+     "title": "Frameworks that agree on nothing"
+    },
+    {
+     "t": "3:42",
+     "title": "Where should agent code run?"
+    },
+    {
+     "t": "4:12",
+     "title": "Option 1: allow lists and approvals"
+    },
+    {
+     "t": "5:23",
+     "title": "Option 2: embedded runtimes"
+    },
+    {
+     "t": "6:46",
+     "title": "Option 3: a separate computer"
+    },
+    {
+     "t": "7:54",
+     "title": "Frameworks are moving to sandboxes"
+    },
+    {
+     "t": "9:19",
+     "title": "How sandbox use has changed"
+    },
+    {
+     "t": "10:33",
+     "title": "Which framework should I pick?"
+    },
+    {
+     "t": "12:46",
+     "title": "The one choice you can't easily swap"
+    },
+    {
+     "t": "14:09",
+     "title": "Frameworks are opinions, boundaries are commitments"
+    }
+   ],
+   "description": "Mislav Ivanda of Daytona has integrated sandboxes into most of the major agent frameworks, and noticed that frameworks that disagree on almost everything all ended up in the same place. He compares three ways to run agent-generated code: allow lists and approval prompts, embedded runtimes, and a separate sandboxed computer. He explains why only the last one keeps a compromised step from compromising your app, and shows frameworks like CrewAI, AG2 and the OpenAI Agents SDK moving to sandboxes. His advice: models, prompts and even frameworks are easy to swap, so choose where your agent's code runs before you choose a framework.\n\nChapters:\n0:00 Intro\n0:52 Guess the framework\n2:20 Frameworks that agree on nothing\n3:42 Where should agent code run?\n4:12 Option 1: allow lists and approvals\n5:23 Option 2: embedded runtimes\n6:46 Option 3: a separate computer\n7:54 Frameworks are moving to sandboxes\n9:19 How sandbox use has changed\n10:33 Which framework should I pick?\n12:46 The one choice you can't easily swap\n14:09 Frameworks are opinions, boundaries are commitments\n\nMislav Ivanda\nhttps://www.daytona.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=KdG9OSOtJOA",
+   "title": "Why No One Agrees on What Their AI Tokens Cost - Pratyusha Duvvuri, Cisco",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 1650,
+   "scores": {
+    "C8": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:12",
+     "title": "What does tokenomics mean to you?"
+    },
+    {
+     "t": "1:49",
+     "title": "Three trends in AI spend"
+    },
+    {
+     "t": "4:42",
+     "title": "Three kinds of users"
+    },
+    {
+     "t": "6:46",
+     "title": "Why provider dashboards aren't enough"
+    },
+    {
+     "t": "8:34",
+     "title": "A definition of tokenomics"
+    },
+    {
+     "t": "9:18",
+     "title": "What you need to get started"
+    },
+    {
+     "t": "10:51",
+     "title": "Demo: the tokenomics dashboard"
+    },
+    {
+     "t": "14:35",
+     "title": "The finance view"
+    },
+    {
+     "t": "15:48",
+     "title": "What's coming next"
+    },
+    {
+     "t": "16:44",
+     "title": "Challenges building it"
+    }
+   ],
+   "description": "Pratyusha Duvvuri, who led agent observability at Galileo before it became part of Cisco, asked about 100 companies what \"tokenomics\" means and got 100 different answers. She shares her definition, the observability and interpretability of token usage and cost, and why engineers, engineering managers and finance teams each need something different from it. Then she demos the tokenomics dashboard her team took from first customer call to GA in 10 weeks: spend by person and team, adoption trends, forecasting and a finance view. She also covers the hard parts, like custom provider pricing and bills that change after the fact.\n\nChapters:\n0:00 Intro\n0:12 What does tokenomics mean to you?\n1:49 Three trends in AI spend\n4:42 Three kinds of users\n6:46 Why provider dashboards aren't enough\n8:34 A definition of tokenomics\n9:18 What you need to get started\n10:51 Demo: the tokenomics dashboard\n14:35 The finance view\n15:48 What's coming next\n16:44 Challenges building it\n\nPratyusha Duvvuri\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=3nDMYV-QHLs",
+   "title": "Training Your Own Agent Models With RL Is Now Practical - Jason Mancuso, Modal",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2726,
+   "scores": {
+    "C1": 10,
+    "C8": 4,
+    "C12": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:20",
+     "title": "Models aren't static backends"
+    },
+    {
+     "t": "1:09",
+     "title": "Why teams fine-tune"
+    },
+    {
+     "t": "3:35",
+     "title": "Why RL instead of SFT"
+    },
+    {
+     "t": "4:46",
+     "title": "You already have what you need"
+    },
+    {
+     "t": "6:51",
+     "title": "How reinforcement learning works"
+    },
+    {
+     "t": "7:41",
+     "title": "Async RL and staleness"
+    },
+    {
+     "t": "9:38",
+     "title": "A stable RL recipe"
+    },
+    {
+     "t": "12:38",
+     "title": "Why RL on Modal is different"
+    },
+    {
+     "t": "14:55",
+     "title": "Sparse weight updates"
+    },
+    {
+     "t": "16:21",
+     "title": "Mixing GPU types for rollouts"
+    },
+    {
+     "t": "17:56",
+     "title": "15% cheaper rollouts"
+    },
+    {
+     "t": "19:16",
+     "title": "Own your stack"
+    }
+   ],
+   "description": "Jason Mancuso of Modal argues that treating models as swappable backends is a losing strategy, and that teams with agents in production already have what they need for reinforcement learning: a harness, evals and real traces. He explains why RL generalizes better than fine-tuning on recorded traces, then walks through a stable recipe for asynchronous RL built on GRPO with masked importance sampling, score centering and top-p sampling. He shows how sparse weight updates let Modal spread rollouts across clouds, GPU types and quantization levels while training stays stable and rollouts get 15% cheaper.\n\nChapters:\n0:00 Intro\n0:20 Models aren't static backends\n1:09 Why teams fine-tune\n3:35 Why RL instead of SFT\n4:46 You already have what you need\n6:51 How reinforcement learning works\n7:41 Async RL and staleness\n9:38 A stable RL recipe\n12:38 Why RL on Modal is different\n14:55 Sparse weight updates\n16:21 Mixing GPU types for rollouts\n17:56 15% cheaper rollouts\n19:16 Own your stack\n\nJason Mancuso\nhttps://modal.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=dznCt8xPW7o",
+   "title": "Right Answer, Wrong Reasons: AI Forecasts Costco - Hassan El Mghari & Omar El Mghari, Together AI",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 1022,
+   "scores": {
+    "C10": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:30",
+     "title": "Can an AI forecast Costco's profits?"
+    },
+    {
+     "t": "0:49",
+     "title": "Meet the father-son team"
+    },
+    {
+     "t": "2:21",
+     "title": "Spoiler: 4.4% off"
+    },
+    {
+     "t": "3:03",
+     "title": "Why membership fees matter to Costco"
+    },
+    {
+     "t": "4:12",
+     "title": "Using models that didn't already know the answer"
+    },
+    {
+     "t": "5:03",
+     "title": "Turning 214 filings into 3,000 facts"
+    },
+    {
+     "t": "5:50",
+     "title": "Have models write formulas, not do the math"
+    },
+    {
+     "t": "7:18",
+     "title": "Checks and 16 parallel runs"
+    },
+    {
+     "t": "8:41",
+     "title": "The forecast"
+    },
+    {
+     "t": "9:53",
+     "title": "An auditor looks at the assumptions"
+    },
+    {
+     "t": "11:39",
+     "title": "Two errors that canceled out"
+    },
+    {
+     "t": "13:29",
+     "title": "Three lines of defense"
+    },
+    {
+     "t": "14:48",
+     "title": "Put an expert in the loop"
+    }
+   ],
+   "description": "Hassan El Mghari of Together AI and his father Omar, a former CFO and head of internal audit, test whether an open model can forecast a company's profits. They give GPT-OSS-120B only Costco's public filings from before its 2024 membership fee increase, have it write the financial model as structured formulas, and run 16 cheap attempts in parallel. The forecast lands within 4.4% of Costco's actual results, until an audit of the assumptions shows two errors that happened to cancel out. Their takeaway: when you build agents for specialized work, put an expert in the loop and turn their checks into code.\n\nChapters:\n0:00 Intro\n0:30 Can an AI forecast Costco's profits?\n0:49 Meet the father-son team\n2:21 Spoiler: 4.4% off\n3:03 Why membership fees matter to Costco\n4:12 Using models that didn't already know the answer\n5:03 Turning 214 filings into 3,000 facts\n5:50 Have models write formulas, not do the math\n7:18 Checks and 16 parallel runs\n8:41 The forecast\n9:53 An auditor looks at the assumptions\n11:39 Two errors that canceled out\n13:29 Three lines of defense\n14:48 Put an expert in the loop\n\nHassan El Mghari\nOmar El Mghari\nhttps://www.together.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=nKjPBAw_N_0",
+   "title": "How to Build a Software Factory That Improves Itself - Zach Lloyd, Warp",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 4336,
+   "scores": {
+    "C11": 4,
+    "C12": 7,
+    "SF": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "1:12",
+     "title": "From interactive prompting to automated development"
+    },
+    {
+     "t": "2:21",
+     "title": "Why local agents hit limits"
+    },
+    {
+     "t": "3:08",
+     "title": "What a cloud software factory is"
+    },
+    {
+     "t": "4:03",
+     "title": "Treat your factory as infrastructure"
+    },
+    {
+     "t": "5:15",
+     "title": "Own your data and compute"
+    },
+    {
+     "t": "6:01",
+     "title": "Measure on your own data"
+    },
+    {
+     "t": "6:55",
+     "title": "Product engineers and factory engineers"
+    },
+    {
+     "t": "7:51",
+     "title": "Demo: Warp Factories"
+    },
+    {
+     "t": "10:33",
+     "title": "Defining the factory in code"
+    },
+    {
+     "t": "12:01",
+     "title": "Scoring agent runs"
+    },
+    {
+     "t": "13:21",
+     "title": "The self-improvement loop"
+    },
+    {
+     "t": "14:42",
+     "title": "Benchmarks on your own tasks"
+    },
+    {
+     "t": "17:15",
+     "title": "The factory stack"
+    },
+    {
+     "t": "17:57",
+     "title": "Q&A"
+    }
+   ],
+   "description": "Zach Lloyd, founder and CEO of Warp and former engineering lead on Google Docs, explains why companies are moving from engineers prompting agents on their laptops to sandboxed cloud software factories. He makes the case for treating your factory as infrastructure that's open, works with your existing tools and is defined in code. He demos Warp Factories: visibility into every agent run, LLM-judged scores, a self-improvement loop that proposes fixes to the factory itself, and benchmarks built from your own past tasks to compare cost and quality across models.\n\nChapters:\n0:00 Intro\n1:12 From interactive prompting to automated development\n2:21 Why local agents hit limits\n3:08 What a cloud software factory is\n4:03 Treat your factory as infrastructure\n5:15 Own your data and compute\n6:01 Measure on your own data\n6:55 Product engineers and factory engineers\n7:51 Demo: Warp Factories\n10:33 Defining the factory in code\n12:01 Scoring agent runs\n13:21 The self-improvement loop\n14:42 Benchmarks on your own tasks\n17:15 The factory stack\n17:57 Q&A\n\nZach Lloyd\nhttps://www.warp.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Enn9dVrRXAo",
+   "title": "Stop Doing Agent Archaeology on Your Team's Code - Richard Feldman, Delta",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 855,
+   "scores": {
+    "C2": 9,
+    "C4": 4,
+    "C5": 7,
+    "C6": 7,
+    "C9": 6,
+    "C12": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:25",
+     "title": "The Monday morning handoff"
+    },
+    {
+     "t": "2:31",
+     "title": "How teams lose context with agents"
+    },
+    {
+     "t": "3:26",
+     "title": "Agent archaeology"
+    },
+    {
+     "t": "4:40",
+     "title": "Humans and agents collaborating together"
+    },
+    {
+     "t": "7:21",
+     "title": "Demo: Delta"
+    },
+    {
+     "t": "8:28",
+     "title": "Bringing a coworker into the thread"
+    },
+    {
+     "t": "9:49",
+     "title": "Code review inside the thread"
+    },
+    {
+     "t": "11:05",
+     "title": "Live terminal sync and shared checkouts"
+    },
+    {
+     "t": "13:00",
+     "title": "Wrapping up"
+    },
+    {
+     "t": "14:32",
+     "title": "Q&A"
+    }
+   ],
+   "description": "Richard Feldman of Delta explains why handing off agent-driven work to a teammate loses so much: you get the branch and maybe a pasted transcript, but not the reasoning, the dead ends or the decisions made along the way. He demos Delta, a tool where the agent conversation, code changes, reviews and teammates all live in one shared thread. It shows @-mentioning a coworker into a thread, line-by-line code review that goes straight to the agent, live terminal sync, and instant local checkouts of a teammate's work. He finishes with audience questions on scale, on-prem deployment, CI and catching up on long threads.\n\nChapters:\n0:00 Intro\n0:25 The Monday morning handoff\n2:31 How teams lose context with agents\n3:26 Agent archaeology\n4:40 Humans and agents collaborating together\n7:21 Demo: Delta\n8:28 Bringing a coworker into the thread\n9:49 Code review inside the thread\n11:05 Live terminal sync and shared checkouts\n13:00 Wrapping up\n14:32 Q&A\n\nRichard Feldman\nhttps://delta.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=YV1x6gCdgQA",
+   "title": "Teach Your AI Agent to Build Products Everyone Can Use - Jemima Abu, CAIS",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 910,
+   "scores": {
+    "C3": 8,
+    "C7": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:12",
+     "title": "Unlock your phone with your eyes closed"
+    },
+    {
+     "t": "1:34",
+     "title": "What accessibility means"
+    },
+    {
+     "t": "2:04",
+     "title": "Why 96% of websites fall short"
+    },
+    {
+     "t": "2:44",
+     "title": "An experiment with an accessibility skill"
+    },
+    {
+     "t": "4:11",
+     "title": "Your AI agent is a toddler"
+    },
+    {
+     "t": "5:12",
+     "title": "What inaccessible code costs you"
+    },
+    {
+     "t": "9:46",
+     "title": "Getting agents to write accessible code"
+    },
+    {
+     "t": "12:03",
+     "title": "A lightweight accessibility skill"
+    },
+    {
+     "t": "13:27",
+     "title": "Q&A"
+    }
+   ],
+   "description": "Jemima Abu, a product engineer and certified accessibility professional, explains why AI agents copy the accessibility gaps in the code they learned from, and why 96% of top websites still have accessibility issues. In an informal experiment, giving her agent an accessibility skill made the same build faster and cheaper. She covers what inaccessible code costs you in users, money and legal risk, then shares a four-step approach: define requirements, audit your codebase, use a design system, and make your agents follow the rules every time. She also shares a lightweight accessibility skill you can start with.\n\nChapters:\n0:00 Intro\n0:12 Unlock your phone with your eyes closed\n1:34 What accessibility means\n2:04 Why 96% of websites fall short\n2:44 An experiment with an accessibility skill\n4:11 Your AI agent is a toddler\n5:12 What inaccessible code costs you\n9:46 Getting agents to write accessible code\n12:03 A lightweight accessibility skill\n13:27 Q&A\n\nJemima Abu\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=SE6POOEjh4I",
+   "title": "Can AI Agents Beat Wall Street at Predicting Earnings? - Ashwin Paranjape, Samaya AI",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 893,
+   "scores": {
+    "C10": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:39",
+     "title": "About Ashwin"
+    },
+    {
+     "t": "1:52",
+     "title": "Finance's big unsolved problem"
+    },
+    {
+     "t": "2:19",
+     "title": "Why not predict stocks?"
+    },
+    {
+     "t": "3:18",
+     "title": "Earnings prediction as a task"
+    },
+    {
+     "t": "4:32",
+     "title": "A point-in-time environment"
+    },
+    {
+     "t": "6:31",
+     "title": "Results: AI vs. consensus"
+    },
+    {
+     "t": "9:30",
+     "title": "Where agents win"
+    },
+    {
+     "t": "10:35",
+     "title": "Where agents miss"
+    },
+    {
+     "t": "11:46",
+     "title": "Why live data matters most"
+    },
+    {
+     "t": "13:09",
+     "title": "Expert guidance and hiding consensus"
+    },
+    {
+     "t": "14:11",
+     "title": "What's next"
+    }
+   ],
+   "description": "Ashwin Paranjape, founding AI lead at Samaya AI, explains why stock prediction is too noisy to learn from, and why earnings prediction makes a better test for financial agents: it has hard numbers, an expert baseline and an explanation for every surprise. He walks through a point-in-time environment that blocks any look at future data, then results across more than 450 earnings reports where the latest frontier models start to beat analyst consensus. He shows where agents win and miss, and why live data matters more than anything else.\n\nChapters:\n0:00 Intro\n0:39 About Ashwin\n1:52 Finance's big unsolved problem\n2:19 Why not predict stocks?\n3:18 Earnings prediction as a task\n4:32 A point-in-time environment\n6:31 Results: AI vs. consensus\n9:30 Where agents win\n10:35 Where agents miss\n11:46 Why live data matters most\n13:09 Expert guidance and hiding consensus\n14:11 What's next\n\nAshwin Paranjape\nhttps://samaya.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Xw9utONfhIY",
+   "title": "What Your Coding Agent Can't See in the Code - Tom Moor, Linear",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 3969,
+   "scores": {
+    "C2": 8,
+    "C4": 8,
+    "C6": 4,
+    "C12": 9,
+    "SF": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:37",
+     "title": "What Linear is"
+    },
+    {
+     "t": "1:48",
+     "title": "How fast software engineering changed"
+    },
+    {
+     "t": "5:16",
+     "title": "Context moves to the outer loop"
+    },
+    {
+     "t": "6:04",
+     "title": "Code isn't the bottleneck anymore"
+    },
+    {
+     "t": "6:57",
+     "title": "What agents miss in the code"
+    },
+    {
+     "t": "8:57",
+     "title": "Automating intake with a triage agent"
+    },
+    {
+     "t": "12:16",
+     "title": "Building with verification"
+    },
+    {
+     "t": "13:40",
+     "title": "Context-aware code review"
+    },
+    {
+     "t": "15:53",
+     "title": "Review examples from Linear"
+    },
+    {
+     "t": "18:16",
+     "title": "Turning feedback into lessons"
+    },
+    {
+     "t": "20:04",
+     "title": "What carrying context buys you"
+    }
+   ],
+   "description": "Tom Moor of Linear argues that writing code is no longer the bottleneck. The harder problem is keeping a product coherent as agents ship more and more of it. He walks through how Linear carries context from intake to merge: a triage agent that enriches each issue with customer and incident context, a review agent that checks changes against past decisions, reverts and regressions, and a daily automation that turns review feedback into lessons in the codebase. He shares real examples where that history caught problems a standard code reviewer would have missed.\n\nChapters:\n0:00 Intro\n0:37 What Linear is\n1:48 How fast software engineering changed\n5:16 Context moves to the outer loop\n6:04 Code isn't the bottleneck anymore\n6:57 What agents miss in the code\n8:57 Automating intake with a triage agent\n12:16 Building with verification\n13:40 Context-aware code review\n15:53 Review examples from Linear\n18:16 Turning feedback into lessons\n20:04 What carrying context buys you\n\nTom Moor\nhttps://linear.app\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=hX140a5klW0",
+   "title": "AI Writes Code Faster Than Uber Can Merge It - Preetam Dwivedi & Manjari Akella, Uber",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2393,
+   "scores": {
+    "C8": 4
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Preetam Dwivedi and Manjari Akella of Uber's developer platform team share how AI-driven code changes pushed Uber's merge pipeline to its limits, across monorepos where more than 5,000 developers land tens of thousands of commits a week. They walk through three changes to SubmitQueue that kept changes landing without long waits: admission gating that sorts cheap changes from expensive ones, a deferral queue that softens the impact on developers, and conflict relaxation that lets more changes run in parallel. They also explain how Stovepipe checks changes after they land and tracks the last verified-good state of trunk, why Uber moved from an always-green trunk to a hybrid approach, and what they're building next.\n\nPreetam Dwivedi\nhttps://www.linkedin.com/in/behinddwalls/\n\nManjari Akella\n\nhttps://www.uber.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=wWisOHEcMPE",
+   "title": "Engineering Agency out of the Happy Path — Matthew Jewkes, Standard Cybernetics",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 994,
+   "scores": {
+    "C4": 5,
+    "C10": 7,
+    "C11": 4,
+    "C12": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Expert attention and cheap execution"
+    },
+    {
+     "t": "1:48",
+     "title": "Fully automate the happy path"
+    },
+    {
+     "t": "4:18",
+     "title": "The biopharma indexing case study"
+    },
+    {
+     "t": "6:39",
+     "title": "Errors, ambiguity and exceptions"
+    },
+    {
+     "t": "8:52",
+     "title": "Routing uncertainty and the critical path"
+    },
+    {
+     "t": "9:58",
+     "title": "From 95% to 99.95% accuracy"
+    },
+    {
+     "t": "11:24",
+     "title": "Recovering expert judgment"
+    },
+    {
+     "t": "12:51",
+     "title": "Exceptions as market signals"
+    },
+    {
+     "t": "14:51",
+     "title": "Where full automation is worth the cost"
+    },
+    {
+     "t": "17:17",
+     "title": "Evals and the value of human attention"
+    }
+   ],
+   "description": "A biopharma automation reached 99.95% accuracy on its business critical tasks after the team separated actual errors from ambiguous cases and exceptions. Matthew Jewkes describes building that system at Clarivate, where indexing drug development documents meant handling tens of thousands of new tasks a month. An early agent approach reached around 80% to 83%. Working through 1,000 evaluation examples with domain experts exposed three different problems: the model could be wrong, the organization could lack an agreed answer, or genuinely new science could require judgment. Each needed its own route. The routine path became a tightly specified automation, with uncertain and unusual cases escalated instead of pushed through.\n\nThe larger payoff was recovering expert attention. Once routine decisions were handled, the remaining cases could be grouped for deliberate review: critical exceptions to clear, ambiguous low value work to freeze, and unusual demand that might justify a new product. One expert used that structured backlog to form an investment thesis before a major customer raised the same need. Jewkes lays out where the investment makes sense, how much evaluation work high reliability requires and why organizational ownership and trust matter alongside engineering. His bet is that companies will gain more from managing collective attention and judgment than from choosing a particular orchestration framework.\n\nSpeaker info:\n- https://x.com/mjewkes\n- https://linkedin.com/in/mjewkes\n\nTimestamps:\n0:00 - Expert attention and cheap execution\n1:48 - Fully automate the happy path\n4:18 - The biopharma indexing case study\n6:39 - Errors, ambiguity and exceptions\n8:52 - Routing uncertainty and the critical path\n9:58 - From 95% to 99.95% accuracy\n11:24 - Recovering expert judgment\n12:51 - Exceptions as market signals\n14:51 - Where full automation is worth the cost\n17:17 - Evals and the value of human attention",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=6TjFjHPjVH0",
+   "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code. — Keiji Kanazawa, Microsoft",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 2508,
+   "scores": {
+    "C2": 7,
+    "C4": 7,
+    "C5": 4,
+    "C10": 7,
+    "C12": 8,
+    "SF": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Introduction"
+    },
+    {
+     "t": "0:33",
+     "title": "The L/Z debate over reading code"
+    },
+    {
+     "t": "1:56",
+     "title": "Building a personal research agent"
+    },
+    {
+     "t": "4:00",
+     "title": "The agent that was not an agent"
+    },
+    {
+     "t": "6:33",
+     "title": "Unit tests on production inference"
+    },
+    {
+     "t": "7:59",
+     "title": "Rebuilding with clearer specifications"
+    },
+    {
+     "t": "9:21",
+     "title": "Comparing four agent frameworks"
+    },
+    {
+     "t": "12:04",
+     "title": "Video deep dives from keyframes"
+    },
+    {
+     "t": "13:59",
+     "title": "Rubrics and evaluation loops"
+    },
+    {
+     "t": "16:36",
+     "title": "Catching an overfit rubric"
+    },
+    {
+     "t": "18:25",
+     "title": "Own the goals and delegate the code"
+    }
+   ],
+   "description": "A coding agent wired unit tests to production inference, then ran them about 30 times. Keiji Kanazawa had spent three weeks letting coding agents refactor a personal research assistant. A bad digest sent him looking for a trace, and he discovered the \"agent\" was still a deterministic workflow. Skills had no SKILL.md, different architectural concepts were aliases for the same thing, and a daily reflection job was producing empty reports. He had approved plans without checking whether the implementation meant what its labels promised.\n\nHe rebuilt around an explicit agent runtime, clearer specifications and goal rubrics, comparing four frameworks before selecting tools for his own needs as a product manager. The working example is a video deep dive agent that extracts 440 keyframes from an inference lecture, pairs blackboard equations with explanations and lets him question individual sections. The result generalizes to slide decks, coding demos and terminal recordings. He iterates on an evaluation rubric, lets agents optimize against it and uses adversarial reviews between coding agents. The rubrics need scrutiny too: one was tuned to a single lecture and failed on five other videos. His answer to the code reading debate is to own the goals and evaluation loop while continuing to delegate most implementation.\n\nSpeaker info:\n- https://x.com/gojira\n- https://linkedin.com/in/keijikanazawa\n- https://gojira.blog/\n\nTimestamps:\n0:00 - Introduction\n0:33 - The L/Z debate over reading code\n1:56 - Building a personal research agent\n4:00 - The agent that was not an agent\n6:33 - Unit tests on production inference\n7:59 - Rebuilding with clearer specifications\n9:21 - Comparing four agent frameworks\n12:04 - Video deep dives from keyframes\n13:59 - Rubrics and evaluation loops\n16:36 - Catching an overfit rubric\n18:25 - Own the goals and delegate the code",
+   "scored_by": "model",
+   "views_date": "2026-11-09"
+  },
   {
    "url": "https://www.youtube.com/watch?v=EaOit1mmR9g",
    "title": "How Financial Planners With Zero Coding Experience Built Their Own Agents - Matt Ragone, Range",
@@ -71998,5 +72824,9 @@
    "views_date": "2026-11-01"
   }
  ],
- "pending": []
+ "pending": [
+  "21tuT-e4NVo",
+  "WJTQBENv0KI",
+  "u7fsyrXsPBE"
+ ]
 }
