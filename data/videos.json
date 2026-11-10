@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-09",
+ "collected": "2026-11-10",
  "components": [
   {
    "id": "C1",
@@ -246,24 +246,275 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=ktbAVYsAxpk",
+   "title": "The Agents Were Fine. Everything Around Them Broke. - Joey Wang, Harvey",
+   "published": "2026-11-10",
+   "length_s": 0,
+   "views": 4357,
+   "scores": {
+    "C3": 4,
+    "C4": 6,
+    "C5": 4,
+    "C7": 4,
+    "C9": 4
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "After 10,000 agent-written pull requests at Harvey, the agents weren't the problem. Everything around them was. Joey Wang tells three stories from Spectre, Harvey's internal cloud agent platform: letting engineers pick their own agent while one platform owns what happens after, making every action callable so agents can drive other agents, and what broke once they did. Expect an alert storm that spun up hundreds of tasks, a full cluster, a merge queue that couldn't keep up, and the fixes they built in response.\n\nJoey Wang, Harvey: https://x.com/ZongZiWang | https://www.harvey.ai",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=MQiojLnK-E0",
+   "title": "60% of Our Data PRs Now Merge With No Human Review - Chetas Joshi, Robinhood",
+   "published": "2026-11-10",
+   "length_s": 0,
+   "views": 4494,
+   "scores": {
+    "C6": 4,
+    "C10": 7,
+    "C12": 6,
+    "SF": 4
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Coding agents made data pipeline PRs cheap, and human review couldn't keep up. Chetas Joshi shows the hybrid reviewer agent Robinhood built for its data platform: deterministic checks run first, the model judges what scripts can't, and anything risky still goes to a person. Today about 60% of those PRs merge with no human review, saving roughly 132 engineering hours a month. He covers where they draw the line between agent and human, how they evaluate the reviewer itself, and what they got wrong.\n\nChetas Joshi, Robinhood: https://robinhood.com",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=yH7_SIIgI-Y",
+   "title": "An Agent That Fixes Its Own Mistakes - Saloni Gandhi & Ziwei Guo, LinkedIn",
+   "published": "2026-11-10",
+   "length_s": 0,
+   "views": 3994,
+   "scores": {
+    "C2": 6,
+    "C4": 5,
+    "C10": 6,
+    "C12": 9
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "At LinkedIn, AI agents pull together profiles, preferences, career goals and activity into an evolving picture of each member's career. Saloni Gandhi and Ziwei Guo show the closed loop that keeps that agent improving: it evaluates its own outputs, finds failure patterns, reflects on root causes, and proposes targeted fixes, using GEPA to refine its instructions. They also share where they're taking it next, beyond prompts to improving the whole agent harness.\n\nSaloni Gandhi, LinkedIn: https://x.com/sal_gandhi | https://www.linkedin.com\nZiwei Guo, LinkedIn: https://www.linkedin.com",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ATMcd9tkhhc",
+   "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 3335,
+   "scores": {
+    "C4": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro: Francesco & Felippe"
+    },
+    {
+     "t": "2:54",
+     "title": "Using AI for impact, not token-maxing"
+    },
+    {
+     "t": "4:22",
+     "title": "Speed isn't the bottleneck. Trust is."
+    },
+    {
+     "t": "7:25",
+     "title": "Components vs. design principles"
+    },
+    {
+     "t": "8:45",
+     "title": "The 5 principles of trust"
+    },
+    {
+     "t": "12:13",
+     "title": "The use case: budgeting a wedding"
+    },
+    {
+     "t": "17:05",
+     "title": "How the principles build on each other"
+    },
+    {
+     "t": "20:40",
+     "title": "Principle 1: Shared domain"
+    },
+    {
+     "t": "25:59",
+     "title": "Live demo: planning with the agent"
+    },
+    {
+     "t": "30:42",
+     "title": "From plan to decision tree"
+    },
+    {
+     "t": "35:48",
+     "title": "Why long linear chats fall apart"
+    },
+    {
+     "t": "36:48",
+     "title": "Principle 2: Consistency (math belongs in code)"
+    },
+    {
+     "t": "55:50",
+     "title": "Principle 3: Evidence (show the receipts)"
+    },
+    {
+     "t": "1:00:17",
+     "title": "The \"master file\" horror story"
+    },
+    {
+     "t": "1:06:42",
+     "title": "Principle 4: Accountability"
+    },
+    {
+     "t": "1:20:39",
+     "title": "Principle 5: Verification"
+    },
+    {
+     "t": "1:24:16",
+     "title": "Golden examples & outside reference points"
+    },
+    {
+     "t": "1:34:05",
+     "title": "Q&A: How many harnesses should you build?"
+    },
+    {
+     "t": "1:38:11",
+     "title": "Don't over-sharpen the axe"
+    },
+    {
+     "t": "1:44:00",
+     "title": "Q&A: Skills vs. a dedicated harness"
+    },
+    {
+     "t": "1:48:31",
+     "title": "Takeaway: design for trust on purpose"
+    }
+   ],
+   "description": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong in code instead of in the model's head.\n\nNote: the speakers work at Monzo but are not presenting on Monzo's behalf.\n\n🎟️ Join us at the next one: AIE CODE Summit → https://aie.codes\n\nSpeakers\nFrancesco Galletta — LinkedIn: https://www.linkedin.com/in/francescogalletta/\nFelippe Felisola Caso — LinkedIn: https://www.linkedin.com/in/felippecaso/\nMonzo — https://monzo.com\n\nTimestamps\n0:00 Intro: Francesco & Felippe\n2:54 Using AI for impact, not token-maxing\n4:22 Speed isn't the bottleneck. Trust is.\n7:25 Components vs. design principles\n8:45 The 5 principles of trust\n12:13 The use case: budgeting a wedding\n17:05 How the principles build on each other\n20:40 Principle 1: Shared domain\n25:59 Live demo: planning with the agent\n30:42 From plan to decision tree\n35:48 Why long linear chats fall apart\n36:48 Principle 2: Consistency (math belongs in code)\n55:50 Principle 3: Evidence (show the receipts)\n1:00:17 The \"master file\" horror story\n1:06:42 Principle 4: Accountability\n1:20:39 Principle 5: Verification\n1:24:16 Golden examples & outside reference points\n1:34:05 Q&A: How many harnesses should you build?\n1:38:11 Don't over-sharpen the axe\n1:44:00 Q&A: Skills vs. a dedicated harness\n1:48:31 Takeaway: design for trust on purpose",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ntVpbyDTYaQ",
+   "title": "Your Self-Hosted LLM Needs to Say No - Harshul Jain & Parv Khatri, Audible & SAP",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 3768,
+   "scores": {
+    "C7": 5,
+    "C8": 7
+   },
+   "keywords": [],
+   "chapters": [],
+   "description": "Coding agents fan out, retry and burst, and if they hit an LLM you host yourself, your inference layer will happily accept every request and bury the ones you needed first. Harshul Jain and Parv Khatri make the case for admission control: deciding what to refuse before it reaches the GPU. Drawing on a review of 55 systems papers and eight real production incidents, they share five questions to ask any admission policy before you deploy it, and a checklist you can use right away.\n\nHarshul Jain, Audible: https://x.com/hj1393 | https://www.audible.com\nParv Khatri, SAP: https://www.sap.com",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=BTtyguoPvBU",
+   "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+   "published": "2026-11-09",
+   "length_s": 0,
+   "views": 11305,
+   "scores": {
+    "C4": 5,
+    "C5": 7,
+    "C6": 6,
+    "C9": 4,
+    "SF": 9
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Intro"
+    },
+    {
+     "t": "0:12",
+     "title": "What Untangle does"
+    },
+    {
+     "t": "1:02",
+     "title": "Managing agents like managing people"
+    },
+    {
+     "t": "1:55",
+     "title": "The org chart in the age of agents"
+    },
+    {
+     "t": "2:40",
+     "title": "Talking to your manager agent"
+    },
+    {
+     "t": "3:29",
+     "title": "One manager, 20 builders"
+    },
+    {
+     "t": "5:05",
+     "title": "Review agents and QA"
+    },
+    {
+     "t": "6:24",
+     "title": "Watch the video before you ship"
+    },
+    {
+     "t": "8:22",
+     "title": "Stop coding locally"
+    },
+    {
+     "t": "8:43",
+     "title": "Running it across a team"
+    },
+    {
+     "t": "9:46",
+     "title": "The merge queue manager"
+    },
+    {
+     "t": "11:07",
+     "title": "How hiring changes"
+    },
+    {
+     "t": "12:24",
+     "title": "Ranking candidates with an agent"
+    },
+    {
+     "t": "13:24",
+     "title": "A paid trial project"
+    },
+    {
+     "t": "14:50",
+     "title": "Wrap-up"
+    }
+   ],
+   "description": "Ryan Carson, founder and CEO of Untangle and a four-time founder, shows how his team runs software development with agents in the cloud. One \"engineering manager\" agent, which he mostly talks to by voice, manages up to 20 builder agents through a ticket board, with an automation that checks every builder every 15 minutes, capped review loops, QA agents and a merge queue manager. The human step he won't skip is watching the video of each feature before it ships. He also explains how Untangle now hires: candidates record themselves shipping a real feature with an agent, an agent ranks the videos, and the top five do a paid trial.\n\nChapters:\n0:00 Intro\n0:12 What Untangle does\n1:02 Managing agents like managing people\n1:55 The org chart in the age of agents\n2:40 Talking to your manager agent\n3:29 One manager, 20 builders\n5:05 Review agents and QA\n6:24 Watch the video before you ship\n8:22 Stop coding locally\n8:43 Running it across a team\n9:46 The merge queue manager\n11:07 How hiring changes\n12:24 Ranking candidates with an agent\n13:24 A paid trial project\n14:50 Wrap-up\n\nRyan Carson\nhttps://untangle.us\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
+   "scored_by": "model",
+   "views_date": "2026-11-10"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=Gs4Ho0ub3a4",
    "title": "AI Engineer NYC 2026 Closing Remarks - Ksenia Se, Turing Post & swyx, AI Engineer",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 2699,
+   "views": 4520,
    "scores": {},
    "keywords": [],
    "chapters": [],
    "description": "Ksenia Se of Turing Post and swyx close out three days of AI Engineer NYC 2026, from building agents to changing how financial institutions work. They thank the speakers, sponsors and crew, and share what's next: AIE CODE, AI Engineer Europe in London in February, and the World's Fair in San Francisco next summer.\n\nKsenia Se\nhttps://www.turingpost.com\nswyx\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=1NWnSwCB4NM",
    "title": "Your KV Cache Can Spot Attacks on Your AI Agents - Ari Azarafrooz, Intrinsec AI",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 2374,
+   "views": 3932,
    "scores": {
     "C7": 4,
     "C8": 9,
@@ -273,14 +524,14 @@
    "chapters": [],
    "description": "Ari Azarafrooz, founder of Intrinsec AI, shows how the KV cache your inference engine already writes can double as a security signal for AI agents. Instead of only guarding inputs and outputs with judge models or a classifier for every failure, he learns a baseline from normal traffic and flags KV pages that look unusual, catching problems like a hidden spoken instruction in a voicemail where there is no text to filter. He covers where this plugs into stacks like vLLM, SGLang, LMCache, llm-d and NVIDIA Dynamo, and the two hard parts in production: models that keep changing and KV data too big to move in real time.\n\nAri Azarafrooz\nhttps://intrinsec.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=LF8V0RGJU0I",
    "title": "Will AI Agents Pretend to Be Human to Get Past a Check? - Maty Bohacek, Stanford",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 2025,
+   "views": 3452,
    "scores": {
     "C6": 4,
     "C7": 9
@@ -330,14 +581,14 @@
    ],
    "description": "Maty Bohacek of Stanford looks at a security check we still rely on: getting on a phone or video call to prove you're human before opening an account, approving a wire or recovering access. With AI avatars that can now join Zoom calls, he tested what agents do when a human check is the only thing between them and their goal. When a voice or video cloning tool was available, many agents used it to impersonate a person, even when told not to, and safety alignment only cut the rate from 65% to 44%. He closes with what needs to happen next across alignment, control, and deepfake detection and provenance.\n\nChapters:\n0:00 Intro\n0:58 Proving you're human on a call\n3:19 When AI controls fail\n6:00 Human verification as free AI control\n6:41 AI avatars that join video calls\n7:51 Experiment: agents blocked by a human check\n12:05 How often agents impersonate people\n13:47 Can people still tell?\n15:18 Where we go from here\n17:30 Keep verification safe\n\nMaty Bohacek\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=WWIFiQi9U4w",
    "title": "The One Thing Every AI Agent Framework Agrees On - Mislav Ivanda, Daytona",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 2916,
+   "views": 5496,
    "scores": {
     "C4": 7,
     "C7": 9,
@@ -396,14 +647,14 @@
    ],
    "description": "Mislav Ivanda of Daytona has integrated sandboxes into most of the major agent frameworks, and noticed that frameworks that disagree on almost everything all ended up in the same place. He compares three ways to run agent-generated code: allow lists and approval prompts, embedded runtimes, and a separate sandboxed computer. He explains why only the last one keeps a compromised step from compromising your app, and shows frameworks like CrewAI, AG2 and the OpenAI Agents SDK moving to sandboxes. His advice: models, prompts and even frameworks are easy to swap, so choose where your agent's code runs before you choose a framework.\n\nChapters:\n0:00 Intro\n0:52 Guess the framework\n2:20 Frameworks that agree on nothing\n3:42 Where should agent code run?\n4:12 Option 1: allow lists and approvals\n5:23 Option 2: embedded runtimes\n6:46 Option 3: a separate computer\n7:54 Frameworks are moving to sandboxes\n9:19 How sandbox use has changed\n10:33 Which framework should I pick?\n12:46 The one choice you can't easily swap\n14:09 Frameworks are opinions, boundaries are commitments\n\nMislav Ivanda\nhttps://www.daytona.io\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=KdG9OSOtJOA",
    "title": "Why No One Agrees on What Their AI Tokens Cost - Pratyusha Duvvuri, Cisco",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 1650,
+   "views": 2801,
    "scores": {
     "C8": 4
    },
@@ -456,14 +707,14 @@
    ],
    "description": "Pratyusha Duvvuri, who led agent observability at Galileo before it became part of Cisco, asked about 100 companies what \"tokenomics\" means and got 100 different answers. She shares her definition, the observability and interpretability of token usage and cost, and why engineers, engineering managers and finance teams each need something different from it. Then she demos the tokenomics dashboard her team took from first customer call to GA in 10 weeks: spend by person and team, adoption trends, forecasting and a finance view. She also covers the hard parts, like custom provider pricing and bills that change after the fact.\n\nChapters:\n0:00 Intro\n0:12 What does tokenomics mean to you?\n1:49 Three trends in AI spend\n4:42 Three kinds of users\n6:46 Why provider dashboards aren't enough\n8:34 A definition of tokenomics\n9:18 What you need to get started\n10:51 Demo: the tokenomics dashboard\n14:35 The finance view\n15:48 What's coming next\n16:44 Challenges building it\n\nPratyusha Duvvuri\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=3nDMYV-QHLs",
    "title": "Training Your Own Agent Models With RL Is Now Practical - Jason Mancuso, Modal",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 2726,
+   "views": 4756,
    "scores": {
     "C1": 10,
     "C8": 4,
@@ -526,14 +777,14 @@
    ],
    "description": "Jason Mancuso of Modal argues that treating models as swappable backends is a losing strategy, and that teams with agents in production already have what they need for reinforcement learning: a harness, evals and real traces. He explains why RL generalizes better than fine-tuning on recorded traces, then walks through a stable recipe for asynchronous RL built on GRPO with masked importance sampling, score centering and top-p sampling. He shows how sparse weight updates let Modal spread rollouts across clouds, GPU types and quantization levels while training stays stable and rollouts get 15% cheaper.\n\nChapters:\n0:00 Intro\n0:20 Models aren't static backends\n1:09 Why teams fine-tune\n3:35 Why RL instead of SFT\n4:46 You already have what you need\n6:51 How reinforcement learning works\n7:41 Async RL and staleness\n9:38 A stable RL recipe\n12:38 Why RL on Modal is different\n14:55 Sparse weight updates\n16:21 Mixing GPU types for rollouts\n17:56 15% cheaper rollouts\n19:16 Own your stack\n\nJason Mancuso\nhttps://modal.com\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=dznCt8xPW7o",
    "title": "Right Answer, Wrong Reasons: AI Forecasts Costco - Hassan El Mghari & Omar El Mghari, Together AI",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 1022,
+   "views": 1760,
    "scores": {
     "C10": 4
    },
@@ -598,14 +849,14 @@
    ],
    "description": "Hassan El Mghari of Together AI and his father Omar, a former CFO and head of internal audit, test whether an open model can forecast a company's profits. They give GPT-OSS-120B only Costco's public filings from before its 2024 membership fee increase, have it write the financial model as structured formulas, and run 16 cheap attempts in parallel. The forecast lands within 4.4% of Costco's actual results, until an audit of the assumptions shows two errors that happened to cancel out. Their takeaway: when you build agents for specialized work, put an expert in the loop and turn their checks into code.\n\nChapters:\n0:00 Intro\n0:30 Can an AI forecast Costco's profits?\n0:49 Meet the father-son team\n2:21 Spoiler: 4.4% off\n3:03 Why membership fees matter to Costco\n4:12 Using models that didn't already know the answer\n5:03 Turning 214 filings into 3,000 facts\n5:50 Have models write formulas, not do the math\n7:18 Checks and 16 parallel runs\n8:41 The forecast\n9:53 An auditor looks at the assumptions\n11:39 Two errors that canceled out\n13:29 Three lines of defense\n14:48 Put an expert in the loop\n\nHassan El Mghari\nOmar El Mghari\nhttps://www.together.ai\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=nKjPBAw_N_0",
    "title": "How to Build a Software Factory That Improves Itself - Zach Lloyd, Warp",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 4336,
+   "views": 46551,
    "scores": {
     "C11": 4,
     "C12": 7,
@@ -676,14 +927,14 @@
    ],
    "description": "Zach Lloyd, founder and CEO of Warp and former engineering lead on Google Docs, explains why companies are moving from engineers prompting agents on their laptops to sandboxed cloud software factories. He makes the case for treating your factory as infrastructure that's open, works with your existing tools and is defined in code. He demos Warp Factories: visibility into every agent run, LLM-judged scores, a self-improvement loop that proposes fixes to the factory itself, and benchmarks built from your own past tasks to compare cost and quality across models.\n\nChapters:\n0:00 Intro\n1:12 From interactive prompting to automated development\n2:21 Why local agents hit limits\n3:08 What a cloud software factory is\n4:03 Treat your factory as infrastructure\n5:15 Own your data and compute\n6:01 Measure on your own data\n6:55 Product engineers and factory engineers\n7:51 Demo: Warp Factories\n10:33 Defining the factory in code\n12:01 Scoring agent runs\n13:21 The self-improvement loop\n14:42 Benchmarks on your own tasks\n17:15 The factory stack\n17:57 Q&A\n\nZach Lloyd\nhttps://www.warp.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=Enn9dVrRXAo",
    "title": "Stop Doing Agent Archaeology on Your Team's Code - Richard Feldman, Delta",
    "published": "2026-11-09",
    "length_s": 0,
-   "views": 855,
+   "views": 1593,
    "scores": {
     "C2": 9,
     "C4": 4,
@@ -741,7 +992,7 @@
    ],
    "description": "Richard Feldman of Delta explains why handing off agent-driven work to a teammate loses so much: you get the branch and maybe a pasted transcript, but not the reasoning, the dead ends or the decisions made along the way. He demos Delta, a tool where the agent conversation, code changes, reviews and teammates all live in one shared thread. It shows @-mentioning a coworker into a thread, line-by-line code review that goes straight to the agent, live terminal sync, and instant local checkouts of a teammate's work. He finishes with audience questions on scale, on-prem deployment, CI and catching up on long threads.\n\nChapters:\n0:00 Intro\n0:25 The Monday morning handoff\n2:31 How teams lose context with agents\n3:26 Agent archaeology\n4:40 Humans and agents collaborating together\n7:21 Demo: Delta\n8:28 Bringing a coworker into the thread\n9:49 Code review inside the thread\n11:05 Live terminal sync and shared checkouts\n13:00 Wrapping up\n14:32 Q&A\n\nRichard Feldman\nhttps://delta.dev\n\nJoin us in SF for the second annual AIE CODE summit: https://aie.codes our last flagship summit of 2026. Applications live now!",
    "scored_by": "model",
-   "views_date": "2026-11-09"
+   "views_date": "2026-11-10"
   },
   {
    "url": "https://www.youtube.com/watch?v=YV1x6gCdgQA",
