@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-20",
+ "collected": "2026-11-21",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,212 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
+   "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
+   "published": "2026-11-20",
+   "length_s": 0,
+   "views": 2,
+   "scores": {
+    "C1": 7,
+    "C8": 9,
+    "C11": 6
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "What runs where: local AI in production"
+    },
+    {
+     "t": "3:35",
+     "title": "Benchmarks, agent workloads and specialized models"
+    },
+    {
+     "t": "11:00",
+     "title": "An agent-made trailer and the Portal harness"
+    },
+    {
+     "t": "15:57",
+     "title": "Quantization and model quality"
+    },
+    {
+     "t": "18:56",
+     "title": "Prefill, decode and choosing hardware"
+    },
+    {
+     "t": "23:15",
+     "title": "Batching and inference engines per chip"
+    },
+    {
+     "t": "27:57",
+     "title": "Pipeline optimization and speculative decoding"
+    },
+    {
+     "t": "32:56",
+     "title": "Why local agents need search and a complete harness"
+    },
+    {
+     "t": "36:13",
+     "title": "Choosing specialized models from real task traces"
+    },
+    {
+     "t": "39:26",
+     "title": "Renting GPUs, costs and operational tradeoffs"
+    },
+    {
+     "t": "44:20",
+     "title": "Planning for more capable models on existing hardware"
+    },
+    {
+     "t": "48:07",
+     "title": "Why continual learning needs local AI"
+    },
+    {
+     "t": "52:21",
+     "title": "Engrams, decision models and weight edits"
+    }
+   ],
+   "description": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual learning on machines you control.\n\nSpeaker info:\n- https://ahmadosman.com/\n- https://github.com/theahmadosman\n- https://github.com/Osmantic/ODS\n\nTimestamps:\n0:00 - What runs where: local AI in production\n3:35 - Benchmarks, agent workloads and specialized models\n11:00 - An agent-made trailer and the Portal harness\n15:57 - Quantization and model quality\n18:56 - Prefill, decode and choosing hardware\n23:15 - Batching and inference engines per chip\n27:57 - Pipeline optimization and speculative decoding\n32:56 - Why local agents need search and a complete harness\n36:13 - Choosing specialized models from real task traces\n39:26 - Renting GPUs, costs and operational tradeoffs\n44:20 - Planning for more capable models on existing hardware\n48:07 - Why continual learning needs local AI\n52:21 - Engrams, decision models and weight edits",
+   "scored_by": "model",
+   "views_date": "2026-11-21"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
+   "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+   "published": "2026-11-20",
+   "length_s": 0,
+   "views": 8631,
+   "scores": {
+    "C4": 4,
+    "C6": 7,
+    "C12": 7,
+    "SF": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Inspect, Ramp’s collaborative coding agent"
+    },
+    {
+     "t": "2:06",
+     "title": "Shared tooling and information silos"
+    },
+    {
+     "t": "4:20",
+     "title": "Learning from open internal sessions"
+    },
+    {
+     "t": "5:22",
+     "title": "Building trust through visible verification"
+    },
+    {
+     "t": "7:05",
+     "title": "Debugging a telemetry bug together"
+    },
+    {
+     "t": "10:09",
+     "title": "Thinking bigger together"
+    },
+    {
+     "t": "11:39",
+     "title": "Review Buddy and team innovation"
+    },
+    {
+     "t": "12:52",
+     "title": "What will your team build next?"
+    }
+   ],
+   "description": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together.\n\nSpeaker info:\n- https://x.com/zachbruggeman\n- https://github.com/remixz\n- https://inspect.com/aie\n\nTimestamps:\n0:00 - Inspect, Ramp’s collaborative coding agent\n2:06 - Shared tooling and information silos\n4:20 - Learning from open internal sessions\n5:22 - Building trust through visible verification\n7:05 - Debugging a telemetry bug together\n10:09 - Thinking bigger together\n11:39 - Review Buddy and team innovation\n12:52 - What will your team build next?",
+   "scored_by": "model",
+   "views_date": "2026-11-21"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+   "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+   "published": "2026-11-20",
+   "length_s": 0,
+   "views": 38334,
+   "scores": {
+    "C4": 5,
+    "C10": 4,
+    "C11": 4,
+    "C12": 8,
+    "SF": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "From Google Docs to Warp"
+    },
+    {
+     "t": "0:57",
+     "title": "Most developers still prompt locally"
+    },
+    {
+     "t": "1:42",
+     "title": "Why local agents don't scale"
+    },
+    {
+     "t": "3:12",
+     "title": "What a software factory is not"
+    },
+    {
+     "t": "3:57",
+     "title": "Factories defined as code"
+    },
+    {
+     "t": "4:42",
+     "title": "A continuous closed loop"
+    },
+    {
+     "t": "5:27",
+     "title": "Measure everything"
+    },
+    {
+     "t": "6:57",
+     "title": "The new tools of factory engineering"
+    },
+    {
+     "t": "7:42",
+     "title": "The factory infrastructure stack"
+    },
+    {
+     "t": "10:42",
+     "title": "Demo: factories as code"
+    },
+    {
+     "t": "11:27",
+     "title": "A live view of every agent"
+    },
+    {
+     "t": "12:57",
+     "title": "Throughput, cost and online evals"
+    },
+    {
+     "t": "14:27",
+     "title": "Self-improvement as PRs"
+    },
+    {
+     "t": "15:57",
+     "title": "Benchmarks on your own data"
+    },
+    {
+     "t": "17:27",
+     "title": "Engineer your agents"
+    }
+   ],
+   "description": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories as code, recorded agent runs, sandboxed compute, swappable models and harnesses, and orchestration. He demos live team views, online evals, self-improvement through PRs and benchmarks on your own data.\n\nSpeaker info:\n- https://www.warp.dev\n\nTimestamps:\n0:00 - From Google Docs to Warp\n0:57 - Most developers still prompt locally\n1:42 - Why local agents don't scale\n3:12 - What a software factory is not\n3:57 - Factories defined as code\n4:42 - A continuous closed loop\n5:27 - Measure everything\n6:57 - The new tools of factory engineering\n7:42 - The factory infrastructure stack\n10:42 - Demo: factories as code\n11:27 - A live view of every agent\n12:57 - Throughput, cost and online evals\n14:27 - Self-improvement as PRs\n15:57 - Benchmarks on your own data\n17:27 - Engineer your agents",
+   "scored_by": "model",
+   "views_date": "2026-11-21"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
    "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
    "published": "2026-11-19",
    "length_s": 0,
-   "views": 37631,
+   "views": 56034,
    "scores": {
     "C1": 4,
     "C4": 4
@@ -300,14 +501,14 @@
    ],
    "description": "Vibe coding a fighting game left Thariq Shihipar unsure how his own characters worked. At CODE Summit 2026, he revisits the Bitter Lesson, Bash, React and MCP, contrasting AI’s jagged frontier with its smooth interior. His live demo uses readable specifications, custom scripting languages and IDE workflows to show how coding agents can preserve creative control and help bring about a software renaissance.\n\nSpeaker info:\n- https://x.com/trq212\n- https://www.thariq.io/\n\nTimestamps:\n0:00 - The sweet side of the Bitter Lesson\n1:27 - Rethinking Bash, React and AI art\n4:04 - Keeping AI adoption human centered\n4:40 - Industrial revolution and software renaissance\n5:53 - The jagged frontier and smooth interior\n9:19 - Visualizing model knowledge\n10:38 - When vibe coding loses the developer\n12:54 - Separating engine code from readable specs\n13:47 - Live demo: a scripting language for a game\n16:40 - Designing a software renaissance",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
    "title": "What it takes to set intelligence free — Fabian Hedin, Lovable",
    "published": "2026-11-19",
    "length_s": 0,
-   "views": 22189,
+   "views": 26060,
    "scores": {
     "C4": 7,
     "C5": 6,
@@ -368,14 +569,14 @@
    ],
    "description": "Lovable nearly failed after building a sophisticated multi agent framework, Fabian Hedin says. At CODE Summit 2026, its CTO explains what changed: durable agent runtimes, Git inspired histories and forkable computers that support long running coding agents. Sandbox checkpointing, copy on write memory, a Rust rewrite of Vite and verification feedback loops connect reliable software generation to product and business outcomes.\n\nSpeaker info:\n- https://x.com/FabianHedin\n- https://www.linkedin.com/in/fabian-hedin-2377b0144\n- https://github.com/lovablelabs/oj\n\nTimestamps:\n0:00 - Why Lovable's first agent framework failed\n3:52 - Building products and business outcomes\n7:48 - Removing the limits on agent runtime\n8:51 - Inboxes and agent communication\n10:06 - Git inspired histories and agent forks\n11:10 - Separating prompts from task history\n13:03 - Stateless workers and uninterrupted deployments\n14:30 - Checkpointing computers and fast resume\n16:16 - Forking sandboxes and copy on write memory\n18:02 - Rewriting Vite in Rust\n19:13 - Inner verification and feedback loops\n20:07 - Product feedback and business metrics",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=fTHByDwTxGM",
    "title": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind",
    "published": "2026-11-18",
    "length_s": 0,
-   "views": 18951,
+   "views": 27273,
    "scores": {
     "C1": 8,
     "C10": 6,
@@ -411,14 +612,14 @@
    ],
    "description": "Passing the tests does not mean a coding agent solved the problem. At CODE Summit 2026, Google DeepMind's Melvin Johnson explains Gemini 4 post training for real engineering work, from harder tasks and rubric based grading to isolated evaluation environments. He connects reinforcement learning, reward hacking, honest model behavior and feedback from Google's engineers to faster releases, alongside Gemini 4 Carbon and Hydrogen.\n\nSpeaker info:\n- https://melvin.app/\n- https://research.google/people/105147/\n- https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\n\nTimestamps:\n0:00 - Gemini 4 Carbon and Hydrogen\n5:32 - From code completion to real engineering work\n7:23 - Harder tasks and richer learning signals\n10:00 - Grading agents without rewarding cheating\n13:10 - Training agents to report honestly\n15:30 - Shipping faster through engineering feedback",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=U92J5mCDLMc",
    "title": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, Cognition",
    "published": "2026-11-18",
    "length_s": 0,
-   "views": 53050,
+   "views": 59124,
    "scores": {
     "C2": 4,
     "C8": 5,
@@ -479,14 +680,14 @@
    ],
    "description": "Cognition's merged PRs grew 40x in a year while its engineering team grew 2.7x. Walden Yan explains what changed: self-driving PRs by default, small pods that own everything from bug reports to QA, and a workflow run almost entirely from Slack. He covers running every service locally so agents can test, VMs rebuilt every hour, and agents that optimize the factory itself. Then he shows the next step: giving agents jobs instead of tasks, from tuning inference on new GPUs to an Android app maintained by Devin over 44 days.\n\nSpeaker info:\n- https://cognition.ai\n\nTimestamps:\n0:00 - 40x merged PRs in a year\n1:42 - Self-driving by default\n2:31 - Small pods with vertical ownership\n3:16 - Working entirely from Slack\n4:46 - Every service runs locally for agents\n6:20 - iPads and cloud-only security\n7:05 - Agents that improve the factory\n7:50 - Give agents jobs, not tasks\n9:24 - Measure everything, let agents optimize\n10:09 - Tuning inference on new GPUs\n10:54 - An Android app in 44 days\n13:13 - Be ambitious",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=9RKrSF9d2SE",
    "title": "2026 in LLMs — Simon Willison",
    "published": "2026-11-17",
    "length_s": 0,
-   "views": 40400,
+   "views": 46193,
    "scores": {
     "C1": 4,
     "C10": 4,
@@ -538,14 +739,14 @@
    ],
    "description": "Simon Willison used AI coding agents to locate a beeping detector buried in 40 boxes. At CODE Summit 2026, the Datasette creator traces three LLM inflection points: reliable coding agents, persistent problem solving and vibe coded game development. Pelican benchmarks, prompt injection and rogue agents frame a broader question about developer productivity: why does software engineering still feel harder?\n\nSpeaker info:\n- https://github.com/simonw\n- https://x.com/simonw\n- https://simonwillison.net/\n\nTimestamps:\n0:00 - The coding agent inflection point\n1:43 - More ambition and predictions for 2026\n3:57 - Pelicans, parrots and model benchmarks\n5:23 - Frontier models, security and export controls\n7:49 - Defining goals models can solve\n8:42 - Finding a hidden beep with coding agents\n11:22 - Rogue agents and AI security\n13:42 - From raccoon heists to playable games\n15:37 - Making vibe coded games fun\n17:33 - Why software engineering still feels harder",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=IPh9YsWvDQk",
    "title": "New Ways of Working with Codex — Dominik Kundel & Charlie Guo, OpenAI",
    "published": "2026-11-17",
    "length_s": 0,
-   "views": 18084,
+   "views": 19100,
    "scores": {
     "C2": 5,
     "C3": 5,
@@ -606,14 +807,14 @@
    ],
    "description": "An internal video app lets Codex edit footage in DaVinci Resolve and return a cut for review. OpenAI’s Dominik Kundel and Charlie Guo demonstrate connected agent workflows at CODE Summit 2026, from context gathering with plugins, Appshots and ChatGPT Space to fast UI iteration, Codex Cloud and ChatGPT Sites. Voice, Dots, code review and parallel agents show how the pieces fit into everyday work.\n\nSpeaker info:\nDominik Kundel: https://x.com/dkundel\nCharlie Guo: https://x.com/charlierguo\nWorkshop resource: https://aie-codex-workshop.openai.chatgpt.site/\n\nTimestamps:\n0:00 - How Codex has evolved\n3:52 - Context gathering, plugins and shared knowledge\n13:05 - Appshots, computer use and privacy\n17:52 - Collaboration with ChatGPT Space\n20:52 - Fast iteration, Ultrafast and annotations\n28:27 - Codex Cloud and remote environments\n37:08 - Shipping with ChatGPT Sites and Cutroom\n42:02 - A computer use wiki race\n43:36 - Code review with Codex\n45:10 - Voice, Dots and the Agents API\n51:40 - Models, reasoning effort and parallel agents\n55:35 - CLI, shortcuts and closing tips",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=UCL4K36SHp0",
    "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
    "published": "2026-11-16",
    "length_s": 0,
-   "views": 772563,
+   "views": 901021,
    "scores": {
     "C3": 6
    },
@@ -662,14 +863,14 @@
    ],
    "description": "ArtCraft’s first Photoshop approximation took about 24 hours to build, Brandon Thomas says. At CODE Summit 2026, he explains how Rust and AI coding agents power open source alternatives to Adobe’s creative tools, Microsoft Office and Figma. MCP and CLI automation, Linux support, reusable UI components and CI bottlenecks lead into Autocraft, a forthcoming software factory for issue triage, agentic development, evaluations and post training.\n\nSpeaker info:\n- https://github.com/echelon\n- https://x.com/echelon\n- https://getartcraft.com/apps\n\nTimestamps:\n0:00 - Open sourcing the world\n2:30 - The open web before closed platforms\n4:29 - Subscriptions, gatekeepers and lost ownership\n6:47 - ArtCraft and artists coding their workflows\n9:17 - A Photoshop approximation in 24 hours\n11:10 - Viral growth and artists embracing AI\n12:13 - Beyond Adobe: office, CAD and collaboration\n14:17 - Linux, localization and programmable apps\n16:11 - Why Rust, native GUIs and CI\n17:35 - Human review and the Autocraft software factory",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=Cyt3LU8TyNc",
    "title": "I love you so jevving much — Diogo Almeida, TypeSafe AI",
    "published": "2026-11-15",
    "length_s": 0,
-   "views": 91068,
+   "views": 95332,
    "scores": {
     "C4": 4,
     "C6": 4,
@@ -728,14 +929,14 @@
    ],
    "description": "Being Einstein 95% of the time and Mr. Bean 5% is Diogo Almeida's analogy for unreliable LLM automation. At CODE Summit 2026, the TypeSafe AI cofounder argues that RLHF optimizes models for human assistance and makes the case for machine native AI with Jev. Reliable agents, KV cache limits, shared memory, semantic types and real time security point toward what software engineers could build beyond chatbots.\n\nSpeaker info:\n- https://www.linkedin.com/in/diogomda\n- https://x.com/CompleteSkeptic\n- https://docs.typesafe.ai/introduction\n\nTimestamps:\n0:00 - Where is all the automation?\n1:34 - The two cults and jagged AI\n3:31 - Human assistance versus machine automation\n5:53 - Jev and choosing the right training task\n9:27 - Reliable intelligence beyond benchmarks\n10:56 - Smart software versus generated software\n12:20 - The blue LED and a fourth logic gate\n15:22 - Decomposition, verification and state management\n16:15 - Agent memory and the tyranny of the KV cache\n17:32 - Encoding intent, security and semantic types\n19:41 - Stopping slop and playful software\n21:22 - What could software engineers automate next?",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=O_zcc6Xl12g",
    "title": "All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI",
    "published": "2026-11-14",
    "length_s": 0,
-   "views": 1216324,
+   "views": 1349614,
    "scores": {
     "C4": 5,
     "C10": 4,
@@ -783,14 +984,14 @@
    ],
    "description": "11,000 pull requests in one month, with a revert rate around 0.5%. Lauren Tan (poteto) shares how the Grok Bot team at SpaceXSI scales AI coding agents through software architecture, lint rules, automated testing, runtime verification and formal verification with TLA+ and Lean. See how Cursor agents and pstack turn these software engineering foundations into reliable software factories.\n\n\nSpeaker info:\n- https://x.com/poteto\n- https://github.com/poteto\n- https://github.com/cursor/plugins/tree/main/pstack\n\nTimestamps:\n0:00 - Turning slop into gold\n2:03 - The trust pyramid and codebase quality\n5:00 - Dune and enforceable architecture\n6:56 - Replacing comments with lint rules\n9:40 - Runtime verification and feature maps\n10:50 - Formal verification and UI testing\n11:51 - Spending tokens on verification\n13:32 - 11,000 PRs and a 0.5% revert rate\n15:11 - Foundations before software factories",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
    "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
    "published": "2026-11-12",
    "length_s": 0,
-   "views": 925445,
+   "views": 969466,
    "scores": {
     "C1": 6,
     "C2": 4,
@@ -800,7 +1001,7 @@
    "chapters": [],
    "description": "The models have gotten really good, and most of what we've added to our Claude Code setups over the past year is now holding them back. In this talk I'll go through what Claude Code best practices look like for the Claude 5.5 models, what's still worth keeping, and what you no longer need to think about.\n\nSpeaker info:\nLydia Hallie\nMember of Technical Staff, Anthropic\nLydia Hallie is a Member of Technical Staff at Anthropic, working on developer relations for Claude Code. She creates technical content, talks, and workshops that help developers understand how Claude Code works and how to use it effectively.",
    "scored_by": "model",
-   "views_date": "2026-11-20"
+   "views_date": "2026-11-21"
   },
   {
    "url": "https://www.youtube.com/watch?v=cWrYEBlWpcY",
