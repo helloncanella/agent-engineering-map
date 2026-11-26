@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-25",
+ "collected": "2026-11-26",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,152 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
+   "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
+   "published": "2026-11-26",
+   "length_s": 0,
+   "views": 6712,
+   "scores": {
+    "C1": 5,
+    "C4": 4,
+    "C8": 9,
+    "C12": 5,
+    "SF": 10
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Diffusing the models into the economy"
+    },
+    {
+     "t": "0:57",
+     "title": "Where software factories came from"
+    },
+    {
+     "t": "2:27",
+     "title": "Stop building software factories"
+    },
+    {
+     "t": "3:12",
+     "title": "Greenfield discovery vs brownfield"
+    },
+    {
+     "t": "4:46",
+     "title": "Promises and feedback loops"
+    },
+    {
+     "t": "6:16",
+     "title": "Continuous, 24/7 factories"
+    },
+    {
+     "t": "8:31",
+     "title": "Factories simplify over time"
+    },
+    {
+     "t": "10:50",
+     "title": "The same, but faster, cheaper, safer"
+    },
+    {
+     "t": "11:35",
+     "title": "Stand one up in a week"
+    },
+    {
+     "t": "12:20",
+     "title": "Too much software, not enough demand"
+    },
+    {
+     "t": "13:50",
+     "title": "Building a demand factory"
+    },
+    {
+     "t": "15:20",
+     "title": "Fill your brand envelope"
+    }
+   ],
+   "description": "Most of the time you don't know what you want yet, so putting new ideas through a factory wastes time and tokens. Justin McCarthy, founder and CEO of Diffusion, argues for brownfield factories instead: continuous loops that keep the promises of software customers already pay for, getting faster, cheaper and safer around the clock. He explains why these factories simplify with every model release and why one takes about a week to stand up. Then he raises the stakes: with code now abundant, engineers need to build a demand factory that finds what customers will actually buy.\n\nTimestamps:\n0:00 - Diffusing the models into the economy\n0:57 - Where software factories came from\n2:27 - Stop building software factories\n3:12 - Greenfield discovery vs brownfield\n4:46 - Promises and feedback loops\n6:16 - Continuous, 24/7 factories\n8:31 - Factories simplify over time\n10:50 - The same, but faster, cheaper, safer\n11:35 - Stand one up in a week\n12:20 - Too much software, not enough demand\n13:50 - Building a demand factory\n15:20 - Fill your brand envelope",
+   "scored_by": "model",
+   "views_date": "2026-11-26"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
+   "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+   "published": "2026-11-25",
+   "length_s": 0,
+   "views": 18088,
+   "scores": {
+    "C2": 6,
+    "C3": 4,
+    "C4": 6,
+    "C5": 4,
+    "C9": 4,
+    "C12": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Fermat's Last Theorem"
+    },
+    {
+     "t": "0:57",
+     "title": "Formalizing the proof in Lean"
+    },
+    {
+     "t": "2:27",
+     "title": "1,000 agents, no domain harness"
+    },
+    {
+     "t": "3:57",
+     "title": "The lead agent builds its own tables"
+    },
+    {
+     "t": "5:27",
+     "title": "Agents reassign themselves over 30 hours"
+    },
+    {
+     "t": "7:01",
+     "title": "Memory: understood backwards, lived forwards"
+    },
+    {
+     "t": "8:31",
+     "title": "Daily memory vs long-term knowledge"
+    },
+    {
+     "t": "9:16",
+     "title": "Stronger models use memory better"
+    },
+    {
+     "t": "10:46",
+     "title": "Pokemon memory: Sonnet 3.7 vs Fable 5"
+    },
+    {
+     "t": "12:16",
+     "title": "Dreaming over transcripts and notes"
+    },
+    {
+     "t": "13:46",
+     "title": "Dreaming fixes a poisoned memory"
+    },
+    {
+     "t": "15:16",
+     "title": "Building a company wiki"
+    },
+    {
+     "t": "17:35",
+     "title": "Dreaming fills the gaps"
+    }
+   ],
+   "description": "A team of 1,000 Claude agents formalized Fermat's Last Theorem in Lean over about 30 hours, using nothing but Git and a database, with no domain-specific harness and no human steering on the solution. Lance Martin shows how the lead agent built its own coordination tables and how the team reassigned itself as the work progressed. Then he turns to memory: why stronger models know what to write down, how Claude's Pokemon memory got tighter from Sonnet 3.7 to Fable 5, and how \"dreaming\" over transcripts fixes poisoned memories and builds better wikis.\n\nSpeaker info:\n- https://x.com/RLanceMartin\n- https://www.anthropic.com\n\nTimestamps:\n0:00 - Fermat's Last Theorem\n0:57 - Formalizing the proof in Lean\n2:27 - 1,000 agents, no domain harness\n3:57 - The lead agent builds its own tables\n5:27 - Agents reassign themselves over 30 hours\n7:01 - Memory: understood backwards, lived forwards\n8:31 - Daily memory vs long-term knowledge\n9:16 - Stronger models use memory better\n10:46 - Pokemon memory: Sonnet 3.7 vs Fable 5\n12:16 - Dreaming over transcripts and notes\n13:46 - Dreaming fixes a poisoned memory\n15:16 - Building a company wiki\n17:35 - Dreaming fills the gaps",
+   "scored_by": "model",
+   "views_date": "2026-11-26"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=Xyb1Bn_L2U4",
    "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
    "published": "2026-11-25",
    "length_s": 0,
-   "views": 5224,
+   "views": 28808,
    "scores": {
     "C2": 4,
     "C12": 4
@@ -320,14 +461,14 @@
    ],
    "description": "Amp spun out of Sourcegraph with 21 people and, unable to hire for a year, was forced to work in a radically different way. Quinn Slack explains what that looks like: no task tracker, no PMs, one meeting a week, everything done in the agent, and tiny monitored pushes instead of big releases. He shows Amp's bug-report loop that fixes the issue and emails everyone affected, why they built their own CRM instead of using Salesforce, and how a company with more than $100M in ARR runs 40 to 50 times more efficiently. His advice: get out of the cage.\n\nSpeaker info:\n- https://x.com/sqs\n- https://ampcode.com\n\nTimestamps:\n0:00 - The moment agents changed everything\n1:42 - Trying to change a 200-person company\n2:27 - Enterprise-ready is dead\n3:12 - Differentiation when agents build features\n4:46 - Spinning out Amp with 21 people\n6:16 - Staying at 21 while competitors hire\n7:01 - Everything happens in the agent\n7:50 - Ship in tiny, monitored pushes\n8:35 - Agents that prove their work\n9:20 - The bug report loop\n10:50 - Dictate to your agent\n12:24 - Building our own CRM\n14:39 - No PMs, one meeting a week\n16:13 - $100M ARR, 40-50x more efficient\n16:58 - Get out of the cage",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=TvsF67C2F54",
    "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
    "published": "2026-11-24",
    "length_s": 0,
-   "views": 36989,
+   "views": 46331,
    "scores": {
     "C2": 4,
     "C8": 4,
@@ -403,14 +544,14 @@
    ],
    "description": "Jarred Sumner, creator of Bun, recently merged a PR of several million lines that adds an ahead-of-time compiler to Bun, the runtime behind Claude Code. It went through five rewrites in about a month, and the result uses about 4x less memory and starts about 2x faster. He explains why the team made JavaScript faster instead of rewriting Claude Code in Rust, why tests that predate the project are what make agent-written code trustworthy, and what he actually does all day while 140 agents write code.\n\nSpeaker info:\n- https://x.com/jarredsumner\n- https://bun.sh\n\nTimestamps:\n0:00 - A multi-million-line PR for Bun\n1:42 - Five rewrites in a month\n2:27 - Testing decides the approach\n3:57 - Why not rewrite Claude Code in Rust\n4:42 - 4x less memory, 2x faster startup\n6:12 - Types as predictions\n6:57 - Tests that predate the project\n8:27 - Three versions that must agree\n9:12 - Write in batches, then fix\n10:46 - When the code was slop\n12:21 - 140 agents at once\n13:06 - Build times and the fifth rewrite\n15:21 - Long-lived subagents\n16:51 - Hourly scorecards and fuzzing\n19:06 - What you actually do all day\n20:36 - Lessons for large agent projects",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=SRhXgeNluIk",
    "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
    "published": "2026-11-24",
    "length_s": 0,
-   "views": 34752,
+   "views": 48626,
    "scores": {
     "C2": 6,
     "C4": 6,
@@ -471,14 +612,14 @@
    ],
    "description": "Software factories can turn out code faster than anyone can keep it clean, and the pile grows. Steve Yegge, creator of Beads and Gas Town, takes on software factories and how to escape the trash mountain they can leave behind.\n\nSpeaker info:\n- https://x.com/steve_yegge\n\nTimestamps:\n0:00 - Evolution of software factories\n2:56 - Case study: Wyvern RPG\n3:36 - Managing a factory\n5:53 - The five horsemen of automation\n7:15 - Work and context management\n7:57 - Fuel and cost optimization\n10:26 - Context and memory control\n12:00 - Entourage and delegation\n12:39 - People management for agents\n15:17 - Model welfare and trust\n17:25 - Leadership and agent roles\n20:04 - Final reflections",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
    "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
    "published": "2026-11-23",
    "length_s": 0,
-   "views": 196815,
+   "views": 238185,
    "scores": {
     "C4": 4,
     "C10": 6,
@@ -541,14 +682,14 @@
    ],
    "description": "The best model scores about 16% on Slop Code Bench, a new benchmark for how well agents evolve a code base over time. Dex Horthy uses that data to argue that software factories aren't new: they are good engineering with agents doing the building. He lays out 12 practices, from forward and back pressure to planning, visual alignment, lint rules against slop and a unified forge. Then he launches the Anti-Slop Manifesto and makes the case that reviewing work still matters.\n\nRead the manifesto: https://slopmanifesto.com\n\nSpeaker info:\n- https://x.com/dexhorthy\n- https://factory.ai\n\nTimestamps:\n0:00 - 12 factor factories and the war on slop\n0:57 - Slop Code Bench: the best model scores 16%\n1:42 - Software factories are just good engineering\n4:01 - Forward pressure and back pressure\n5:31 - 12 practices for software factories\n6:16 - Know your enemy: models don't maintain code\n9:20 - Plan before you build\n10:50 - Align visually and let agents test\n11:35 - Fight slop with lint rules\n12:20 - Feature flags, evals and a unified forge\n13:05 - What you can't buy\n14:39 - The Anti-Slop Manifesto\n18:24 - Why reviewing still matters",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
    "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
    "published": "2026-11-22",
    "length_s": 0,
-   "views": 231793,
+   "views": 256204,
    "scores": {
     "C2": 4,
     "C3": 4,
@@ -612,14 +753,14 @@
    ],
    "description": "Earendil's Pi coding agent has the same core tools it had a year ago, yet it does far more because the models got better. Armin Ronacher shows his own session data: fewer corrections, tasks running 14 minutes instead of two and a half, and 141 projects started but only 10 to 15 kept alive. His case: human attention is still the limit, so build a workshop that produces excellent software before building a factory that produces more of it. He also covers knowing when to push back on an agent, open formats, durable agents and code mode.\n\nSpeaker info:\n- https://x.com/mitsuhiko\n\nTimestamps:\n0:00 - Build the workshop before the factory\n1:43 - The harness didn't change, the models did\n3:17 - Agents now run 14 minutes per task\n4:47 - Human attention is the limit\n6:17 - 141 projects started, 15 maintained\n7:47 - Knowing when to push back on the agent\n10:02 - Executive summaries instead of reading code\n11:32 - Uncontrolled growth and shared file formats\n13:02 - Building software that strives for excellence\n15:17 - Durable agents that suspend and resume\n16:51 - Code mode and classifier models\n19:06 - Build more ambitious software",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
    "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
    "published": "2026-11-21",
    "length_s": 0,
-   "views": 13717,
+   "views": 14095,
    "scores": {
     "C1": 7,
     "C8": 9,
@@ -682,14 +823,14 @@
    ],
    "description": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual learning on machines you control.\n\nSpeaker info:\n- https://ahmadosman.com/\n- https://github.com/theahmadosman\n- https://github.com/Osmantic/ODS\n\nTimestamps:\n0:00 - What runs where: local AI in production\n3:35 - Benchmarks, agent workloads and specialized models\n11:00 - An agent-made trailer and the Portal harness\n15:57 - Quantization and model quality\n18:56 - Prefill, decode and choosing hardware\n23:15 - Batching and inference engines per chip\n27:57 - Pipeline optimization and speculative decoding\n32:56 - Why local agents need search and a complete harness\n36:13 - Choosing specialized models from real task traces\n39:26 - Renting GPUs, costs and operational tradeoffs\n44:20 - Planning for more capable models on existing hardware\n48:07 - Why continual learning needs local AI\n52:21 - Engrams, decision models and weight edits",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
    "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
    "published": "2026-11-20",
    "length_s": 0,
-   "views": 17089,
+   "views": 17667,
    "scores": {
     "C4": 4,
     "C6": 7,
@@ -733,14 +874,14 @@
    ],
    "description": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together.\n\nSpeaker info:\n- https://x.com/zachbruggeman\n- https://github.com/remixz\n- https://inspect.com/aie\n\nTimestamps:\n0:00 - Inspect, Ramp’s collaborative coding agent\n2:06 - Shared tooling and information silos\n4:20 - Learning from open internal sessions\n5:22 - Building trust through visible verification\n7:05 - Debugging a telemetry bug together\n10:09 - Thinking bigger together\n11:39 - Review Buddy and team innovation\n12:52 - What will your team build next?",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
    "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
    "published": "2026-11-20",
    "length_s": 0,
-   "views": 66736,
+   "views": 67868,
    "scores": {
     "C4": 5,
     "C10": 4,
@@ -813,14 +954,14 @@
    ],
    "description": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories as code, recorded agent runs, sandboxed compute, swappable models and harnesses, and orchestration. He demos live team views, online evals, self-improvement through PRs and benchmarks on your own data.\n\nSpeaker info:\n- https://www.warp.dev\n\nTimestamps:\n0:00 - From Google Docs to Warp\n0:57 - Most developers still prompt locally\n1:42 - Why local agents don't scale\n3:12 - What a software factory is not\n3:57 - Factories defined as code\n4:42 - A continuous closed loop\n5:27 - Measure everything\n6:57 - The new tools of factory engineering\n7:42 - The factory infrastructure stack\n10:42 - Demo: factories as code\n11:27 - A live view of every agent\n12:57 - Throughput, cost and online evals\n14:27 - Self-improvement as PRs\n15:57 - Benchmarks on your own data\n17:27 - Engineer your agents",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
    "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
    "published": "2026-11-19",
    "length_s": 0,
-   "views": 78555,
+   "views": 81918,
    "scores": {
     "C1": 4,
     "C4": 4
@@ -870,14 +1011,14 @@
    ],
    "description": "Vibe coding a fighting game left Thariq Shihipar unsure how his own characters worked. At CODE Summit 2026, he revisits the Bitter Lesson, Bash, React and MCP, contrasting AI’s jagged frontier with its smooth interior. His live demo uses readable specifications, custom scripting languages and IDE workflows to show how coding agents can preserve creative control and help bring about a software renaissance.\n\nSpeaker info:\n- https://x.com/trq212\n- https://www.thariq.io/\n\nTimestamps:\n0:00 - The sweet side of the Bitter Lesson\n1:27 - Rethinking Bash, React and AI art\n4:04 - Keeping AI adoption human centered\n4:40 - Industrial revolution and software renaissance\n5:53 - The jagged frontier and smooth interior\n9:19 - Visualizing model knowledge\n10:38 - When vibe coding loses the developer\n12:54 - Separating engine code from readable specs\n13:47 - Live demo: a scripting language for a game\n16:40 - Designing a software renaissance",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
    "title": "What it takes to set intelligence free — Fabian Hedin, Lovable",
    "published": "2026-11-19",
    "length_s": 0,
-   "views": 32724,
+   "views": 33577,
    "scores": {
     "C4": 7,
     "C5": 6,
@@ -938,14 +1079,14 @@
    ],
    "description": "Lovable nearly failed after building a sophisticated multi agent framework, Fabian Hedin says. At CODE Summit 2026, its CTO explains what changed: durable agent runtimes, Git inspired histories and forkable computers that support long running coding agents. Sandbox checkpointing, copy on write memory, a Rust rewrite of Vite and verification feedback loops connect reliable software generation to product and business outcomes.\n\nSpeaker info:\n- https://x.com/FabianHedin\n- https://www.linkedin.com/in/fabian-hedin-2377b0144\n- https://github.com/lovablelabs/oj\n\nTimestamps:\n0:00 - Why Lovable's first agent framework failed\n3:52 - Building products and business outcomes\n7:48 - Removing the limits on agent runtime\n8:51 - Inboxes and agent communication\n10:06 - Git inspired histories and agent forks\n11:10 - Separating prompts from task history\n13:03 - Stateless workers and uninterrupted deployments\n14:30 - Checkpointing computers and fast resume\n16:16 - Forking sandboxes and copy on write memory\n18:02 - Rewriting Vite in Rust\n19:13 - Inner verification and feedback loops\n20:07 - Product feedback and business metrics",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=fTHByDwTxGM",
    "title": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind",
    "published": "2026-11-18",
    "length_s": 0,
-   "views": 42231,
+   "views": 43680,
    "scores": {
     "C1": 8,
     "C10": 6,
@@ -981,14 +1122,14 @@
    ],
    "description": "Passing the tests does not mean a coding agent solved the problem. At CODE Summit 2026, Google DeepMind's Melvin Johnson explains Gemini 4 post training for real engineering work, from harder tasks and rubric based grading to isolated evaluation environments. He connects reinforcement learning, reward hacking, honest model behavior and feedback from Google's engineers to faster releases, alongside Gemini 4 Carbon and Hydrogen.\n\nSpeaker info:\n- https://melvin.app/\n- https://research.google/people/105147/\n- https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\n\nTimestamps:\n0:00 - Gemini 4 Carbon and Hydrogen\n5:32 - From code completion to real engineering work\n7:23 - Harder tasks and richer learning signals\n10:00 - Grading agents without rewarding cheating\n13:10 - Training agents to report honestly\n15:30 - Shipping faster through engineering feedback",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=U92J5mCDLMc",
    "title": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, Cognition",
    "published": "2026-11-18",
    "length_s": 0,
-   "views": 66620,
+   "views": 67597,
    "scores": {
     "C2": 4,
     "C8": 5,
@@ -1049,14 +1190,14 @@
    ],
    "description": "Cognition's merged PRs grew 40x in a year while its engineering team grew 2.7x. Walden Yan explains what changed: self-driving PRs by default, small pods that own everything from bug reports to QA, and a workflow run almost entirely from Slack. He covers running every service locally so agents can test, VMs rebuilt every hour, and agents that optimize the factory itself. Then he shows the next step: giving agents jobs instead of tasks, from tuning inference on new GPUs to an Android app maintained by Devin over 44 days.\n\nSpeaker info:\n- https://cognition.ai\n\nTimestamps:\n0:00 - 40x merged PRs in a year\n1:42 - Self-driving by default\n2:31 - Small pods with vertical ownership\n3:16 - Working entirely from Slack\n4:46 - Every service runs locally for agents\n6:20 - iPads and cloud-only security\n7:05 - Agents that improve the factory\n7:50 - Give agents jobs, not tasks\n9:24 - Measure everything, let agents optimize\n10:09 - Tuning inference on new GPUs\n10:54 - An Android app in 44 days\n13:13 - Be ambitious",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=9RKrSF9d2SE",
    "title": "2026 in LLMs — Simon Willison",
    "published": "2026-11-17",
    "length_s": 0,
-   "views": 61959,
+   "views": 66113,
    "scores": {
     "C1": 4,
     "C10": 4,
@@ -1108,7 +1249,7 @@
    ],
    "description": "Simon Willison used AI coding agents to locate a beeping detector buried in 40 boxes. At CODE Summit 2026, the Datasette creator traces three LLM inflection points: reliable coding agents, persistent problem solving and vibe coded game development. Pelican benchmarks, prompt injection and rogue agents frame a broader question about developer productivity: why does software engineering still feel harder?\n\nSpeaker info:\n- https://github.com/simonw\n- https://x.com/simonw\n- https://simonwillison.net/\n\nTimestamps:\n0:00 - The coding agent inflection point\n1:43 - More ambition and predictions for 2026\n3:57 - Pelicans, parrots and model benchmarks\n5:23 - Frontier models, security and export controls\n7:49 - Defining goals models can solve\n8:42 - Finding a hidden beep with coding agents\n11:22 - Rogue agents and AI security\n13:42 - From raccoon heists to playable games\n15:37 - Making vibe coded games fun\n17:33 - Why software engineering still feels harder",
    "scored_by": "model",
-   "views_date": "2026-11-25"
+   "views_date": "2026-11-26"
   },
   {
    "url": "https://www.youtube.com/watch?v=IPh9YsWvDQk",
