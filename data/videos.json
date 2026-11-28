@@ -1,6 +1,6 @@
 {
  "channel": "https://www.youtube.com/@aiDotEngineer",
- "collected": "2026-11-27",
+ "collected": "2026-11-28",
  "components": [
   {
    "id": "C1",
@@ -246,11 +246,138 @@
  ],
  "videos": [
   {
+   "url": "https://www.youtube.com/watch?v=DQwcuXgAIA0",
+   "title": "Your LLM Judge Is Hallucinating Too — Brian Kennedy, ZoomInfo",
+   "published": "2026-11-28",
+   "length_s": 0,
+   "views": 431,
+   "scores": {
+    "C8": 7,
+    "C10": 9,
+    "C12": 4
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "An email that was never sent"
+    },
+    {
+     "t": "1:42",
+     "title": "Agent Teams at ZoomInfo"
+    },
+    {
+     "t": "3:12",
+     "title": "One judge for every kind of job"
+    },
+    {
+     "t": "3:57",
+     "title": "The judge was right 65% of the time"
+    },
+    {
+     "t": "4:46",
+     "title": "The story vs the receipts"
+    },
+    {
+     "t": "5:31",
+     "title": "Small yes-or-no questions instead"
+    },
+    {
+     "t": "7:01",
+     "title": "Seven questions in one call"
+    },
+    {
+     "t": "7:46",
+     "title": "Thresholds and an LLM fallback"
+    },
+    {
+     "t": "8:31",
+     "title": "Shadow mode: 37,000 decisions"
+    },
+    {
+     "t": "9:16",
+     "title": "10x faster, 40x cheaper"
+    },
+    {
+     "t": "10:01",
+     "title": "Post-condition checks"
+    },
+    {
+     "t": "10:50",
+     "title": "What you can do today"
+    }
+   ],
+   "description": "ZoomInfo's agent reported that it scheduled an email. It never did, and the LLM judge checking its work approved it anyway. Brian Kennedy, an engineer on ZoomInfo's agentic platform, shows how an audit of 500 production steps found the judge was right only 65% of the time, often trusting the agent's story over the tool results. The fix: replace one big \"is this good?\" with seven small yes-or-no questions answered by Jev. In shadow mode across 37,000 decisions it caught twice as many failed tools, running 10x faster and 40x cheaper.\n\nSpeaker info:\n- https://www.zoominfo.com\n\nTimestamps:\n0:00 - An email that was never sent\n1:42 - Agent Teams at ZoomInfo\n3:12 - One judge for every kind of job\n3:57 - The judge was right 65% of the time\n4:46 - The story vs the receipts\n5:31 - Small yes-or-no questions instead\n7:01 - Seven questions in one call\n7:46 - Thresholds and an LLM fallback\n8:31 - Shadow mode: 37,000 decisions\n9:16 - 10x faster, 40x cheaper\n10:01 - Post-condition checks\n10:50 - What you can do today",
+   "scored_by": "model",
+   "views_date": "2026-11-28"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=K5_ST-kMrvY",
+   "title": "Stop Paying LLM Prices for Yes-or-No Answers — Chinmay Goyal, Glean",
+   "published": "2026-11-27",
+   "length_s": 0,
+   "views": 10032,
+   "scores": {
+    "C1": 10,
+    "C8": 7
+   },
+   "keywords": [],
+   "chapters": [
+    {
+     "t": "0:00",
+     "title": "Most AI steps are bounded decisions"
+    },
+    {
+     "t": "0:57",
+     "title": "LLMs, open models, fine-tuning or Jev"
+    },
+    {
+     "t": "2:27",
+     "title": "How Glean evaluates changes"
+    },
+    {
+     "t": "3:12",
+     "title": "Query classification"
+    },
+    {
+     "t": "3:57",
+     "title": "Expert routing at 8x lower latency"
+    },
+    {
+     "t": "5:27",
+     "title": "Ranking follow-up suggestions"
+    },
+    {
+     "t": "7:46",
+     "title": "Zero invalid outputs"
+    },
+    {
+     "t": "8:31",
+     "title": "Self-tuning thresholds"
+    },
+    {
+     "t": "10:01",
+     "title": "Consistent LLM-as-judge for citations"
+    },
+    {
+     "t": "12:16",
+     "title": "Security recall from 31.5% to 90.2%"
+    },
+    {
+     "t": "14:31",
+     "title": "When to use a decision model"
+    }
+   ],
+   "description": "Most steps in an AI product are bounded decisions, not generation: classifying a query, routing to an expert, ranking suggestions, checking a citation. Chinmay Goyal, a software engineer on Glean Assistant, shows how Glean moved these steps to Jev, TypeSafe's decision model. The results include expert routing with about 8x lower latency, follow-up suggestions on time in 99.2% of cases with zero invalid outputs, consistent citation checks, and security-classifier recall rising from 31.5% to 90.2%. He closes with a simple rule for when to use a decision model.\n\nSpeaker info:\n- https://www.glean.com\n\nTimestamps:\n0:00 - Most AI steps are bounded decisions\n0:57 - LLMs, open models, fine-tuning or Jev\n2:27 - How Glean evaluates changes\n3:12 - Query classification\n3:57 - Expert routing at 8x lower latency\n5:27 - Ranking follow-up suggestions\n7:46 - Zero invalid outputs\n8:31 - Self-tuning thresholds\n10:01 - Consistent LLM-as-judge for citations\n12:16 - Security recall from 31.5% to 90.2%\n14:31 - When to use a decision model",
+   "scored_by": "model",
+   "views_date": "2026-11-28"
+  },
+  {
    "url": "https://www.youtube.com/watch?v=cYcYfM9Mvwo",
    "title": "Why Cloudflare Became a Neolab — Michelle Chen, Cloudflare",
    "published": "2026-11-27",
    "length_s": 0,
-   "views": 6452,
+   "views": 69789,
    "scores": {
     "C1": 7,
     "C8": 4
@@ -320,14 +447,14 @@
    ],
    "description": "Cloudflare bet early that AI models would get smaller and network latency would matter. Instead models grew to trillions of parameters, so Cloudflare pivoted to serving them. Then System 1 decision models arrived, and Cloudflare trained its own over a weekend and shipped four models in three weeks. Michelle Chen, group PM for Workers AI, tells that story and demos Clef and Cleric alongside an LLM on a CI triage task: about 2x faster, 72% cheaper and 94% fewer tokens, with the same answer.\n\nSpeaker info:\n- https://www.cloudflare.com\n\nTimestamps:\n0:00 - Why Cloudflare became a neolab\n1:42 - From CDN to edge infrastructure\n2:27 - Workers and compute primitives\n3:12 - Storage for full-stack apps\n3:57 - Workers AI bets on small models\n4:42 - Models got bigger instead\n6:12 - Serving trillion-parameter models\n7:42 - Waiting for the east wind\n8:27 - System 1 models arrive\n9:57 - Training Clef in 48 hours\n11:27 - Cleric, the extraction model\n13:46 - Demo: triaging a CI failure\n16:46 - 2x faster, 72% cheaper, 94% fewer tokens\n17:31 - What people are building\n18:16 - Go onwards",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=bFcob2p6u3A",
    "title": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI",
    "published": "2026-11-26",
    "length_s": 0,
-   "views": 22362,
+   "views": 31299,
    "scores": {},
    "keywords": [],
    "chapters": [
@@ -390,14 +517,14 @@
    ],
    "description": "When execution is nearly free, ambition is about how you approach the work, not how many tokens you spend. Jason Liu of OpenAI's developer experience team takes on three fears: that AI means more slop, that it erodes critical thinking, and that it will replace us. His answers: own the work you ship, build the language to describe what good looks like, and use AI to pursue the fields you set aside for software. He draws on photography's effect on painting, his time in art school and his own projects in drums, 3D printing and chips.\n\nSpeaker info:\n- https://x.com/jxnl\n- https://openai.com\n\nTimestamps:\n0:00 - From developer experience to everything experience\n1:42 - Three principles of ambition\n2:27 - Will AI just create more slop?\n3:16 - The painter and the camera\n5:31 - Self-erasure vs ownership\n7:05 - Describing what good looks like\n8:35 - What taste really means\n9:20 - You are the discriminator\n10:05 - Learning typography, motion and design\n10:54 - If you want good taste, you have to eat\n12:24 - Make space to explore\n13:09 - Pursue the fields you gave up\n16:13 - Drums, 3D printing and chips\n17:43 - Inspire the next generation",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
    "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
    "published": "2026-11-26",
    "length_s": 0,
-   "views": 38508,
+   "views": 44927,
    "scores": {
     "C1": 5,
     "C4": 4,
@@ -458,14 +585,14 @@
    ],
    "description": "Most of the time you don't know what you want yet, so putting new ideas through a factory wastes time and tokens. Justin McCarthy, founder and CEO of Diffusion, argues for brownfield factories instead: continuous loops that keep the promises of software customers already pay for, getting faster, cheaper and safer around the clock. He explains why these factories simplify with every model release and why one takes about a week to stand up. Then he raises the stakes: with code now abundant, engineers need to build a demand factory that finds what customers will actually buy.\n\nTimestamps:\n0:00 - Diffusing the models into the economy\n0:57 - Where software factories came from\n2:27 - Stop building software factories\n3:12 - Greenfield discovery vs brownfield\n4:46 - Promises and feedback loops\n6:16 - Continuous, 24/7 factories\n8:31 - Factories simplify over time\n10:50 - The same, but faster, cheaper, safer\n11:35 - Stand one up in a week\n12:20 - Too much software, not enough demand\n13:50 - Building a demand factory\n15:20 - Fill your brand envelope",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
    "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
    "published": "2026-11-25",
    "length_s": 0,
-   "views": 23521,
+   "views": 25702,
    "scores": {
     "C2": 6,
     "C3": 4,
@@ -531,14 +658,14 @@
    ],
    "description": "A team of 1,000 Claude agents formalized Fermat's Last Theorem in Lean over about 30 hours, using nothing but Git and a database, with no domain-specific harness and no human steering on the solution. Lance Martin shows how the lead agent built its own coordination tables and how the team reassigned itself as the work progressed. Then he turns to memory: why stronger models know what to write down, how Claude's Pokemon memory got tighter from Sonnet 3.7 to Fable 5, and how \"dreaming\" over transcripts fixes poisoned memories and builds better wikis.\n\nSpeaker info:\n- https://x.com/RLanceMartin\n- https://www.anthropic.com\n\nTimestamps:\n0:00 - Fermat's Last Theorem\n0:57 - Formalizing the proof in Lean\n2:27 - 1,000 agents, no domain harness\n3:57 - The lead agent builds its own tables\n5:27 - Agents reassign themselves over 30 hours\n7:01 - Memory: understood backwards, lived forwards\n8:31 - Daily memory vs long-term knowledge\n9:16 - Stronger models use memory better\n10:46 - Pokemon memory: Sonnet 3.7 vs Fable 5\n12:16 - Dreaming over transcripts and notes\n13:46 - Dreaming fixes a poisoned memory\n15:16 - Building a company wiki\n17:35 - Dreaming fills the gaps",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=Xyb1Bn_L2U4",
    "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
    "published": "2026-11-25",
    "length_s": 0,
-   "views": 43255,
+   "views": 50555,
    "scores": {
     "C2": 4,
     "C12": 4
@@ -608,14 +735,14 @@
    ],
    "description": "Amp spun out of Sourcegraph with 21 people and, unable to hire for a year, was forced to work in a radically different way. Quinn Slack explains what that looks like: no task tracker, no PMs, one meeting a week, everything done in the agent, and tiny monitored pushes instead of big releases. He shows Amp's bug-report loop that fixes the issue and emails everyone affected, why they built their own CRM instead of using Salesforce, and how a company with more than $100M in ARR runs 40 to 50 times more efficiently. His advice: get out of the cage.\n\nSpeaker info:\n- https://x.com/sqs\n- https://ampcode.com\n\nTimestamps:\n0:00 - The moment agents changed everything\n1:42 - Trying to change a 200-person company\n2:27 - Enterprise-ready is dead\n3:12 - Differentiation when agents build features\n4:46 - Spinning out Amp with 21 people\n6:16 - Staying at 21 while competitors hire\n7:01 - Everything happens in the agent\n7:50 - Ship in tiny, monitored pushes\n8:35 - Agents that prove their work\n9:20 - The bug report loop\n10:50 - Dictate to your agent\n12:24 - Building our own CRM\n14:39 - No PMs, one meeting a week\n16:13 - $100M ARR, 40-50x more efficient\n16:58 - Get out of the cage",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=TvsF67C2F54",
    "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
    "published": "2026-11-24",
    "length_s": 0,
-   "views": 49114,
+   "views": 51728,
    "scores": {
     "C2": 4,
     "C8": 4,
@@ -691,14 +818,14 @@
    ],
    "description": "Jarred Sumner, creator of Bun, recently merged a PR of several million lines that adds an ahead-of-time compiler to Bun, the runtime behind Claude Code. It went through five rewrites in about a month, and the result uses about 4x less memory and starts about 2x faster. He explains why the team made JavaScript faster instead of rewriting Claude Code in Rust, why tests that predate the project are what make agent-written code trustworthy, and what he actually does all day while 140 agents write code.\n\nSpeaker info:\n- https://x.com/jarredsumner\n- https://bun.sh\n\nTimestamps:\n0:00 - A multi-million-line PR for Bun\n1:42 - Five rewrites in a month\n2:27 - Testing decides the approach\n3:57 - Why not rewrite Claude Code in Rust\n4:42 - 4x less memory, 2x faster startup\n6:12 - Types as predictions\n6:57 - Tests that predate the project\n8:27 - Three versions that must agree\n9:12 - Write in batches, then fix\n10:46 - When the code was slop\n12:21 - 140 agents at once\n13:06 - Build times and the fifth rewrite\n15:21 - Long-lived subagents\n16:51 - Hourly scorecards and fuzzing\n19:06 - What you actually do all day\n20:36 - Lessons for large agent projects",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=SRhXgeNluIk",
    "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
    "published": "2026-11-24",
    "length_s": 0,
-   "views": 57892,
+   "views": 63320,
    "scores": {
     "C2": 6,
     "C4": 6,
@@ -759,14 +886,14 @@
    ],
    "description": "Software factories can turn out code faster than anyone can keep it clean, and the pile grows. Steve Yegge, creator of Beads and Gas Town, takes on software factories and how to escape the trash mountain they can leave behind.\n\nSpeaker info:\n- https://x.com/steve_yegge\n\nTimestamps:\n0:00 - Evolution of software factories\n2:56 - Case study: Wyvern RPG\n3:36 - Managing a factory\n5:53 - The five horsemen of automation\n7:15 - Work and context management\n7:57 - Fuel and cost optimization\n10:26 - Context and memory control\n12:00 - Entourage and delegation\n12:39 - People management for agents\n15:17 - Model welfare and trust\n17:25 - Leadership and agent roles\n20:04 - Final reflections",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
    "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
    "published": "2026-11-23",
    "length_s": 0,
-   "views": 263388,
+   "views": 278855,
    "scores": {
     "C4": 4,
     "C10": 6,
@@ -829,14 +956,14 @@
    ],
    "description": "The best model scores about 16% on Slop Code Bench, a new benchmark for how well agents evolve a code base over time. Dex Horthy uses that data to argue that software factories aren't new: they are good engineering with agents doing the building. He lays out 12 practices, from forward and back pressure to planning, visual alignment, lint rules against slop and a unified forge. Then he launches the Anti-Slop Manifesto and makes the case that reviewing work still matters.\n\nRead the manifesto: https://slopmanifesto.com\n\nSpeaker info:\n- https://x.com/dexhorthy\n- https://factory.ai\n\nTimestamps:\n0:00 - 12 factor factories and the war on slop\n0:57 - Slop Code Bench: the best model scores 16%\n1:42 - Software factories are just good engineering\n4:01 - Forward pressure and back pressure\n5:31 - 12 practices for software factories\n6:16 - Know your enemy: models don't maintain code\n9:20 - Plan before you build\n10:50 - Align visually and let agents test\n11:35 - Fight slop with lint rules\n12:20 - Feature flags, evals and a unified forge\n13:05 - What you can't buy\n14:39 - The Anti-Slop Manifesto\n18:24 - Why reviewing still matters",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
    "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
    "published": "2026-11-22",
    "length_s": 0,
-   "views": 270696,
+   "views": 282149,
    "scores": {
     "C2": 4,
     "C3": 4,
@@ -900,14 +1027,14 @@
    ],
    "description": "Earendil's Pi coding agent has the same core tools it had a year ago, yet it does far more because the models got better. Armin Ronacher shows his own session data: fewer corrections, tasks running 14 minutes instead of two and a half, and 141 projects started but only 10 to 15 kept alive. His case: human attention is still the limit, so build a workshop that produces excellent software before building a factory that produces more of it. He also covers knowing when to push back on an agent, open formats, durable agents and code mode.\n\nSpeaker info:\n- https://x.com/mitsuhiko\n\nTimestamps:\n0:00 - Build the workshop before the factory\n1:43 - The harness didn't change, the models did\n3:17 - Agents now run 14 minutes per task\n4:47 - Human attention is the limit\n6:17 - 141 projects started, 15 maintained\n7:47 - Knowing when to push back on the agent\n10:02 - Executive summaries instead of reading code\n11:32 - Uncontrolled growth and shared file formats\n13:02 - Building software that strives for excellence\n15:17 - Durable agents that suspend and resume\n16:51 - Code mode and classifier models\n19:06 - Build more ambitious software",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
    "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
    "published": "2026-11-21",
    "length_s": 0,
-   "views": 14422,
+   "views": 14734,
    "scores": {
     "C1": 7,
     "C8": 9,
@@ -970,14 +1097,14 @@
    ],
    "description": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual learning on machines you control.\n\nSpeaker info:\n- https://ahmadosman.com/\n- https://github.com/theahmadosman\n- https://github.com/Osmantic/ODS\n\nTimestamps:\n0:00 - What runs where: local AI in production\n3:35 - Benchmarks, agent workloads and specialized models\n11:00 - An agent-made trailer and the Portal harness\n15:57 - Quantization and model quality\n18:56 - Prefill, decode and choosing hardware\n23:15 - Batching and inference engines per chip\n27:57 - Pipeline optimization and speculative decoding\n32:56 - Why local agents need search and a complete harness\n36:13 - Choosing specialized models from real task traces\n39:26 - Renting GPUs, costs and operational tradeoffs\n44:20 - Planning for more capable models on existing hardware\n48:07 - Why continual learning needs local AI\n52:21 - Engrams, decision models and weight edits",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
    "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
    "published": "2026-11-20",
    "length_s": 0,
-   "views": 18030,
+   "views": 18255,
    "scores": {
     "C4": 4,
     "C6": 7,
@@ -1021,14 +1148,14 @@
    ],
    "description": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together.\n\nSpeaker info:\n- https://x.com/zachbruggeman\n- https://github.com/remixz\n- https://inspect.com/aie\n\nTimestamps:\n0:00 - Inspect, Ramp’s collaborative coding agent\n2:06 - Shared tooling and information silos\n4:20 - Learning from open internal sessions\n5:22 - Building trust through visible verification\n7:05 - Debugging a telemetry bug together\n10:09 - Thinking bigger together\n11:39 - Review Buddy and team innovation\n12:52 - What will your team build next?",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
    "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
    "published": "2026-11-20",
    "length_s": 0,
-   "views": 68692,
+   "views": 69253,
    "scores": {
     "C4": 5,
     "C10": 4,
@@ -1101,14 +1228,14 @@
    ],
    "description": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories as code, recorded agent runs, sandboxed compute, swappable models and harnesses, and orchestration. He demos live team views, online evals, self-improvement through PRs and benchmarks on your own data.\n\nSpeaker info:\n- https://www.warp.dev\n\nTimestamps:\n0:00 - From Google Docs to Warp\n0:57 - Most developers still prompt locally\n1:42 - Why local agents don't scale\n3:12 - What a software factory is not\n3:57 - Factories defined as code\n4:42 - A continuous closed loop\n5:27 - Measure everything\n6:57 - The new tools of factory engineering\n7:42 - The factory infrastructure stack\n10:42 - Demo: factories as code\n11:27 - A live view of every agent\n12:57 - Throughput, cost and online evals\n14:27 - Self-improvement as PRs\n15:57 - Benchmarks on your own data\n17:27 - Engineer your agents",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
    "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
    "published": "2026-11-19",
    "length_s": 0,
-   "views": 85503,
+   "views": 86525,
    "scores": {
     "C1": 4,
     "C4": 4
@@ -1158,7 +1285,7 @@
    ],
    "description": "Vibe coding a fighting game left Thariq Shihipar unsure how his own characters worked. At CODE Summit 2026, he revisits the Bitter Lesson, Bash, React and MCP, contrasting AI’s jagged frontier with its smooth interior. His live demo uses readable specifications, custom scripting languages and IDE workflows to show how coding agents can preserve creative control and help bring about a software renaissance.\n\nSpeaker info:\n- https://x.com/trq212\n- https://www.thariq.io/\n\nTimestamps:\n0:00 - The sweet side of the Bitter Lesson\n1:27 - Rethinking Bash, React and AI art\n4:04 - Keeping AI adoption human centered\n4:40 - Industrial revolution and software renaissance\n5:53 - The jagged frontier and smooth interior\n9:19 - Visualizing model knowledge\n10:38 - When vibe coding loses the developer\n12:54 - Separating engine code from readable specs\n13:47 - Live demo: a scripting language for a game\n16:40 - Designing a software renaissance",
    "scored_by": "model",
-   "views_date": "2026-11-27"
+   "views_date": "2026-11-28"
   },
   {
    "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
